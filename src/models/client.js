@@ -75,8 +75,7 @@ const ClientMachine = createMachine(
             cond: "nie_ma_w_CBK",
           }]
         }
-      }
-,
+      },
       "szukanie w CRM": {
         description: "TBD: strzał do API",
         exit: assign({ CRMchecked: 1 }),
@@ -114,9 +113,6 @@ const ClientMachine = createMachine(
     actions: {},
     services: {},
     guards: {
-      znaleziono: (context, event) => {
-        return false;
-      },
       nie_ma_w_TMS: (context, event) => {
         return false;
       },
@@ -132,10 +128,7 @@ const ClientMachine = createMachine(
       nie_ma_w_CRM: (context, event) => {
         return false;
       },
-      "CBKchecked=0": (context, event) => {
-        return false;
-      },
-      "nie szukano w SCRM": (context, event) => {
+      "CBKchecked": (context, event) => {
         return false;
       },
     },
