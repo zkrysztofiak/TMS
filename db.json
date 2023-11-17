@@ -1,1031 +1,1041 @@
 {
-  "tms": [
-    {
-      "id": 1,
-      "NIP": 111,
-      "name": "Jasiu"
-    },
-    {
-      "id": 2,
-      "NIP": 222,
-      "name": "Kasia"
-    },
-    {
-      "id": 4,
-      "NIP": 333,
-      "name": "Gucio"
-    }
-  ],  
-  "posts": [
-    {
-      "id": 1,
-      "title": "json-server",
-      "author": "typicode ----"
-    },
-    {
-      "id": 2,
-      "title": "json-server_kk",
-      "author": "Kasia"
-    },
-    {
-      "id": 4,
-      "title": "json-server_kk",
-      "author": "Gucio"
-    }
-  ],
-  "comments": [
-    {
-      "id": 1,
-      "body": "some comment",
-      "postid": 1
-    }
-  ],
-  "profile": {
-    "name": "typicode"
-  },
-  "ejp": [
-    {
-      "id": 187477,
-      "lon": "50.115515",
-      "lat": "21.977291",
-      "nazwa_placowki": "PP Rudna Ma?a R101",
-      "typ_placowki": "Placowka",
-      "ulica_numer": "Lotniskowa 15",
-      "wojewodztwo": "PODKARPACKIE",
-      "powiat": "rzeszowski",
-      "gmina": "G?ogów Ma?opolski",
-      "funkcja_placowki": "1",
-      "placowki_przyjazne_e-Commerce": "0",
-      "doladowanie_telefonow_komorkowych": "0",
-      "ems_przyjecie": "1",
-      "uslugi_envelo": "0",
-      "kantor_wymiany_walut": "0",
-      "odbior_w_punkcie": "0",
-      "skrytki_pocztowe": "0",
-      "transfer_Ekspress_Zagranica": "0",
-      "przesylka_powyzej_20kg": "0",
-      "ekspres_pieniezny_przyjscie_wplata_ekspres": "0",
-      "platnosc_karta_lub_BLIK": "0",
-      "przystosowanie_placowki_dla_osob_niepelnosprawnych": "0",
-      "telefon": [
-        "17-853-62-67wew.39"
-      ],
-      "dni_i_godziny_pracy": {
-        "monday": {
-          "from": "12:00",
-          "to": "20:00"
+    "TMS": [
+        {
+            "id": 1,
+            "NIP": 111,
+            "name": "Jasiu von TMS"
         },
-        "tuesday": {
-          "from": "10:00",
-          "to": "18:00"
+        {
+            "id": 2,
+            "NIP": 222,
+            "name": "Kasia von TMS"
         },
-        "wednesday": {
-          "from": "10:00",
-          "to": "18:00"
-        },
-        "thursday": {
-          "from": "10:00",
-          "to": "18:00"
-        },
-        "friday": {
-          "from": "10:00",
-          "to": "18:00"
-        },
-        "saturday": {
-          "from": "",
-          "to": ""
-        },
-        "sunday": {
-          "from": "",
-          "to": ""
-        },
-        "workingDays": {
-          "from": "",
-          "to": ""
-        },
-        "holidays": {
-          "from": "",
-          "to": ""
+        {
+            "id": 4,
+            "NIP": 333,
+            "name": "Gucio von TMS"
         }
-      },
-      "czy_aktywna_i_overload": "1",
-      "opis": {
-        "pl_PL": "",
-        "en_US": ""
-      }
-    },
-    {
-      "id": "188401",
-      "lon": "53.133912",
-      "lat": "23.131928",
-      "nazwa_placowki": "PP Białystok B103",
-      "typ_placowki": "Placowka",
-      "rodzaj": "PP",
-      "rodzaj biznesowy": "Placówka Pocztowa",
-      "zdalne otwarcie": "0",
-      "kod pocztowy": "15700",
-      "miejscowosc": "Białystok",
-      "ulica_numer": "Zwyci?stwa 1/2",
-      "wojewodztwo": "PODLASKIE",
-      "powiat": "Białystok",
-      "gmina": "Białystok",
-      "funkcja_placowki": "11",
-      "placowki_przyjazne_e-Commerce": "0",
-      "doladowanie_telefonow_komorkowych": "0",
-      "ems_przyjecie": "1",
-      "uslugi_envelo": "0",
-      "kantor_wymiany_walut": "0",
-      "odbior_w_punkcie": "0",
-      "skrytki_pocztowe": "0",
-      "transfer_Ekspress_Zagranica": "0",
-      "przesylka_powyzej_20kg": "0",
-      "ekspres_pieniezny_przyjscie_wplata_ekspres": "0",
-      "platnosc_karta_lub_BLIK": "0",
-      "przystosowanie_placowki_dla_osob_niepelnosprawnych": "1",
-      "telefon": [
-        "856526508",
-        "856526508",
-        "856526508",
-        "856526508"
-      ],
-      "dni_i_godziny_pracy": {
-        "monday": {
-          "from": "12:00",
-          "to": "20:00"
+    ],
+    "CBK": [
+        {
+            "id": 11,
+            "NIP": 111,
+            "name": "Jasiu CBK"
         },
-        "tuesday": {
-          "from": "10:00",
-          "to": "18:00"
+        {
+            "id": 12,
+            "NIP": 222,
+            "name": "Kasia CBK"
         },
-        "wednesday": {
-          "from": "10:00",
-          "to": "18:00"
-        },
-        "thursday": {
-          "from": "10:00",
-          "to": "18:00"
-        },
-        "friday": {
-          "from": "10:00",
-          "to": "18:00"
-        },
-        "saturday": {
-          "from": "",
-          "to": ""
-        },
-        "sunday": {
-          "from": "",
-          "to": ""
-        },
-        "workingDays": {
-          "from": "",
-          "to": ""
-        },
-        "holidays": {
-          "from": "",
-          "to": ""
+        {
+            "id": 14,
+            "NIP": 333,
+            "name": "Gucio CBK"
         }
-      },
-      "czy_aktywna_i_overload": "1",
-      "opis": {
-        "pl_PL": "",
-        "en_US": ""
-      }
-    },
-    {
-      "id": "116768",
-      "lon": "52.761723",
-      "lat": "15.267627",
-      "nazwa_placowki": "lst Automat Pocztowy",
-      "typ_placowki": "Automat",
-      "rodzaj": "AUTOMAT_PLACOWKA",
-      "rodzaj biznesowy": "Pocztex Automat",
-      "zdalne otwarcie": "0",
-      "kod pocztowy": "66414",
-      "miejscowosc": "Gorzów Wielkopolski",
-      "ulica_numer": "Kombatantów 2",
-      "wojewodztwo": "LUBUSKIE",
-      "powiat": "Gorzów Wielkopolski",
-      "gmina": "Gorzów Wielkopolski",
-      "funkcja_placowki": "1",
-      "placowki_przyjazne_e-Commerce": "0",
-      "doladowanie_telefonow_komorkowych": "0",
-      "ems_przyjecie": "0",
-      "uslugi_envelo": "0",
-      "kantor_wymiany_walut": "0",
-      "odbior_w_punkcie": "0",
-      "skrytki_pocztowe": "0",
-      "transfer_Ekspress_Zagranica": "0",
-      "przesylka_powyzej_20kg": "0",
-      "ekspres_pieniezny_przyjscie_wplata_ekspres": "0",
-      "platnosc_karta_lub_BLIK": "0",
-      "przystosowanie_placowki_dla_osob_niepelnosprawnych": "0",
-      "telefon": [
-        "957278426"
-      ],
-      "dni_i_godziny_pracy": {
-        "monday": {
-          "from": "",
-          "to": ""
+    ],
+    "CRM": [
+        {
+            "id": 21,
+            "NIP": 111,
+            "name": "Jasiu CRM"
         },
-        "tuesday": {
-          "from": "",
-          "to": ""
+        {
+            "id": 22,
+            "NIP": 222,
+            "name": "Kasia CRM"
         },
-        "wednesday": {
-          "from": "",
-          "to": ""
+        {
+            "id": 24,
+            "NIP": 333,
+            "name": "Gucio CRM"
         },
-        "thursday": {
-          "from": "",
-          "to": ""
-        },
-        "friday": {
-          "from": "",
-          "to": ""
-        },
-        "saturday": {
-          "from": "09:00",
-          "to": "14:00"
-        },
-        "sunday": {
-          "from": "",
-          "to": ""
-        },
-        "workingDays": {
-          "from": "09:00",
-          "to": "19:00"
-        },
-        "holidays": {
-          "from": "",
-          "to": ""
+        {
+            "id": 25,
+            "NIP": 333,
+            "name": "Jola CRM"
         }
-      },
-      "czy_aktywna_i_overload": "1",
-      "opis": {
-        "pl_PL": "",
-        "en_US": ""
-      }
-    },
-    {
-      "id": "119817",
-      "lon": "49.947",
-      "lat": "18.60191",
-      "nazwa_placowki": "lst Automat Pocztowy",
-      "typ_placowki": "Automat",
-      "rodzaj": "AUTOMAT_PLACOWKA",
-      "rodzaj biznesowy": "Pocztex Automat",
-      "zdalne otwarcie": "0",
-      "kod pocztowy": "44335",
-      "miejscowosc": "Jastrz?bie-Zdr�j",
-      "ulica_numer": "?owicka 2",
-      "wojewodztwo": "?L?SKIE",
-      "powiat": "Jastrz?bie-Zdr�j",
-      "gmina": "Jastrz?bie-Zdr�j",
-      "funkcja_placowki": "1",
-      "placowki_przyjazne_e-Commerce": "0",
-      "doladowanie_telefonow_komorkowych": "0",
-      "ems_przyjecie": "0",
-      "uslugi_envelo": "0",
-      "kantor_wymiany_walut": "0",
-      "odbior_w_punkcie": "0",
-      "skrytki_pocztowe": "0",
-      "transfer_Ekspress_Zagranica": "0",
-      "przesylka_powyzej_20kg": "0",
-      "ekspres_pieniezny_przyjscie_wplata_ekspres": "0",
-      "platnosc_karta_lub_BLIK": "0",
-      "przystosowanie_placowki_dla_osob_niepelnosprawnych": "0",
-      "telefon": [
-        "324713069wew.21"
-      ],
-      "dni_i_godziny_pracy": {
-        "monday": {
-          "from": "12:00",
-          "to": "20:00"
+    ],
+    "posts": [
+        {
+            "id": 1,
+            "title": "json-server",
+            "author": "typicode ----"
         },
-        "tuesday": {
-          "from": "10:00",
-          "to": "18:00"
+        {
+            "id": 2,
+            "title": "json-server_kk",
+            "author": "Kasia"
         },
-        "wednesday": {
-          "from": "10:00",
-          "to": "18:00"
-        },
-        "thursday": {
-          "from": "10:00",
-          "to": "18:00"
-        },
-        "friday": {
-          "from": "10:00",
-          "to": "18:00"
-        },
-        "saturday": {
-          "from": "",
-          "to": ""
-        },
-        "sunday": {
-          "from": "",
-          "to": ""
-        },
-        "workingDays": {
-          "from": "",
-          "to": ""
-        },
-        "holidays": {
-          "from": "",
-          "to": ""
+        {
+            "id": 4,
+            "title": "json-server_kk",
+            "author": "Gucio"
         }
-      },
-      "czy_aktywna_i_overload": "1",
-      "opis": {
-        "pl_PL": "",
-        "en_US": ""
-      }
-    },
-    {
-      "id": "119800",
-      "lon": "53.398095",
-      "lat": "14.525755",
-      "nazwa_placowki": "lst Automat Pocztowy",
-      "typ_placowki": "Automat",
-      "rodzaj": "AUTOMAT_PLACOWKA",
-      "rodzaj biznesowy": "Pocztex Automat",
-      "zdalne otwarcie": "0",
-      "kod pocztowy": "70018",
-      "miejscowosc": "Szczecin",
-      "ulica_numer": "W?o?cia?ska 1",
-      "wojewodztwo": "ZACHODNIOPOMORSKIE",
-      "powiat": "Szczecin",
-      "gmina": "Szczecin",
-      "funkcja_placowki": "1",
-      "placowki_przyjazne_e-Commerce": "0",
-      "doladowanie_telefonow_komorkowych": "0",
-      "ems_przyjecie": "0",
-      "uslugi_envelo": "0",
-      "kantor_wymiany_walut": "0",
-      "odbior_w_punkcie": "0",
-      "skrytki_pocztowe": "0",
-      "transfer_Ekspress_Zagranica": "0",
-      "przesylka_powyzej_20kg": "0",
-      "ekspres_pieniezny_przyjscie_wplata_ekspres": "0",
-      "platnosc_karta_lub_BLIK": "0",
-      "przystosowanie_placowki_dla_osob_niepelnosprawnych": "0",
-      "telefon": [
-        "91-482-04-88"
-      ],
-      "dni_i_godziny_pracy": {
-        "monday": {
-          "from": "12:00",
-          "to": "20:00"
-        },
-        "tuesday": {
-          "from": "10:00",
-          "to": "18:00"
-        },
-        "wednesday": {
-          "from": "10:00",
-          "to": "18:00"
-        },
-        "thursday": {
-          "from": "10:00",
-          "to": "18:00"
-        },
-        "friday": {
-          "from": "10:00",
-          "to": "18:00"
-        },
-        "saturday": {
-          "from": "",
-          "to": ""
-        },
-        "sunday": {
-          "from": "",
-          "to": ""
-        },
-        "workingDays": {
-          "from": "",
-          "to": ""
-        },
-        "holidays": {
-          "from": "",
-          "to": ""
+    ],
+    "comments": [
+        {
+            "id": 1,
+            "body": "some comment",
+            "postid": 1
         }
-      },
-      "czy_aktywna_i_overload": "1",
-      "opis": {
-        "pl_PL": "",
-        "en_US": ""
-      }
+    ],
+    "profile": {
+        "name": "typicode"
     },
-    {
-      "id": "119679",
-      "lon": "52.181041",
-      "lat": "21.006957",
-      "nazwa_placowki": "lst Automat Pocztowy",
-      "typ_placowki": "Automat",
-      "rodzaj": "AUTOMAT_PLACOWKA",
-      "rodzaj biznesowy": "Pocztex Automat",
-      "zdalne otwarcie": "0",
-      "kod pocztowy": "2685",
-      "miejscowosc": "Warszawa",
-      "ulica_numer": "Rodziny Hiszpa?skich 8",
-      "wojewodztwo": "MAZOWIECKIE",
-      "powiat": "Warszawa",
-      "gmina": "Warszawa",
-      "funkcja_placowki": "1",
-      "placowki_przyjazne_e-Commerce": "0",
-      "doladowanie_telefonow_komorkowych": "0",
-      "ems_przyjecie": "0",
-      "uslugi_envelo": "0",
-      "kantor_wymiany_walut": "0",
-      "odbior_w_punkcie": "0",
-      "skrytki_pocztowe": "0",
-      "transfer_Ekspress_Zagranica": "0",
-      "przesylka_powyzej_20kg": "0",
-      "ekspres_pieniezny_przyjscie_wplata_ekspres": "0",
-      "platnosc_karta_lub_BLIK": "0",
-      "przystosowanie_placowki_dla_osob_niepelnosprawnych": "0",
-      "telefon": [
-        "22-656-50-51"
-      ],
-      "dni_i_godziny_pracy": {
-        "monday": {
-          "from": "12:00",
-          "to": "20:00"
+    "ejp": [
+        {
+            "id": 187477,
+            "lon": "50.115515",
+            "lat": "21.977291",
+            "nazwa_placowki": "PP Rudna Ma?a R101",
+            "typ_placowki": "Placowka",
+            "ulica_numer": "Lotniskowa 15",
+            "wojewodztwo": "PODKARPACKIE",
+            "powiat": "rzeszowski",
+            "gmina": "G?ogów Ma?opolski",
+            "funkcja_placowki": "1",
+            "placowki_przyjazne_e-Commerce": "0",
+            "doladowanie_telefonow_komorkowych": "0",
+            "ems_przyjecie": "1",
+            "uslugi_envelo": "0",
+            "kantor_wymiany_walut": "0",
+            "odbior_w_punkcie": "0",
+            "skrytki_pocztowe": "0",
+            "transfer_Ekspress_Zagranica": "0",
+            "przesylka_powyzej_20kg": "0",
+            "ekspres_pieniezny_przyjscie_wplata_ekspres": "0",
+            "platnosc_karta_lub_BLIK": "0",
+            "przystosowanie_placowki_dla_osob_niepelnosprawnych": "0",
+            "telefon": ["17-853-62-67wew.39"],
+            "dni_i_godziny_pracy": {
+                "monday": {
+                    "from": "12:00",
+                    "to": "20:00"
+                },
+                "tuesday": {
+                    "from": "10:00",
+                    "to": "18:00"
+                },
+                "wednesday": {
+                    "from": "10:00",
+                    "to": "18:00"
+                },
+                "thursday": {
+                    "from": "10:00",
+                    "to": "18:00"
+                },
+                "friday": {
+                    "from": "10:00",
+                    "to": "18:00"
+                },
+                "saturday": {
+                    "from": "",
+                    "to": ""
+                },
+                "sunday": {
+                    "from": "",
+                    "to": ""
+                },
+                "workingDays": {
+                    "from": "",
+                    "to": ""
+                },
+                "holidays": {
+                    "from": "",
+                    "to": ""
+                }
+            },
+            "czy_aktywna_i_overload": "1",
+            "opis": {
+                "pl_PL": "",
+                "en_US": ""
+            }
         },
-        "tuesday": {
-          "from": "10:00",
-          "to": "18:00"
+        {
+            "id": "188401",
+            "lon": "53.133912",
+            "lat": "23.131928",
+            "nazwa_placowki": "PP Białystok B103",
+            "typ_placowki": "Placowka",
+            "rodzaj": "PP",
+            "rodzaj biznesowy": "Placówka Pocztowa",
+            "zdalne otwarcie": "0",
+            "kod pocztowy": "15700",
+            "miejscowosc": "Białystok",
+            "ulica_numer": "Zwyci?stwa 1/2",
+            "wojewodztwo": "PODLASKIE",
+            "powiat": "Białystok",
+            "gmina": "Białystok",
+            "funkcja_placowki": "11",
+            "placowki_przyjazne_e-Commerce": "0",
+            "doladowanie_telefonow_komorkowych": "0",
+            "ems_przyjecie": "1",
+            "uslugi_envelo": "0",
+            "kantor_wymiany_walut": "0",
+            "odbior_w_punkcie": "0",
+            "skrytki_pocztowe": "0",
+            "transfer_Ekspress_Zagranica": "0",
+            "przesylka_powyzej_20kg": "0",
+            "ekspres_pieniezny_przyjscie_wplata_ekspres": "0",
+            "platnosc_karta_lub_BLIK": "0",
+            "przystosowanie_placowki_dla_osob_niepelnosprawnych": "1",
+            "telefon": ["856526508", "856526508", "856526508", "856526508"],
+            "dni_i_godziny_pracy": {
+                "monday": {
+                    "from": "12:00",
+                    "to": "20:00"
+                },
+                "tuesday": {
+                    "from": "10:00",
+                    "to": "18:00"
+                },
+                "wednesday": {
+                    "from": "10:00",
+                    "to": "18:00"
+                },
+                "thursday": {
+                    "from": "10:00",
+                    "to": "18:00"
+                },
+                "friday": {
+                    "from": "10:00",
+                    "to": "18:00"
+                },
+                "saturday": {
+                    "from": "",
+                    "to": ""
+                },
+                "sunday": {
+                    "from": "",
+                    "to": ""
+                },
+                "workingDays": {
+                    "from": "",
+                    "to": ""
+                },
+                "holidays": {
+                    "from": "",
+                    "to": ""
+                }
+            },
+            "czy_aktywna_i_overload": "1",
+            "opis": {
+                "pl_PL": "",
+                "en_US": ""
+            }
         },
-        "wednesday": {
-          "from": "10:00",
-          "to": "18:00"
+        {
+            "id": "116768",
+            "lon": "52.761723",
+            "lat": "15.267627",
+            "nazwa_placowki": "lst Automat Pocztowy",
+            "typ_placowki": "Automat",
+            "rodzaj": "AUTOMAT_PLACOWKA",
+            "rodzaj biznesowy": "Pocztex Automat",
+            "zdalne otwarcie": "0",
+            "kod pocztowy": "66414",
+            "miejscowosc": "Gorzów Wielkopolski",
+            "ulica_numer": "Kombatantów 2",
+            "wojewodztwo": "LUBUSKIE",
+            "powiat": "Gorzów Wielkopolski",
+            "gmina": "Gorzów Wielkopolski",
+            "funkcja_placowki": "1",
+            "placowki_przyjazne_e-Commerce": "0",
+            "doladowanie_telefonow_komorkowych": "0",
+            "ems_przyjecie": "0",
+            "uslugi_envelo": "0",
+            "kantor_wymiany_walut": "0",
+            "odbior_w_punkcie": "0",
+            "skrytki_pocztowe": "0",
+            "transfer_Ekspress_Zagranica": "0",
+            "przesylka_powyzej_20kg": "0",
+            "ekspres_pieniezny_przyjscie_wplata_ekspres": "0",
+            "platnosc_karta_lub_BLIK": "0",
+            "przystosowanie_placowki_dla_osob_niepelnosprawnych": "0",
+            "telefon": ["957278426"],
+            "dni_i_godziny_pracy": {
+                "monday": {
+                    "from": "",
+                    "to": ""
+                },
+                "tuesday": {
+                    "from": "",
+                    "to": ""
+                },
+                "wednesday": {
+                    "from": "",
+                    "to": ""
+                },
+                "thursday": {
+                    "from": "",
+                    "to": ""
+                },
+                "friday": {
+                    "from": "",
+                    "to": ""
+                },
+                "saturday": {
+                    "from": "09:00",
+                    "to": "14:00"
+                },
+                "sunday": {
+                    "from": "",
+                    "to": ""
+                },
+                "workingDays": {
+                    "from": "09:00",
+                    "to": "19:00"
+                },
+                "holidays": {
+                    "from": "",
+                    "to": ""
+                }
+            },
+            "czy_aktywna_i_overload": "1",
+            "opis": {
+                "pl_PL": "",
+                "en_US": ""
+            }
         },
-        "thursday": {
-          "from": "10:00",
-          "to": "18:00"
+        {
+            "id": "119817",
+            "lon": "49.947",
+            "lat": "18.60191",
+            "nazwa_placowki": "lst Automat Pocztowy",
+            "typ_placowki": "Automat",
+            "rodzaj": "AUTOMAT_PLACOWKA",
+            "rodzaj biznesowy": "Pocztex Automat",
+            "zdalne otwarcie": "0",
+            "kod pocztowy": "44335",
+            "miejscowosc": "Jastrz?bie-Zdr�j",
+            "ulica_numer": "?owicka 2",
+            "wojewodztwo": "?L?SKIE",
+            "powiat": "Jastrz?bie-Zdr�j",
+            "gmina": "Jastrz?bie-Zdr�j",
+            "funkcja_placowki": "1",
+            "placowki_przyjazne_e-Commerce": "0",
+            "doladowanie_telefonow_komorkowych": "0",
+            "ems_przyjecie": "0",
+            "uslugi_envelo": "0",
+            "kantor_wymiany_walut": "0",
+            "odbior_w_punkcie": "0",
+            "skrytki_pocztowe": "0",
+            "transfer_Ekspress_Zagranica": "0",
+            "przesylka_powyzej_20kg": "0",
+            "ekspres_pieniezny_przyjscie_wplata_ekspres": "0",
+            "platnosc_karta_lub_BLIK": "0",
+            "przystosowanie_placowki_dla_osob_niepelnosprawnych": "0",
+            "telefon": ["324713069wew.21"],
+            "dni_i_godziny_pracy": {
+                "monday": {
+                    "from": "12:00",
+                    "to": "20:00"
+                },
+                "tuesday": {
+                    "from": "10:00",
+                    "to": "18:00"
+                },
+                "wednesday": {
+                    "from": "10:00",
+                    "to": "18:00"
+                },
+                "thursday": {
+                    "from": "10:00",
+                    "to": "18:00"
+                },
+                "friday": {
+                    "from": "10:00",
+                    "to": "18:00"
+                },
+                "saturday": {
+                    "from": "",
+                    "to": ""
+                },
+                "sunday": {
+                    "from": "",
+                    "to": ""
+                },
+                "workingDays": {
+                    "from": "",
+                    "to": ""
+                },
+                "holidays": {
+                    "from": "",
+                    "to": ""
+                }
+            },
+            "czy_aktywna_i_overload": "1",
+            "opis": {
+                "pl_PL": "",
+                "en_US": ""
+            }
         },
-        "friday": {
-          "from": "10:00",
-          "to": "18:00"
+        {
+            "id": "119800",
+            "lon": "53.398095",
+            "lat": "14.525755",
+            "nazwa_placowki": "lst Automat Pocztowy",
+            "typ_placowki": "Automat",
+            "rodzaj": "AUTOMAT_PLACOWKA",
+            "rodzaj biznesowy": "Pocztex Automat",
+            "zdalne otwarcie": "0",
+            "kod pocztowy": "70018",
+            "miejscowosc": "Szczecin",
+            "ulica_numer": "W?o?cia?ska 1",
+            "wojewodztwo": "ZACHODNIOPOMORSKIE",
+            "powiat": "Szczecin",
+            "gmina": "Szczecin",
+            "funkcja_placowki": "1",
+            "placowki_przyjazne_e-Commerce": "0",
+            "doladowanie_telefonow_komorkowych": "0",
+            "ems_przyjecie": "0",
+            "uslugi_envelo": "0",
+            "kantor_wymiany_walut": "0",
+            "odbior_w_punkcie": "0",
+            "skrytki_pocztowe": "0",
+            "transfer_Ekspress_Zagranica": "0",
+            "przesylka_powyzej_20kg": "0",
+            "ekspres_pieniezny_przyjscie_wplata_ekspres": "0",
+            "platnosc_karta_lub_BLIK": "0",
+            "przystosowanie_placowki_dla_osob_niepelnosprawnych": "0",
+            "telefon": ["91-482-04-88"],
+            "dni_i_godziny_pracy": {
+                "monday": {
+                    "from": "12:00",
+                    "to": "20:00"
+                },
+                "tuesday": {
+                    "from": "10:00",
+                    "to": "18:00"
+                },
+                "wednesday": {
+                    "from": "10:00",
+                    "to": "18:00"
+                },
+                "thursday": {
+                    "from": "10:00",
+                    "to": "18:00"
+                },
+                "friday": {
+                    "from": "10:00",
+                    "to": "18:00"
+                },
+                "saturday": {
+                    "from": "",
+                    "to": ""
+                },
+                "sunday": {
+                    "from": "",
+                    "to": ""
+                },
+                "workingDays": {
+                    "from": "",
+                    "to": ""
+                },
+                "holidays": {
+                    "from": "",
+                    "to": ""
+                }
+            },
+            "czy_aktywna_i_overload": "1",
+            "opis": {
+                "pl_PL": "",
+                "en_US": ""
+            }
         },
-        "saturday": {
-          "from": "",
-          "to": ""
+        {
+            "id": "119679",
+            "lon": "52.181041",
+            "lat": "21.006957",
+            "nazwa_placowki": "lst Automat Pocztowy",
+            "typ_placowki": "Automat",
+            "rodzaj": "AUTOMAT_PLACOWKA",
+            "rodzaj biznesowy": "Pocztex Automat",
+            "zdalne otwarcie": "0",
+            "kod pocztowy": "2685",
+            "miejscowosc": "Warszawa",
+            "ulica_numer": "Rodziny Hiszpa?skich 8",
+            "wojewodztwo": "MAZOWIECKIE",
+            "powiat": "Warszawa",
+            "gmina": "Warszawa",
+            "funkcja_placowki": "1",
+            "placowki_przyjazne_e-Commerce": "0",
+            "doladowanie_telefonow_komorkowych": "0",
+            "ems_przyjecie": "0",
+            "uslugi_envelo": "0",
+            "kantor_wymiany_walut": "0",
+            "odbior_w_punkcie": "0",
+            "skrytki_pocztowe": "0",
+            "transfer_Ekspress_Zagranica": "0",
+            "przesylka_powyzej_20kg": "0",
+            "ekspres_pieniezny_przyjscie_wplata_ekspres": "0",
+            "platnosc_karta_lub_BLIK": "0",
+            "przystosowanie_placowki_dla_osob_niepelnosprawnych": "0",
+            "telefon": ["22-656-50-51"],
+            "dni_i_godziny_pracy": {
+                "monday": {
+                    "from": "12:00",
+                    "to": "20:00"
+                },
+                "tuesday": {
+                    "from": "10:00",
+                    "to": "18:00"
+                },
+                "wednesday": {
+                    "from": "10:00",
+                    "to": "18:00"
+                },
+                "thursday": {
+                    "from": "10:00",
+                    "to": "18:00"
+                },
+                "friday": {
+                    "from": "10:00",
+                    "to": "18:00"
+                },
+                "saturday": {
+                    "from": "",
+                    "to": ""
+                },
+                "sunday": {
+                    "from": "",
+                    "to": ""
+                },
+                "workingDays": {
+                    "from": "",
+                    "to": ""
+                },
+                "holidays": {
+                    "from": "",
+                    "to": ""
+                }
+            },
+            "czy_aktywna_i_overload": "1",
+            "opis": {
+                "pl_PL": "",
+                "en_US": ""
+            }
         },
-        "sunday": {
-          "from": "",
-          "to": ""
+        {
+            "id": "119831",
+            "lon": "52.160694",
+            "lat": "21.070679",
+            "nazwa_placowki": "lst Automat Pocztowy",
+            "typ_placowki": "Automat",
+            "rodzaj": "AUTOMAT_PLACOWKA",
+            "rodzaj biznesowy": "Pocztex Automat",
+            "zdalne otwarcie": "0",
+            "kod pocztowy": "2972",
+            "miejscowosc": "Warszawa",
+            "ulica_numer": "Prymasa Augusta Hlonda 2/u-4",
+            "wojewodztwo": "MAZOWIECKIE",
+            "powiat": "Warszawa",
+            "gmina": "Warszawa",
+            "funkcja_placowki": "1",
+            "placowki_przyjazne_e-Commerce": "0",
+            "doladowanie_telefonow_komorkowych": "0",
+            "ems_przyjecie": "0",
+            "uslugi_envelo": "0",
+            "kantor_wymiany_walut": "0",
+            "odbior_w_punkcie": "0",
+            "skrytki_pocztowe": "0",
+            "transfer_Ekspress_Zagranica": "0",
+            "przesylka_powyzej_20kg": "0",
+            "ekspres_pieniezny_przyjscie_wplata_ekspres": "0",
+            "platnosc_karta_lub_BLIK": "0",
+            "przystosowanie_placowki_dla_osob_niepelnosprawnych": "0",
+            "telefon": ["22-656-57-52"],
+            "dni_i_godziny_pracy": {
+                "monday": {
+                    "from": "12:00",
+                    "to": "20:00"
+                },
+                "tuesday": {
+                    "from": "10:00",
+                    "to": "18:00"
+                },
+                "wednesday": {
+                    "from": "10:00",
+                    "to": "18:00"
+                },
+                "thursday": {
+                    "from": "10:00",
+                    "to": "18:00"
+                },
+                "friday": {
+                    "from": "10:00",
+                    "to": "18:00"
+                },
+                "saturday": {
+                    "from": "",
+                    "to": ""
+                },
+                "sunday": {
+                    "from": "",
+                    "to": ""
+                },
+                "workingDays": {
+                    "from": "",
+                    "to": ""
+                },
+                "holidays": {
+                    "from": "",
+                    "to": ""
+                }
+            },
+            "czy_aktywna_i_overload": "1",
+            "opis": {
+                "pl_PL": "",
+                "en_US": ""
+            }
         },
-        "workingDays": {
-          "from": "",
-          "to": ""
+        {
+            "id": "986953",
+            "lon": "54.03809",
+            "lat": "19.01104",
+            "nazwa_placowki": "Stacja ORLEN",
+            "typ_placowki": "ZPO",
+            "rodzaj": "ORLEN",
+            "rodzaj biznesowy": "Pocztex Punkt � Stacja ORLEN",
+            "zdalne otwarcie": "0",
+            "kod pocztowy": "82200",
+            "miejscowosc": "Grobelno",
+            "ulica_numer": "69",
+            "wojewodztwo": "POMORSKIE",
+            "powiat": "malborski",
+            "gmina": "Malbork",
+            "funkcja_placowki": "10",
+            "placowki_przyjazne_e-Commerce": "0",
+            "doladowanie_telefonow_komorkowych": "0",
+            "ems_przyjecie": "0",
+            "uslugi_envelo": "0",
+            "kantor_wymiany_walut": "0",
+            "odbior_w_punkcie": "1",
+            "skrytki_pocztowe": "0",
+            "transfer_Ekspress_Zagranica": "0",
+            "przesylka_powyzej_20kg": "0",
+            "ekspres_pieniezny_przyjscie_wplata_ekspres": "0",
+            "platnosc_karta_lub_BLIK": "1",
+            "przystosowanie_placowki_dla_osob_niepelnosprawnych": "0",
+            "telefon": ["48438420600"],
+            "dni_i_godziny_pracy": {
+                "monday": {
+                    "from": "12:00",
+                    "to": "20:00"
+                },
+                "tuesday": {
+                    "from": "10:00",
+                    "to": "18:00"
+                },
+                "wednesday": {
+                    "from": "10:00",
+                    "to": "18:00"
+                },
+                "thursday": {
+                    "from": "10:00",
+                    "to": "18:00"
+                },
+                "friday": {
+                    "from": "10:00",
+                    "to": "18:00"
+                },
+                "saturday": {
+                    "from": "",
+                    "to": ""
+                },
+                "sunday": {
+                    "from": "",
+                    "to": ""
+                },
+                "workingDays": {
+                    "from": "",
+                    "to": ""
+                },
+                "holidays": {
+                    "from": "",
+                    "to": ""
+                }
+            },
+            "czy_aktywna_i_overload": "1",
+            "opis": {
+                "pl_PL": "",
+                "en_US": ""
+            }
         },
-        "holidays": {
-          "from": "",
-          "to": ""
+        {
+            "id": "986946",
+            "lon": "50.78468",
+            "lat": "17.07152",
+            "nazwa_placowki": "Stacja ORLEN",
+            "typ_placowki": "ZPO",
+            "rodzaj": "ORLEN",
+            "rodzaj biznesowy": "Pocztex Punkt � Stacja ORLEN",
+            "zdalne otwarcie": "0",
+            "kod pocztowy": "57100",
+            "miejscowosc": "Strzelin",
+            "ulica_numer": "Jana Paw?a II 27",
+            "wojewodztwo": "DOLNO?L?SKIE",
+            "powiat": "strzeli?ski",
+            "gmina": "Strzelin",
+            "funkcja_placowki": "10",
+            "placowki_przyjazne_e-Commerce": "0",
+            "doladowanie_telefonow_komorkowych": "0",
+            "ems_przyjecie": "0",
+            "uslugi_envelo": "0",
+            "kantor_wymiany_walut": "0",
+            "odbior_w_punkcie": "1",
+            "skrytki_pocztowe": "0",
+            "transfer_Ekspress_Zagranica": "0",
+            "przesylka_powyzej_20kg": "0",
+            "ekspres_pieniezny_przyjscie_wplata_ekspres": "0",
+            "platnosc_karta_lub_BLIK": "1",
+            "przystosowanie_placowki_dla_osob_niepelnosprawnych": "0",
+            "telefon": ["48438420600"],
+            "dni_i_godziny_pracy": {
+                "monday": {
+                    "from": "12:00",
+                    "to": "20:00"
+                },
+                "tuesday": {
+                    "from": "10:00",
+                    "to": "18:00"
+                },
+                "wednesday": {
+                    "from": "10:00",
+                    "to": "18:00"
+                },
+                "thursday": {
+                    "from": "10:00",
+                    "to": "18:00"
+                },
+                "friday": {
+                    "from": "10:00",
+                    "to": "18:00"
+                },
+                "saturday": {
+                    "from": "",
+                    "to": ""
+                },
+                "sunday": {
+                    "from": "",
+                    "to": ""
+                },
+                "workingDays": {
+                    "from": "",
+                    "to": ""
+                },
+                "holidays": {
+                    "from": "",
+                    "to": ""
+                }
+            },
+            "czy_aktywna_i_overload": "1",
+            "opis": {
+                "pl_PL": "",
+                "en_US": ""
+            }
+        },
+        {
+            "id": "986922",
+            "lon": "52.49933",
+            "lat": "16.27357",
+            "nazwa_placowki": "Stacja ORLEN",
+            "typ_placowki": "ZPO",
+            "rodzaj": "ORLEN",
+            "rodzaj biznesowy": "Pocztex Punkt � Stacja ORLEN",
+            "zdalne otwarcie": "0",
+            "kod pocztowy": "62045",
+            "miejscowosc": "Pniewy",
+            "ulica_numer": "Jakubowska 36",
+            "wojewodztwo": "WIELKOPOLSKIE",
+            "powiat": "szamotulski",
+            "gmina": "Pniewy",
+            "funkcja_placowki": "10",
+            "placowki_przyjazne_e-Commerce": "0",
+            "doladowanie_telefonow_komorkowych": "0",
+            "ems_przyjecie": "0",
+            "uslugi_envelo": "0",
+            "kantor_wymiany_walut": "0",
+            "odbior_w_punkcie": "1",
+            "skrytki_pocztowe": "0",
+            "transfer_Ekspress_Zagranica": "0",
+            "przesylka_powyzej_20kg": "0",
+            "ekspres_pieniezny_przyjscie_wplata_ekspres": "0",
+            "platnosc_karta_lub_BLIK": "1",
+            "przystosowanie_placowki_dla_osob_niepelnosprawnych": "0",
+            "telefon": ["48438420600"],
+            "dni_i_godziny_pracy": {
+                "monday": {
+                    "from": "12:00",
+                    "to": "20:00"
+                },
+                "tuesday": {
+                    "from": "10:00",
+                    "to": "18:00"
+                },
+                "wednesday": {
+                    "from": "10:00",
+                    "to": "18:00"
+                },
+                "thursday": {
+                    "from": "10:00",
+                    "to": "18:00"
+                },
+                "friday": {
+                    "from": "10:00",
+                    "to": "18:00"
+                },
+                "saturday": {
+                    "from": "",
+                    "to": ""
+                },
+                "sunday": {
+                    "from": "",
+                    "to": ""
+                },
+                "workingDays": {
+                    "from": "",
+                    "to": ""
+                },
+                "holidays": {
+                    "from": "",
+                    "to": ""
+                }
+            },
+            "czy_aktywna_i_overload": "1",
+            "opis": {
+                "pl_PL": "",
+                "en_US": ""
+            }
+        },
+        {
+            "id": "986896",
+            "lon": "53.39649",
+            "lat": "22.80379",
+            "nazwa_placowki": "Stacja ORLEN",
+            "typ_placowki": "ZPO",
+            "rodzaj": "ORLEN",
+            "rodzaj biznesowy": "Pocztex Punkt � Stacja ORLEN",
+            "zdalne otwarcie": "0",
+            "kod pocztowy": "19100",
+            "miejscowosc": "Mo?ki",
+            "ulica_numer": "Bia?ostocka 85 a",
+            "wojewodztwo": "PODLASKIE",
+            "powiat": "moniecki",
+            "gmina": "Mo?ki",
+            "funkcja_placowki": "10",
+            "placowki_przyjazne_e-Commerce": "0",
+            "doladowanie_telefonow_komorkowych": "0",
+            "ems_przyjecie": "0",
+            "uslugi_envelo": "0",
+            "kantor_wymiany_walut": "0",
+            "odbior_w_punkcie": "1",
+            "skrytki_pocztowe": "0",
+            "transfer_Ekspress_Zagranica": "0",
+            "przesylka_powyzej_20kg": "0",
+            "ekspres_pieniezny_przyjscie_wplata_ekspres": "0",
+            "platnosc_karta_lub_BLIK": "1",
+            "przystosowanie_placowki_dla_osob_niepelnosprawnych": "0",
+            "telefon": ["48438420600"],
+            "dni_i_godziny_pracy": {
+                "monday": {
+                    "from": "12:00",
+                    "to": "20:00"
+                },
+                "tuesday": {
+                    "from": "10:00",
+                    "to": "18:00"
+                },
+                "wednesday": {
+                    "from": "10:00",
+                    "to": "18:00"
+                },
+                "thursday": {
+                    "from": "10:00",
+                    "to": "18:00"
+                },
+                "friday": {
+                    "from": "10:00",
+                    "to": "18:00"
+                },
+                "saturday": {
+                    "from": "",
+                    "to": ""
+                },
+                "sunday": {
+                    "from": "",
+                    "to": ""
+                },
+                "workingDays": {
+                    "from": "",
+                    "to": ""
+                },
+                "holidays": {
+                    "from": "",
+                    "to": ""
+                }
+            },
+            "czy_aktywna_i_overload": "1",
+            "opis": {
+                "pl_PL": "",
+                "en_US": ""
+            }
+        },
+        {
+            "id": "932906",
+            "lon": "52.169",
+            "lat": "21.009",
+            "nazwa_placowki": "Sklep Freshmarket",
+            "typ_placowki": "ZPO",
+            "rodzaj": "FRESHMARKET",
+            "rodzaj biznesowy": "FRESHMARKET",
+            "zdalne otwarcie": "0",
+            "kod pocztowy": "2697",
+            "miejscowosc": "Warszawa",
+            "ulica_numer": "Wincentego Rzymowskiego 31",
+            "wojewodztwo": "MAZOWIECKIE",
+            "powiat": "Warszawa",
+            "gmina": "Warszawa",
+            "funkcja_placowki": "10",
+            "placowki_przyjazne_e-Commerce": "0",
+            "doladowanie_telefonow_komorkowych": "0",
+            "ems_przyjecie": "0",
+            "uslugi_envelo": "0",
+            "kantor_wymiany_walut": "0",
+            "odbior_w_punkcie": "1",
+            "skrytki_pocztowe": "0",
+            "transfer_Ekspress_Zagranica": "0",
+            "przesylka_powyzej_20kg": "0",
+            "ekspres_pieniezny_przyjscie_wplata_ekspres": "0",
+            "platnosc_karta_lub_BLIK": "1",
+            "przystosowanie_placowki_dla_osob_niepelnosprawnych": "0",
+            "telefon": ["48438420600"],
+            "dni_i_godziny_pracy": {
+                "monday": {
+                    "from": "12:00",
+                    "to": "20:00"
+                },
+                "tuesday": {
+                    "from": "10:00",
+                    "to": "18:00"
+                },
+                "wednesday": {
+                    "from": "10:00",
+                    "to": "18:00"
+                },
+                "thursday": {
+                    "from": "10:00",
+                    "to": "18:00"
+                },
+                "friday": {
+                    "from": "10:00",
+                    "to": "18:00"
+                },
+                "saturday": {
+                    "from": "",
+                    "to": ""
+                },
+                "sunday": {
+                    "from": "",
+                    "to": ""
+                },
+                "workingDays": {
+                    "from": "",
+                    "to": ""
+                },
+                "holidays": {
+                    "from": "",
+                    "to": ""
+                }
+            },
+            "czy_aktywna_i_overload": "1",
+            "opis": {
+                "pl_PL": "",
+                "en_US": ""
+            }
+        },
+        {
+            "id": "932870",
+            "lon": "52.176",
+            "lat": "20.996",
+            "nazwa_placowki": "Sklep ?abka",
+            "typ_placowki": "ZPO",
+            "rodzaj": "ZABKA",
+            "rodzaj biznesowy": "Pocztex Punkt - ?abka",
+            "zdalne otwarcie": "0",
+            "kod pocztowy": "2676",
+            "miejscowosc": "Warszawa",
+            "ulica_numer": "Post?pu 10",
+            "wojewodztwo": "MAZOWIECKIE",
+            "powiat": "Warszawa",
+            "gmina": "Warszawa",
+            "funkcja_placowki": "10",
+            "placowki_przyjazne_e-Commerce": "0",
+            "doladowanie_telefonow_komorkowych": "0",
+            "ems_przyjecie": "0",
+            "uslugi_envelo": "0",
+            "kantor_wymiany_walut": "0",
+            "odbior_w_punkcie": "1",
+            "skrytki_pocztowe": "0",
+            "transfer_Ekspress_Zagranica": "0",
+            "przesylka_powyzej_20kg": "0",
+            "ekspres_pieniezny_przyjscie_wplata_ekspres": "0",
+            "platnosc_karta_lub_BLIK": "1",
+            "przystosowanie_placowki_dla_osob_niepelnosprawnych": "0",
+            "telefon": ["48438420600"],
+            "dni_i_godziny_pracy": {
+                "monday": {
+                    "from": "12:00",
+                    "to": "20:00"
+                },
+                "tuesday": {
+                    "from": "10:00",
+                    "to": "18:00"
+                },
+                "wednesday": {
+                    "from": "10:00",
+                    "to": "18:00"
+                },
+                "thursday": {
+                    "from": "10:00",
+                    "to": "18:00"
+                },
+                "friday": {
+                    "from": "10:00",
+                    "to": "18:00"
+                },
+                "saturday": {
+                    "from": "",
+                    "to": ""
+                },
+                "sunday": {
+                    "from": "",
+                    "to": ""
+                },
+                "workingDays": {
+                    "from": "",
+                    "to": ""
+                },
+                "holidays": {
+                    "from": "",
+                    "to": ""
+                }
+            },
+            "czy_aktywna_i_overload": "1",
+            "opis": {
+                "pl_PL": "",
+                "en_US": ""
+            }
+        },
+        {
+            "lon": "50.13",
+            "lat": "21.9713",
+            "nazwa_placowki": "PP test",
+            "typ_placowki": "Placowka",
+            "ulica_numer": "Francuska 15",
+            "wojewodztwo": "mazowieckie",
+            "powiat": "praski",
+            "id": "G9PESOF"
         }
-      },
-      "czy_aktywna_i_overload": "1",
-      "opis": {
-        "pl_PL": "",
-        "en_US": ""
-      }
-    },
-    {
-      "id": "119831",
-      "lon": "52.160694",
-      "lat": "21.070679",
-      "nazwa_placowki": "lst Automat Pocztowy",
-      "typ_placowki": "Automat",
-      "rodzaj": "AUTOMAT_PLACOWKA",
-      "rodzaj biznesowy": "Pocztex Automat",
-      "zdalne otwarcie": "0",
-      "kod pocztowy": "2972",
-      "miejscowosc": "Warszawa",
-      "ulica_numer": "Prymasa Augusta Hlonda 2/u-4",
-      "wojewodztwo": "MAZOWIECKIE",
-      "powiat": "Warszawa",
-      "gmina": "Warszawa",
-      "funkcja_placowki": "1",
-      "placowki_przyjazne_e-Commerce": "0",
-      "doladowanie_telefonow_komorkowych": "0",
-      "ems_przyjecie": "0",
-      "uslugi_envelo": "0",
-      "kantor_wymiany_walut": "0",
-      "odbior_w_punkcie": "0",
-      "skrytki_pocztowe": "0",
-      "transfer_Ekspress_Zagranica": "0",
-      "przesylka_powyzej_20kg": "0",
-      "ekspres_pieniezny_przyjscie_wplata_ekspres": "0",
-      "platnosc_karta_lub_BLIK": "0",
-      "przystosowanie_placowki_dla_osob_niepelnosprawnych": "0",
-      "telefon": [
-        "22-656-57-52"
-      ],
-      "dni_i_godziny_pracy": {
-        "monday": {
-          "from": "12:00",
-          "to": "20:00"
-        },
-        "tuesday": {
-          "from": "10:00",
-          "to": "18:00"
-        },
-        "wednesday": {
-          "from": "10:00",
-          "to": "18:00"
-        },
-        "thursday": {
-          "from": "10:00",
-          "to": "18:00"
-        },
-        "friday": {
-          "from": "10:00",
-          "to": "18:00"
-        },
-        "saturday": {
-          "from": "",
-          "to": ""
-        },
-        "sunday": {
-          "from": "",
-          "to": ""
-        },
-        "workingDays": {
-          "from": "",
-          "to": ""
-        },
-        "holidays": {
-          "from": "",
-          "to": ""
-        }
-      },
-      "czy_aktywna_i_overload": "1",
-      "opis": {
-        "pl_PL": "",
-        "en_US": ""
-      }
-    },
-    {
-      "id": "986953",
-      "lon": "54.03809",
-      "lat": "19.01104",
-      "nazwa_placowki": "Stacja ORLEN",
-      "typ_placowki": "ZPO",
-      "rodzaj": "ORLEN",
-      "rodzaj biznesowy": "Pocztex Punkt � Stacja ORLEN",
-      "zdalne otwarcie": "0",
-      "kod pocztowy": "82200",
-      "miejscowosc": "Grobelno",
-      "ulica_numer": "69",
-      "wojewodztwo": "POMORSKIE",
-      "powiat": "malborski",
-      "gmina": "Malbork",
-      "funkcja_placowki": "10",
-      "placowki_przyjazne_e-Commerce": "0",
-      "doladowanie_telefonow_komorkowych": "0",
-      "ems_przyjecie": "0",
-      "uslugi_envelo": "0",
-      "kantor_wymiany_walut": "0",
-      "odbior_w_punkcie": "1",
-      "skrytki_pocztowe": "0",
-      "transfer_Ekspress_Zagranica": "0",
-      "przesylka_powyzej_20kg": "0",
-      "ekspres_pieniezny_przyjscie_wplata_ekspres": "0",
-      "platnosc_karta_lub_BLIK": "1",
-      "przystosowanie_placowki_dla_osob_niepelnosprawnych": "0",
-      "telefon": [
-        "48438420600"
-      ],
-      "dni_i_godziny_pracy": {
-        "monday": {
-          "from": "12:00",
-          "to": "20:00"
-        },
-        "tuesday": {
-          "from": "10:00",
-          "to": "18:00"
-        },
-        "wednesday": {
-          "from": "10:00",
-          "to": "18:00"
-        },
-        "thursday": {
-          "from": "10:00",
-          "to": "18:00"
-        },
-        "friday": {
-          "from": "10:00",
-          "to": "18:00"
-        },
-        "saturday": {
-          "from": "",
-          "to": ""
-        },
-        "sunday": {
-          "from": "",
-          "to": ""
-        },
-        "workingDays": {
-          "from": "",
-          "to": ""
-        },
-        "holidays": {
-          "from": "",
-          "to": ""
-        }
-      },
-      "czy_aktywna_i_overload": "1",
-      "opis": {
-        "pl_PL": "",
-        "en_US": ""
-      }
-    },
-    {
-      "id": "986946",
-      "lon": "50.78468",
-      "lat": "17.07152",
-      "nazwa_placowki": "Stacja ORLEN",
-      "typ_placowki": "ZPO",
-      "rodzaj": "ORLEN",
-      "rodzaj biznesowy": "Pocztex Punkt � Stacja ORLEN",
-      "zdalne otwarcie": "0",
-      "kod pocztowy": "57100",
-      "miejscowosc": "Strzelin",
-      "ulica_numer": "Jana Paw?a II 27",
-      "wojewodztwo": "DOLNO?L?SKIE",
-      "powiat": "strzeli?ski",
-      "gmina": "Strzelin",
-      "funkcja_placowki": "10",
-      "placowki_przyjazne_e-Commerce": "0",
-      "doladowanie_telefonow_komorkowych": "0",
-      "ems_przyjecie": "0",
-      "uslugi_envelo": "0",
-      "kantor_wymiany_walut": "0",
-      "odbior_w_punkcie": "1",
-      "skrytki_pocztowe": "0",
-      "transfer_Ekspress_Zagranica": "0",
-      "przesylka_powyzej_20kg": "0",
-      "ekspres_pieniezny_przyjscie_wplata_ekspres": "0",
-      "platnosc_karta_lub_BLIK": "1",
-      "przystosowanie_placowki_dla_osob_niepelnosprawnych": "0",
-      "telefon": [
-        "48438420600"
-      ],
-      "dni_i_godziny_pracy": {
-        "monday": {
-          "from": "12:00",
-          "to": "20:00"
-        },
-        "tuesday": {
-          "from": "10:00",
-          "to": "18:00"
-        },
-        "wednesday": {
-          "from": "10:00",
-          "to": "18:00"
-        },
-        "thursday": {
-          "from": "10:00",
-          "to": "18:00"
-        },
-        "friday": {
-          "from": "10:00",
-          "to": "18:00"
-        },
-        "saturday": {
-          "from": "",
-          "to": ""
-        },
-        "sunday": {
-          "from": "",
-          "to": ""
-        },
-        "workingDays": {
-          "from": "",
-          "to": ""
-        },
-        "holidays": {
-          "from": "",
-          "to": ""
-        }
-      },
-      "czy_aktywna_i_overload": "1",
-      "opis": {
-        "pl_PL": "",
-        "en_US": ""
-      }
-    },
-    {
-      "id": "986922",
-      "lon": "52.49933",
-      "lat": "16.27357",
-      "nazwa_placowki": "Stacja ORLEN",
-      "typ_placowki": "ZPO",
-      "rodzaj": "ORLEN",
-      "rodzaj biznesowy": "Pocztex Punkt � Stacja ORLEN",
-      "zdalne otwarcie": "0",
-      "kod pocztowy": "62045",
-      "miejscowosc": "Pniewy",
-      "ulica_numer": "Jakubowska 36",
-      "wojewodztwo": "WIELKOPOLSKIE",
-      "powiat": "szamotulski",
-      "gmina": "Pniewy",
-      "funkcja_placowki": "10",
-      "placowki_przyjazne_e-Commerce": "0",
-      "doladowanie_telefonow_komorkowych": "0",
-      "ems_przyjecie": "0",
-      "uslugi_envelo": "0",
-      "kantor_wymiany_walut": "0",
-      "odbior_w_punkcie": "1",
-      "skrytki_pocztowe": "0",
-      "transfer_Ekspress_Zagranica": "0",
-      "przesylka_powyzej_20kg": "0",
-      "ekspres_pieniezny_przyjscie_wplata_ekspres": "0",
-      "platnosc_karta_lub_BLIK": "1",
-      "przystosowanie_placowki_dla_osob_niepelnosprawnych": "0",
-      "telefon": [
-        "48438420600"
-      ],
-      "dni_i_godziny_pracy": {
-        "monday": {
-          "from": "12:00",
-          "to": "20:00"
-        },
-        "tuesday": {
-          "from": "10:00",
-          "to": "18:00"
-        },
-        "wednesday": {
-          "from": "10:00",
-          "to": "18:00"
-        },
-        "thursday": {
-          "from": "10:00",
-          "to": "18:00"
-        },
-        "friday": {
-          "from": "10:00",
-          "to": "18:00"
-        },
-        "saturday": {
-          "from": "",
-          "to": ""
-        },
-        "sunday": {
-          "from": "",
-          "to": ""
-        },
-        "workingDays": {
-          "from": "",
-          "to": ""
-        },
-        "holidays": {
-          "from": "",
-          "to": ""
-        }
-      },
-      "czy_aktywna_i_overload": "1",
-      "opis": {
-        "pl_PL": "",
-        "en_US": ""
-      }
-    },
-    {
-      "id": "986896",
-      "lon": "53.39649",
-      "lat": "22.80379",
-      "nazwa_placowki": "Stacja ORLEN",
-      "typ_placowki": "ZPO",
-      "rodzaj": "ORLEN",
-      "rodzaj biznesowy": "Pocztex Punkt � Stacja ORLEN",
-      "zdalne otwarcie": "0",
-      "kod pocztowy": "19100",
-      "miejscowosc": "Mo?ki",
-      "ulica_numer": "Bia?ostocka 85 a",
-      "wojewodztwo": "PODLASKIE",
-      "powiat": "moniecki",
-      "gmina": "Mo?ki",
-      "funkcja_placowki": "10",
-      "placowki_przyjazne_e-Commerce": "0",
-      "doladowanie_telefonow_komorkowych": "0",
-      "ems_przyjecie": "0",
-      "uslugi_envelo": "0",
-      "kantor_wymiany_walut": "0",
-      "odbior_w_punkcie": "1",
-      "skrytki_pocztowe": "0",
-      "transfer_Ekspress_Zagranica": "0",
-      "przesylka_powyzej_20kg": "0",
-      "ekspres_pieniezny_przyjscie_wplata_ekspres": "0",
-      "platnosc_karta_lub_BLIK": "1",
-      "przystosowanie_placowki_dla_osob_niepelnosprawnych": "0",
-      "telefon": [
-        "48438420600"
-      ],
-      "dni_i_godziny_pracy": {
-        "monday": {
-          "from": "12:00",
-          "to": "20:00"
-        },
-        "tuesday": {
-          "from": "10:00",
-          "to": "18:00"
-        },
-        "wednesday": {
-          "from": "10:00",
-          "to": "18:00"
-        },
-        "thursday": {
-          "from": "10:00",
-          "to": "18:00"
-        },
-        "friday": {
-          "from": "10:00",
-          "to": "18:00"
-        },
-        "saturday": {
-          "from": "",
-          "to": ""
-        },
-        "sunday": {
-          "from": "",
-          "to": ""
-        },
-        "workingDays": {
-          "from": "",
-          "to": ""
-        },
-        "holidays": {
-          "from": "",
-          "to": ""
-        }
-      },
-      "czy_aktywna_i_overload": "1",
-      "opis": {
-        "pl_PL": "",
-        "en_US": ""
-      }
-    },
-    {
-      "id": "932906",
-      "lon": "52.169",
-      "lat": "21.009",
-      "nazwa_placowki": "Sklep Freshmarket",
-      "typ_placowki": "ZPO",
-      "rodzaj": "FRESHMARKET",
-      "rodzaj biznesowy": "FRESHMARKET",
-      "zdalne otwarcie": "0",
-      "kod pocztowy": "2697",
-      "miejscowosc": "Warszawa",
-      "ulica_numer": "Wincentego Rzymowskiego 31",
-      "wojewodztwo": "MAZOWIECKIE",
-      "powiat": "Warszawa",
-      "gmina": "Warszawa",
-      "funkcja_placowki": "10",
-      "placowki_przyjazne_e-Commerce": "0",
-      "doladowanie_telefonow_komorkowych": "0",
-      "ems_przyjecie": "0",
-      "uslugi_envelo": "0",
-      "kantor_wymiany_walut": "0",
-      "odbior_w_punkcie": "1",
-      "skrytki_pocztowe": "0",
-      "transfer_Ekspress_Zagranica": "0",
-      "przesylka_powyzej_20kg": "0",
-      "ekspres_pieniezny_przyjscie_wplata_ekspres": "0",
-      "platnosc_karta_lub_BLIK": "1",
-      "przystosowanie_placowki_dla_osob_niepelnosprawnych": "0",
-      "telefon": [
-        "48438420600"
-      ],
-      "dni_i_godziny_pracy": {
-        "monday": {
-          "from": "12:00",
-          "to": "20:00"
-        },
-        "tuesday": {
-          "from": "10:00",
-          "to": "18:00"
-        },
-        "wednesday": {
-          "from": "10:00",
-          "to": "18:00"
-        },
-        "thursday": {
-          "from": "10:00",
-          "to": "18:00"
-        },
-        "friday": {
-          "from": "10:00",
-          "to": "18:00"
-        },
-        "saturday": {
-          "from": "",
-          "to": ""
-        },
-        "sunday": {
-          "from": "",
-          "to": ""
-        },
-        "workingDays": {
-          "from": "",
-          "to": ""
-        },
-        "holidays": {
-          "from": "",
-          "to": ""
-        }
-      },
-      "czy_aktywna_i_overload": "1",
-      "opis": {
-        "pl_PL": "",
-        "en_US": ""
-      }
-    },
-    {
-      "id": "932870",
-      "lon": "52.176",
-      "lat": "20.996",
-      "nazwa_placowki": "Sklep ?abka",
-      "typ_placowki": "ZPO",
-      "rodzaj": "ZABKA",
-      "rodzaj biznesowy": "Pocztex Punkt - ?abka",
-      "zdalne otwarcie": "0",
-      "kod pocztowy": "2676",
-      "miejscowosc": "Warszawa",
-      "ulica_numer": "Post?pu 10",
-      "wojewodztwo": "MAZOWIECKIE",
-      "powiat": "Warszawa",
-      "gmina": "Warszawa",
-      "funkcja_placowki": "10",
-      "placowki_przyjazne_e-Commerce": "0",
-      "doladowanie_telefonow_komorkowych": "0",
-      "ems_przyjecie": "0",
-      "uslugi_envelo": "0",
-      "kantor_wymiany_walut": "0",
-      "odbior_w_punkcie": "1",
-      "skrytki_pocztowe": "0",
-      "transfer_Ekspress_Zagranica": "0",
-      "przesylka_powyzej_20kg": "0",
-      "ekspres_pieniezny_przyjscie_wplata_ekspres": "0",
-      "platnosc_karta_lub_BLIK": "1",
-      "przystosowanie_placowki_dla_osob_niepelnosprawnych": "0",
-      "telefon": [
-        "48438420600"
-      ],
-      "dni_i_godziny_pracy": {
-        "monday": {
-          "from": "12:00",
-          "to": "20:00"
-        },
-        "tuesday": {
-          "from": "10:00",
-          "to": "18:00"
-        },
-        "wednesday": {
-          "from": "10:00",
-          "to": "18:00"
-        },
-        "thursday": {
-          "from": "10:00",
-          "to": "18:00"
-        },
-        "friday": {
-          "from": "10:00",
-          "to": "18:00"
-        },
-        "saturday": {
-          "from": "",
-          "to": ""
-        },
-        "sunday": {
-          "from": "",
-          "to": ""
-        },
-        "workingDays": {
-          "from": "",
-          "to": ""
-        },
-        "holidays": {
-          "from": "",
-          "to": ""
-        }
-      },
-      "czy_aktywna_i_overload": "1",
-      "opis": {
-        "pl_PL": "",
-        "en_US": ""
-      }
-    },
-    {
-      "lon": "50.13",
-      "lat": "21.9713",
-      "nazwa_placowki": "PP test",
-      "typ_placowki": "Placowka",
-      "ulica_numer": "Francuska 15",
-      "wojewodztwo": "mazowieckie",
-      "powiat": "praski",
-      "id": "G9PESOF"
-    }
-  ]
+    ]
 }

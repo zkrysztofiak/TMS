@@ -18,10 +18,10 @@
   min-height: 100vh;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
+  /* align-items: center;
+  justify-content: center; */
   font-size: calc(10px + 2vmin);
-  color: white;
+  /* color: white; */
 }
 
 .App-link {
@@ -38,15 +38,27 @@
 }
 .grid-container {
   display: inline-grid;
-  grid-template-columns: auto auto auto auto auto auto auto auto auto;
+  grid-template-columns: auto auto auto auto auto;
   background-color: #2196F3;
-  padding: 5px;
+  padding: 3px;
 }
-
+.grid-container2 {
+  display: inline-grid;
+  grid-template-columns:  300px 200px 4fr;
+  background-color: #2196F3;
+  padding: 2px;
+}
 .grid-item {
   background-color: rgba(255, 255, 255, 0.8);
   border: 1px solid rgba(0, 0, 0, 0.8);
-  padding: 20px;
-  font-size: 30px;
+  padding: 10px;
+  font-size: 20px;
+  text-align: center;
+}
+.grid-footer {
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  padding: 10px;
+  font-size: 20px;
   text-align: center;
 }

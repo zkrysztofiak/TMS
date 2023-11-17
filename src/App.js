@@ -1,65 +1,115 @@
-import React, { useState } from "react";
+import React from "react";
 import "./App.css";
 import { Button, Spin } from "antd";
+import { FormClient } from "./formClient";
 
 import { useMachine } from "@xstate/react";
 import { ClientMachine } from "./models/ClientMachine";
 
 function App() {
-  const [current, send] = useMachine(ClientMachine);
-  return (
-    <div className="App">
-      <header className="App-header">
-        Learn Xstate
-        <div class="grid-container">
-          <div class="grid-item">01</div>
-          <div class="grid-item">02</div>
-          <div class="grid-item">033333333333</div>
-          <div class="grid-item">04</div>
-          <div class="grid-item">05</div>
-          <div class="grid-item">06</div>
-          <div class="grid-item">07</div>
-          <div class="grid-item">08</div>
-          <div class="grid-item">09</div> <div class="grid-item">11</div>
-          <div class="grid-item">
-            {" "}
-            <Button
-              type="primary"
-              disabled={!current.matches("idle")}
-              onClick={() => send("DRUKUJ")}
-            >
-              DRUKUJ
-            </Button>
-          </div>
-          <div class="grid-item">133333333333</div>
-          <div class="grid-item">14</div>
-          <div class="grid-item">15</div>
-          <div class="grid-item">16</div>
-          <div class="grid-item">17</div>
-          <div class="grid-item">18</div>
-          <div class="grid-item">19</div>
-          <div class="grid-item">21</div>
-          <div class="grid-item">22</div>
-          <div class="grid-item">233333333333</div>
-          <div class="grid-item">24</div>
-          <div class="grid-item">25</div>
-          <div class="grid-item">26</div>
-          <div class="grid-item">27</div>
-          <div class="grid-item">28</div>
-          <div class="grid-item">29</div>
-          <div class="grid-item">31</div>
-          <div class="grid-item">32</div>
-          <div class="grid-item">333333333333</div>
-          <div class="grid-item">34</div>
-          <div class="grid-item">35</div>
-          <div class="grid-item">36</div>
-          <div class="grid-item">37</div>
-          <div class="grid-item">38</div>
-          <div class="grid-item">39</div>
+    const [current, send] = useMachine(ClientMachine);
+
+    const handleOnFinishFormClient = (values) => {
+        console.log((current.context.userId = values.id));
+        send("Szukaj Klienta po NIP", {
+            id: values.id,
+            userId: values.id,
+            name: values.name,
+        });
+    };
+    return (
+        <div className="App">
+            <header className="App-header">
+                Learn Xstate
+                <div class="grid-container">
+                    <div class="grid-item">
+                        {current.matches("szukanie w TMS") && (
+                            <Spin tip="Loading..." />
+                        )}
+                    </div>
+                    <div class="grid-item">Status: </div>
+                    <div class="grid-item">{current.value}</div>
+                    <div class="grid-item">03</div>
+                    <div class="grid-item">04</div>
+
+                    <div class="grid-item">
+                        <Button
+                            type="primary"
+                            disabled={!current.matches("idle")}
+                            onClick={() => send("Szukaj Klienta po NIP")}
+                        >
+                            Szukaj Klienta po NIP
+                        </Button>
+                    </div>
+                    <div class="grid-item">
+                        <Button
+                            type="primary"
+                            disabled={!current.matches("prezentowanie wyników")}
+                            onClick={() => send("Jest Klient")}
+                        >
+                            Jest Klient
+                        </Button>
+                    </div>
+                    <div class="grid-item">12</div>
+                    <div class="grid-item">13</div>
+                    <div class="grid-item">14</div>
+
+                    <div class="grid-item">20</div>
+
+                    <div class="grid-item">
+                        <Button
+                            type="primary"
+                            danger={true}
+                            disabled={!current.matches("prezentowanie wyników")}
+                            onClick={() => send("Nie ma na liście")}
+                        >
+                            Nie ma na liście
+                        </Button>
+                    </div>
+                    <div class="grid-item">22</div>
+                    <div class="grid-item">23</div>
+                    <div class="grid-item">24</div>
+
+                    <div class="grid-item">30</div>
+                    <div class="grid-item">31</div>
+                    <div class="grid-item">32</div>
+                    <div class="grid-item">33</div>
+                    <div class="grid-item">34</div>
+
+                    <div class="grid-item">40</div>
+                    <div class="grid-item">41</div>
+                    <div class="grid-item">42</div>
+                    <div class="grid-item">43</div>
+                    <div class="grid-item">44</div>
+                </div>
+                <div class="grid-container2">
+                    <div class="grid-footer">
+                        {current.matches("idle1") && (
+                            <FormClient
+                                id={current.context.id}
+                                NIP={current.context.NIP}
+                                name={current.context.name}
+                                handleOnFinish={handleOnFinishFormClient}
+                            />
+                        )}
+                    </div>
+                    <div class="grid-footer">91</div>
+                    <div class="grid-footer">
+                        <pre style={{ textAlign: "left" }}>
+                            {JSON.stringify(
+                                {
+                                    value: current.value,
+                                    context: current.context,
+                                },
+                                null,
+                                2
+                            )}
+                        </pre>
+                    </div>
+                </div>
+            </header>
         </div>
-      </header>
-    </div>
-  );
+    );
 }
 
 export default App;
