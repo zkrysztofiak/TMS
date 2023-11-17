@@ -9,8 +9,11 @@ import { ClientMachine } from "./models/ClientMachine";
 function App() {
     const [current, send] = useMachine(ClientMachine);
 
-    const handleOnFinishFormClient = (values) => {
-        console.log((current.context.userId = values.id));
+    const handleOnFinishFormClient = (values, context) => {
+        // console.log(current.context);
+        console.log(values);
+        current.context.userId = values.id;
+        console.log(current.context);
         send("Szukaj Klienta po NIP", {
             id: values.id,
             userId: values.id,
@@ -84,7 +87,7 @@ function App() {
                 </div>
                 <div class="grid-container2">
                     <div class="grid-footer">
-                        {current.matches("idle1") && (
+                        {current.matches("idle") && (
                             <FormClient
                                 id={current.context.id}
                                 NIP={current.context.NIP}

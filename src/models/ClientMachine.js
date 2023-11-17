@@ -105,6 +105,7 @@ export const ClientMachine = createMachine(
             // },
 
             "prezentowanie wyników": {
+                entry: assign({ error: "none" }),
                 on: {
                     "Jest Klient": {
                         target: "Radość!",
