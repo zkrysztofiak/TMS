@@ -4,9 +4,17 @@ import { Form, Input, Button } from "antd";
 export const FormClient = ({ id, NIP, name, handleOnFinish }) => {
     return (
         <div className="">
-            <Form layout="vertical" onFinish={handleOnFinish}>
+            <Form
+                layout="vertical"
+                initialValues={{
+                    id: 13,
+                    NIP: 255,
+                    name: "Janko z Bogdańca",
+                }}
+                onFinish={handleOnFinish}
+            >
                 <Form.Item label="id" name="id">
-                    <Input placeholder={11 + ""} />
+                    <Input />
                 </Form.Item>
                 <Form.Item label="NIP" name="NIP">
                     <Input placeholder={NIP + ""} />
