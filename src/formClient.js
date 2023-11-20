@@ -17,10 +17,10 @@ export const FormClient = ({ id, NIP, name, handleOnFinish }) => {
                     <Input />
                 </Form.Item>
                 <Form.Item label="NIP" name="NIP">
-                    <Input placeholder={NIP + ""} />
+                    <Input />
                 </Form.Item>{" "}
                 <Form.Item label="Name:" name="name">
-                    <Input placeholder={name + ""} />
+                    <Input />
                 </Form.Item>
                 <Form.Item>
                     <Button type="primary" size="large" htmlType="submit">

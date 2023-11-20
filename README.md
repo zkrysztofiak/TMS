@@ -1,4 +1,5 @@
 # Aby odpalić API:
+### `npm install -g json-server`  - jednorazowo !
 ### `json-server --watch db.json --port 4001`
 
 # aby uruchomić apkę w React:
