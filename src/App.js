@@ -12,7 +12,7 @@ function App() {
     const handleOnFinishFormClient = (values, context) => {
         // console.log(current.context);
         console.log(values);
-        current.context.userId = values.id;
+        // current.context.userId = values.id;
         console.log(current.context);
         send("Szukaj Klienta po NIP", {
             id: values.id,
@@ -25,11 +25,7 @@ function App() {
             <header className="App-header">
                 Learn Xstate
                 <div class="grid-container">
-                    <div class="grid-item">
-                        {current.matches("szukanie w TMS") && (
-                            <Spin tip="Loading..." />
-                        )}
-                    </div>
+                    <div class="grid-item">{current.matches("szukanie w TMS") && <Spin tip="Loading..." />}</div>
                     <div class="grid-item">Status: </div>
                     <div class="grid-item">{current.value}</div>
                     <div class="grid-item">03</div>
