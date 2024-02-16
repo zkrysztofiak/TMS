@@ -1,0 +1,622 @@
+{
+	"id": "b6866aea-6e0c-4b48-b8de-2ec57095deee",
+	"status": "DRAFT",
+	"productMarker": {
+		"id": "102b35ac-aa57-465b-b6db-2b2679e2b730",
+		"name": "PRODUKT_NAME",
+		"code": "PRODUKT",
+		"attributes": [
+			{
+				"id": "d01f78a4-b2a2-45d8-a6cc-6918c4fe9fdf",
+				"name": "NAZWA",
+				"code": "AT_NAZ",
+				"spCode": null,
+				"attributeValueType": "TEXT",
+				"attributeType": "TRAIT",
+				"rules": [
+					{
+						"attributeRuleType": "MAX_LENGTH",
+						"attributeRuleValue": "256"
+					}
+				],
+				"isRequired": "YES",
+				"filedValue": {
+					"value": "ECOMMERCE REJESTROWANA",
+					"isEditable": "NO"
+				},
+				"listEntries": [],
+				"childrenAttributes": []
+			},
+			{
+				"id": "e62dbfaa-48da-45f5-bfc2-5d94c3250016",
+				"name": "OPIS",
+				"code": "AT_OPI",
+				"spCode": null,
+				"attributeValueType": "TEXT",
+				"attributeType": "STANDARD",
+				"rules": [],
+				"isRequired": "UNDEFINED",
+				"filedValue": {
+					"value": "",
+					"isEditable": "UNDEFINED"
+				},
+				"listEntries": [],
+				"childrenAttributes": []
+			},
+			{
+				"id": "24c9556d-7ea0-4655-9128-6a266e55725c",
+				"name": "KOD",
+				"code": "AT_KOD",
+				"spCode": null,
+				"attributeValueType": "TEXT",
+				"attributeType": "TRAIT",
+				"rules": [
+					{
+						"attributeRuleType": "MAX_LENGTH",
+						"attributeRuleValue": "20"
+					}
+				],
+				"isRequired": "YES",
+				"filedValue": {
+					"value": "ECR",
+					"isEditable": "NO"
+				},
+				"listEntries": [],
+				"childrenAttributes": []
+			},
+			{
+				"id": "cd4a1511-ec20-4837-9cd0-d62163f2b77d",
+				"name": "KOD MRUM",
+				"code": "AT_MRUM",
+				"spCode": null,
+				"attributeValueType": "TEXT",
+				"attributeType": "TRAIT",
+				"rules": [
+					{
+						"attributeRuleType": "MAX_LENGTH",
+						"attributeRuleValue": "20"
+					}
+				],
+				"isRequired": "YES",
+				"filedValue": {
+					"value": "858",
+					"isEditable": "NO"
+				},
+				"listEntries": [],
+				"childrenAttributes": []
+			}
+		],
+		"relatedMarkers": [],
+		"additionalServices": []
+	},
+	"logisticalMarker": {
+		"id": "63e3c197-4bc7-489c-9a5b-2e72be6d75ba",
+		"name": "PRODUKT LOGISTYCZNY_NAME",
+		"code": "PRODUKT LOGISTYCZNY",
+		"attributes": [
+			{
+				"id": "bbd3e2ea-8ac5-4388-9de7-bd0f39d19238",
+				"name": "RODZAJ KLIENTA",
+				"code": "AT_KLI",
+				"spCode": null,
+				"attributeValueType": "LIST",
+				"attributeType": "STANDARD",
+				"rules": [],
+				"isRequired": "YES",
+				"filedValue": {
+					"value": "",
+					"isEditable": "UNDEFINED"
+				},
+				"listEntries": [
+					{
+						"id": "142ea4c0-c227-450c-b1b9-a8d03f4398a6",
+						"name": "UMOWNY",
+						"code": "U",
+						"spCode": "U",
+						"childrenAttributes": []
+					}
+				],
+				"childrenAttributes": []
+			},
+			{
+				"id": "dfa4aa35-63e9-47e7-965c-9ebc6e6d1e1d",
+				"name": "ADRES ADRESATA",
+				"code": "AT_ADR",
+				"spCode": null,
+				"attributeValueType": "LIST",
+				"attributeType": "STANDARD",
+				"rules": [],
+				"isRequired": "YES",
+				"filedValue": {
+					"value": "",
+					"isEditable": "UNDEFINED"
+				},
+				"listEntries": [
+					{
+						"id": "33f3f71c-5acc-453a-bddc-1e0e6a9602b8",
+						"name": "STANDARDOWY",
+						"code": "1",
+						"spCode": "1",
+						"childrenAttributes": []
+					},
+					{
+						"id": "987814ef-ecb3-4dbf-9d50-19f11454ebb4",
+						"name": "SKRYTKA POCZTOWA",
+						"code": "2",
+						"spCode": "2",
+						"childrenAttributes": []
+					},
+					{
+						"id": "53cbb630-4e63-424a-8efd-96b320472b5e",
+						"name": "PLACÓWKA PP",
+						"code": "PP",
+						"spCode": "PP",
+						"childrenAttributes": []
+					},
+					{
+						"id": "b27d7ad6-bf06-438f-ad8f-a3e48cd22279",
+						"name": "ZEWNĘTRZNY PUNKT ODBIORU",
+						"code": "ZPO",
+						"spCode": "ZPO",
+						"childrenAttributes": []
+					},
+					{
+						"id": "35283aae-2681-4a8e-8aaf-221cd50ca2af",
+						"name": "AUTOMAT PACZKOWY",
+						"code": "APM",
+						"spCode": "APM",
+						"childrenAttributes": []
+					}
+				],
+				"childrenAttributes": []
+			},
+			{
+				"id": "1c3149d5-a117-43a7-b6ec-cdad48e9d9f6",
+				"name": "ADRES NADAWCY",
+				"code": "AT_NAD",
+				"spCode": null,
+				"attributeValueType": "LIST",
+				"attributeType": "STANDARD",
+				"rules": [],
+				"isRequired": "YES",
+				"filedValue": {
+					"value": "",
+					"isEditable": "UNDEFINED"
+				},
+				"listEntries": [
+					{
+						"id": "53cbb630-4e63-424a-8efd-96b320472b5e",
+						"name": "PLACÓWKA PP",
+						"code": "PP",
+						"spCode": "PP",
+						"childrenAttributes": []
+					}
+				],
+				"childrenAttributes": []
+			},
+			{
+				"id": "a69845dc-8614-11ee-b9d1-0242ac120002",
+				"name": "KRAJ PRZEZNACZENIA",
+				"code": "AT_KRA",
+				"spCode": null,
+				"attributeValueType": "LIST",
+				"attributeType": "STANDARD",
+				"rules": [],
+				"isRequired": "UNDEFINED",
+				"filedValue": {
+					"value": "",
+					"isEditable": "UNDEFINED"
+				},
+				"listEntries": [
+					{
+						"id": "ac98e9c8-8614-11ee-b9d1-0242ac120002",
+						"name": "PL",
+						"code": null,
+						"spCode": null,
+						"childrenAttributes": []
+					}
+				],
+				"childrenAttributes": []
+			}
+		],
+		"relatedMarkers": [],
+		"additionalServices": []
+	},
+	"serviceTypeMarker": {
+		"id": "98539f84-c152-4e5d-8e4c-224529056c5d",
+		"name": "USŁUGA KEP_NAME",
+		"code": "USŁUGA KEP",
+		"attributes": [
+			{
+				"id": "91f0be45-c688-4d05-92cf-9ca936efb18b",
+				"name": "NUMER WEWNĘTRZNY PRZESYŁKI",
+				"code": "AT_NPRZ",
+				"spCode": null,
+				"attributeValueType": "TEXT",
+				"attributeType": "STANDARD",
+				"rules": [
+					{
+						"attributeRuleType": "MAX_LENGTH",
+						"attributeRuleValue": "25"
+					}
+				],
+				"isRequired": "UNDEFINED",
+				"filedValue": {
+					"value": "",
+					"isEditable": "UNDEFINED"
+				},
+				"listEntries": [],
+				"childrenAttributes": []
+			},
+			{
+				"id": "49a3226e-2f72-4326-a52b-03cbd18f8a7d",
+				"name": "ILOŚĆ",
+				"code": "AT_ILO",
+				"spCode": null,
+				"attributeValueType": "INTEGER",
+				"attributeType": "STANDARD",
+				"rules": [],
+				"isRequired": "YES",
+				"filedValue": {
+					"value": "",
+					"isEditable": "UNDEFINED"
+				},
+				"listEntries": [],
+				"childrenAttributes": []
+			}
+		],
+		"relatedMarkers": [],
+		"additionalServices": []
+	},
+	"productTypeMarker": {
+		"id": "bca6c7c4-596c-4d50-bb9b-aa5533dfdae4",
+		"name": "ECOMMERCE ŚLEDZONA_NAME",
+		"code": "ECOMMERCE ŚLEDZONA",
+		"attributes": [
+			{
+				"id": "7020e379-2bf2-4549-8d38-6a61539b5051",
+				"name": "MASA",
+				"code": "AT_MAS",
+				"spCode": null,
+				"attributeValueType": "COMPLEX",
+				"attributeType": "STANDARD",
+				"rules": [],
+				"isRequired": "UNDEFINED",
+				"filedValue": {
+					"value": "",
+					"isEditable": "UNDEFINED"
+				},
+				"listEntries": [],
+				"childrenAttributes": [
+					{
+						"id": "ef70ec02-59e8-43d4-9320-8aadaead34da",
+						"name": "JEDNOSTKA MASY",
+						"code": "AT_JED",
+						"spCode": null,
+						"attributeValueType": "LIST",
+						"attributeType": "COMPLEX_CHILD",
+						"rules": [],
+						"isRequired": "UNDEFINED",
+						"filedValue": {
+							"value": "",
+							"isEditable": "UNDEFINED"
+						},
+						"listEntries": [
+							{
+								"id": "17455223-9717-4e78-afc5-f70291332cf0",
+								"name": "KG",
+								"code": "MASA_KG",
+								"spCode": null,
+								"childrenAttributes": []
+							}
+						],
+						"childrenAttributes": []
+					},
+					{
+						"id": "d65769aa-90bb-47b3-a397-e761bda7f5d6",
+						"name": "WARTOŚĆ MASY",
+						"code": "AT_W_MAS",
+						"spCode": null,
+						"attributeValueType": "INTEGER",
+						"attributeType": "COMPLEX_CHILD",
+						"rules": [
+							{
+								"attributeRuleType": "GTE",
+								"attributeRuleValue": "0"
+							},
+							{
+								"attributeRuleType": "LTE",
+								"attributeRuleValue": "1"
+							}
+						],
+						"isRequired": "UNDEFINED",
+						"filedValue": {
+							"value": "",
+							"isEditable": "UNDEFINED"
+						},
+						"listEntries": [],
+						"childrenAttributes": []
+					}
+				]
+			},
+			{
+				"id": "31225708-8625-4447-980b-723af385f4a2",
+				"name": "CZY OPŁACA ODBIORCA",
+				"code": "AT_ODB",
+				"spCode": null,
+				"attributeValueType": "BOOLEAN",
+				"attributeType": "STANDARD",
+				"rules": [],
+				"isRequired": "UNDEFINED",
+				"filedValue": {
+					"value": "",
+					"isEditable": "UNDEFINED"
+				},
+				"listEntries": [],
+				"childrenAttributes": []
+			},
+			{
+				"id": "33f3f71c-5acc-453a-bddc-1e0e6a9602fc",
+				"name": "OPŁACENIE",
+				"code": "AT_OPL",
+				"spCode": null,
+				"attributeValueType": "LIST",
+				"attributeType": "STANDARD",
+				"rules": [],
+				"isRequired": "UNDEFINED",
+				"filedValue": {
+					"value": "",
+					"isEditable": "UNDEFINED"
+				},
+				"listEntries": [
+					{
+						"id": "33f3f71c-5acc-453a-bddc-1e0e6a9602f8",
+						"name": "GOTÓWKOWA",
+						"code": "G",
+						"spCode": null,
+						"childrenAttributes": []
+					},
+					{
+						"id": "33f3f71c-5acc-453a-bddc-1e0e6a9602f9",
+						"name": "Z DOŁU",
+						"code": "K",
+						"spCode": null,
+						"childrenAttributes": []
+					},
+					{
+						"id": "33f3f71c-5acc-453a-bddc-1e0e6a9602fa",
+						"name": "ZALICZKOWA",
+						"code": "X",
+						"spCode": null,
+						"childrenAttributes": []
+					},
+					{
+						"id": "33f3f71c-5acc-453a-bddc-1e0e6a9602fb",
+						"name": "Z GÓRY",
+						"code": "Q",
+						"spCode": null,
+						"childrenAttributes": []
+					},
+					{
+						"id": "33f3f71c-1acc-453a-bddc-1e0e6a1102f1",
+						"name": "FRANKOWNICA",
+						"code": "N",
+						"spCode": null,
+						"childrenAttributes": []
+					},
+					{
+						"id": "33f3f71c-2acc-453a-bddc-1e0e6a1102f2",
+						"name": "BEZGOTÓWKOWA",
+						"code": "B",
+						"spCode": null,
+						"childrenAttributes": []
+					},
+					{
+						"id": "33f3f71c-3acc-453a-bddc-1e0e6a1102f3",
+						"name": "SŁUŻBOWA",
+						"code": "S",
+						"spCode": null,
+						"childrenAttributes": []
+					},
+					{
+						"id": "33f3f71c-4acc-453a-bddc-1e0e6a1102f4",
+						"name": "ZNACZKAMI",
+						"code": "Z",
+						"spCode": null,
+						"childrenAttributes": []
+					},
+					{
+						"id": "33f3f71c-5acc-453a-bddc-1e0e6a1102f5",
+						"name": "FRANKOWNICA UP",
+						"code": "F",
+						"spCode": null,
+						"childrenAttributes": []
+					}
+				],
+				"childrenAttributes": []
+			},
+			{
+				"id": "0d843711-c498-449a-8517-71812c5fd028",
+				"name": "POSTE RESTANTE",
+				"code": "AT_RES",
+				"spCode": null,
+				"attributeValueType": "BOOLEAN",
+				"attributeType": "STANDARD",
+				"rules": [],
+				"isRequired": "YES",
+				"filedValue": {
+					"value": "",
+					"isEditable": "UNDEFINED"
+				},
+				"listEntries": [],
+				"childrenAttributes": []
+			},
+			{
+				"id": "27e75dd1-407d-482b-80be-fda4b2509580",
+				"name": "NR NADANIA DEF",
+				"code": "AT_NDEF",
+				"spCode": null,
+				"attributeValueType": "TEXT",
+				"attributeType": "STANDARD",
+				"rules": [],
+				"isRequired": "UNDEFINED",
+				"filedValue": {
+					"value": "",
+					"isEditable": "UNDEFINED"
+				},
+				"listEntries": [],
+				"childrenAttributes": []
+			}
+		],
+		"relatedMarkers": [],
+		"additionalServices": [
+			{
+				"id": "8df24b23-2033-466c-a9d7-86c304fe00a6",
+				"name": "ZADEKLAROWANIE WARTOŚCI",
+				"attributes": [
+					{
+						"id": "75885164-4adb-4f8f-a520-53d051754bc6",
+						"name": "ZADEKLAROWANA WARTOŚĆ",
+						"code": "UD_AT_ZW",
+						"spCode": null,
+						"attributeValueType": "COMPLEX",
+						"attributeType": "AS_ATTR",
+						"rules": [],
+						"isRequired": "UNDEFINED",
+						"filedValue": {
+							"value": "",
+							"isEditable": "UNDEFINED"
+						},
+						"listEntries": [],
+						"childrenAttributes": [
+							{
+								"id": "93637506-8f72-4536-b192-1193483c88b1",
+								"name": "WARTOŚĆ ZADEKLAROWANEJ WARTOŚCI",
+								"code": "AT_W_ZADWAR",
+								"spCode": null,
+								"attributeValueType": "INTEGER",
+								"attributeType": "COMPLEX_CHILD",
+								"rules": [
+									{ 
+										"attributeRuleType": "GTE",
+										"attributeRuleValue": "0.01"
+									},
+									{
+										"attributeRuleType": "LTE",
+										"attributeRuleValue": "100"
+									}
+								],
+								"isRequired": "UNDEFINED",
+								"filedValue": {
+									"value": "",
+									"isEditable": "UNDEFINED"
+								},
+								"listEntries": [],
+								"childrenAttributes": []
+							},
+							{
+								"id": "f344057d-1a8e-416a-bbdc-6fd67ac1a385",
+								"name": "JEDNOSTKA WALUTA",
+								"code": "AT_JED_WAL",
+								"spCode": null,
+								"attributeValueType": "LIST",
+								"attributeType": "COMPLEX_CHILD",
+								"rules": [],
+								"isRequired": "UNDEFINED",
+								"filedValue": {
+									"value": "",
+									"isEditable": "UNDEFINED"
+								},
+								"listEntries": [
+									{
+										"id": "2e3e6211-5f75-49d3-8c19-bec1d8320d7c",
+										"name": "ZŁ",
+										"code": "COD_JED_ZŁ",
+										"spCode": null,
+										"childrenAttributes": []
+									}
+								],
+								"childrenAttributes": []
+							}
+						]
+					}
+				],
+				"code": "ZAD_WAR"
+			},
+			{
+				"id": "8df24b23-2033-466c-a9d7-86c304fe0015",
+				"name": "UBEZPIECZENIE",
+				"attributes": [
+					{
+						"id": "2754617d-2ac4-4a7e-8d2a-d4a1b6e46b20",
+						"name": "KWOTA UBEZPIECZENIA",
+						"code": "UD_AT_KU",
+						"spCode": null,
+						"attributeValueType": "COMPLEX",
+						"attributeType": "AS_ATTR",
+						"rules": [],
+						"isRequired": "UNDEFINED",
+						"filedValue": {
+							"value": "",
+							"isEditable": "UNDEFINED"
+						},
+						"listEntries": [],
+						"childrenAttributes": [
+							{
+								"id": "1ae228f9-ab0c-4f23-90aa-e6410c886941",
+								"name": "WARTOŚĆ KWOTY UBEZPIECZENIA",
+								"code": "AT_W_UBE",
+								"spCode": null,
+								"attributeValueType": "INTEGER",
+								"attributeType": "COMPLEX_CHILD",
+								"rules": [
+									{
+										"attributeRuleType": "GTE",
+										"attributeRuleValue": "0.01"
+									},
+									{
+										"attributeRuleType": "LTE",
+										"attributeRuleValue": "500"
+									}
+								],
+								"isRequired": "UNDEFINED",
+								"filedValue": {
+									"value": "",
+									"isEditable": "UNDEFINED"
+								},
+								"listEntries": [],
+								"childrenAttributes": []
+							},
+							{
+								"id": "f344057d-1a8e-416a-bbdc-6fd67ac1a385",
+								"name": "JEDNOSTKA WALUTA",
+								"code": "AT_JED_WAL",
+								"spCode": null,
+								"attributeValueType": "LIST",
+								"attributeType": "COMPLEX_CHILD",
+								"rules": [],
+								"isRequired": "UNDEFINED",
+								"filedValue": {
+									"value": "",
+									"isEditable": "UNDEFINED"
+								},
+								"listEntries": [
+									{
+										"id": "2e3e6211-5f75-49d3-8c19-bec1d8320d7c",
+										"name": "ZŁ",
+										"code": "COD_JED_ZŁ",
+										"spCode": null,
+										"childrenAttributes": []
+									}
+								],
+								"childrenAttributes": []
+							}
+						]
+					}
+				],
+				"code": "UBE"
+			}
+		]
+	},
+	"productVariantMarker": null
+}

@@ -24,14 +24,14 @@ function App() {
         <div className="App">
             <header className="App-header">
                 Learn Xstate
-                <div class="grid-container">
-                    <div class="grid-item">{current.matches("szukanie w TMS") && <Spin tip="Loading..." />}</div>
-                    <div class="grid-item">Status: </div>
-                    <div class="grid-item">{current.value}</div>
-                    <div class="grid-item">03</div>
-                    <div class="grid-item">04</div>
+                <div className="grid-container">
+                    <div className="grid-item">{current.matches("szukanie w TMS") && <Spin />}</div>
+                    <div className="grid-item">Status: </div>
+                    <div className="grid-item">{current.value}</div>
+                    <div className="grid-item">03</div>
+                    <div className="grid-item">04</div>
 
-                    <div class="grid-item">
+                    <div className="grid-item">
                         <Button
                             type="primary"
                             disabled={!current.matches("idle")}
@@ -40,7 +40,7 @@ function App() {
                             Szukaj Klienta po NIP
                         </Button>
                     </div>
-                    <div class="grid-item">
+                    <div className="grid-item">
                         <Button
                             type="primary"
                             disabled={!current.matches("prezentowanie wyników")}
@@ -49,13 +49,13 @@ function App() {
                             Jest Klient
                         </Button>
                     </div>
-                    <div class="grid-item">12</div>
-                    <div class="grid-item">13</div>
-                    <div class="grid-item">14</div>
+                    <div className="grid-item">12</div>
+                    <div className="grid-item">13</div>
+                    <div className="grid-item">14</div>
 
-                    <div class="grid-item">20</div>
+                    <div className="grid-item">20</div>
 
-                    <div class="grid-item">
+                    <div className="grid-item">
                         <Button
                             type="primary"
                             danger={true}
@@ -65,24 +65,24 @@ function App() {
                             Nie ma na liście
                         </Button>
                     </div>
-                    <div class="grid-item">22</div>
-                    <div class="grid-item">23</div>
-                    <div class="grid-item">24</div>
+                    <div className="grid-item">22</div>
+                    <div className="grid-item">23</div>
+                    <div className="grid-item">24</div>
 
-                    <div class="grid-item">30</div>
-                    <div class="grid-item">31</div>
-                    <div class="grid-item">32</div>
-                    <div class="grid-item">33</div>
-                    <div class="grid-item">34</div>
+                    <div className="grid-item">30</div>
+                    <div className="grid-item">31</div>
+                    <div className="grid-item">32</div>
+                    <div className="grid-item">33</div>
+                    <div className="grid-item">34</div>
 
-                    <div class="grid-item">40</div>
-                    <div class="grid-item">41</div>
-                    <div class="grid-item">42</div>
-                    <div class="grid-item">43</div>
-                    <div class="grid-item">44</div>
+                    <div className="grid-item">40</div>
+                    <div className="grid-item">41</div>
+                    <div className="grid-item">42</div>
+                    <div className="grid-item">43</div>
+                    <div className="grid-item">44</div>
                 </div>
-                <div class="grid-container2">
-                    <div class="grid-footer">
+                <div className="grid-container2">
+                    <div className="grid-footer">
                         {current.matches("idle") && (
                             <FormClient
                                 id={current.context.id}
@@ -92,8 +92,8 @@ function App() {
                             />
                         )}
                     </div>
-                    <div class="grid-footer">91</div>
-                    <div class="grid-footer">
+                    <div className="grid-footer">91</div>
+                    <div className="grid-footer">
                         <pre style={{ textAlign: "left" }}>
                             {JSON.stringify(
                                 {

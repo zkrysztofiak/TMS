@@ -20,12 +20,10 @@ export const fetchClientInCRM = async (userId) => {
 };
 
 // Action to assign the context id https://stackoverflow.com/questions/59602381/xstate-js-how-to-send-context-to-a-machine
-// const assign_userId = assign({
-// 	userId: (context, event) => event.userId
-// });
+// const assign_userId = assign({ userId: (context, event) => event.userId });
 export const ClientMachine = createMachine(
     {
-        /** @xstate-layout N4IgpgJg5mDOIC5QGEA2BLMA7ALgOnQlTAGIBlALwFcBrAQwCsACAaQ2xzqYAcB7JgHIBJAAoBtAAwBdRKD6x0OdLyyyQAD0QBaAOwBWAIx4AnADYJOgCyXTADgBMegMx7LAGhABPbZcd57OvbWxhLWlnoSFgC+UR5omLh4sNT0WJhMAO5MACoAsmQkECpgBFgAbrw0JTA48Rx5ZJIySCDyisqqLZoIWgGWeJY6TqYGQU4uOlbuXj6WRgY6piG2kzrG4wYxceyJybR0aWCZOfkkYABO57zneNyodDgAZtcAtng1dbgNTWptSipqbpaCL2PBDCSmewGVwuYw6Wwebw9ey2IyRWwjCROKH6UwuLYgT74PapdJZZAAIRYhWKpQqVXeYFqO1qVJ+LT+HUB2hR-RW9nsTgMeIMTkmxkR2gWtjwLj0ixGkMMEjhBKJSRSBzJTEp1IuVxudwez3Obw+LN17LkvAU-06oCBvP8WJstkG2KWeklPX0eAMxkcoWMliFGIk9jVLI1+0Ox2QACVcjSsCV0OVKtUmUSE7kra0be0AV1EE5+nYofY7MMVpD7N6tNCdH7xmEJBFjHp1rZIwliZrY+TE2dLtdbvcnq9Gczezm85yiw7EAYZaY9KjlU4sU44R3vdDQUKXAFTODUdiexxbucwBQOLwMlqjhlPGkaABnjIkABScBwrBZc4Fna3IINuTiyo2qK2CqKLytMSJaCG4HYvYKo6MKJ5usGF6JNw163rg96PpkL7oO+n4COkLxcFgXAYIA2oAAMaYIBtpcsWCAomiEgYiGaFmAY9YCk24QYvoZgOOGOH4MIIhMAwv5MAA8iwTB0MQ-69jRVF0CQADieisYW9oaIgAqytiPF6OYegBNCTjevKMoGMKgwLHohgud2sSElGsnyYpKlqRpbBaUwsbUfphkGM01psQupk9HMMoeRCPG+JCti2F6MwIE5frCi44RiiEtnSXglAxukoUcFwjEQPplhGcBHGCn6gpWTo4aWDWBjwSWISypE4wBgKgp4uVlWkkcNW4HVDV6U1MW-EB7GLj0LgSP4Di2GK4ymCMWU5Ui25bZu4bQSMwzbt5PlYLwEBwGoRIrfFJlAusRhuuG6FtqYczwvWzhbR2-pttZHqDOVhDEK9xkgVoWXgd9dl-QDCK5YhfgnkE1lBkExjQuVJLEVkDRwy163AuGeBwYEhPlh5gmY9Y4Grv69lCgs-p6MT-barqFNrYlwIuWCwa7au8rho4pj1vueBhjdVi7ehHZ81VT46omQsJY6J606Ebqlp2rgBsdS6RP48Inuhhi49hPnqnhN53g+A6keRuvvWZW3oXY5gWCsFhtjo9a+HoeA4+E5iWAGcebE7UbxnQRT0YA4IAAITeyBsfi22EKoj9Ljh9jgThOhla2V1ljlf5CmwH+QXqTNLLaUc1E5xx2IiSE+iOJWg8nvLBhbaPN3rJYEIolik3863YX1V362biYSPJfCxgdksGNIoMoJbzY9ghGKlb4knvZ4CwKiYIxTAk2kXCzZwy8i2dxjQQzzg2JCB3Zd6ARI7jFRDYG2lY1gxBiEAA */
+        /** @xstate-layout N4IgpgJg5mDOIC5QGEA2BLMA7ALgOnQlTAGIBlALwFcBrAQwCsACAaQ2xzqYAcB7JgHIBJAAoBtAAwBdRKD6x0OdLyyyQAD0QBaAOwBWAIx4AnADYJOgCyXTADgBMegMx7LAGhABPbZcd57OvbWxhLWlnoSFgC+UR5omLh4sNT0WJhMAO5MACoAsmQkECpgBFgAbrw0JTA48Rx5ZJIySCDyisqqLZoIWgGWeJY6TqYGQU4uOlbuXj6WRgY6piG2kzrG4wYxceyJybR0aWCZOfkkYABO57zneNyodDgAZtcAtng1dbgNTWptSipqbpaCL2PBDCSmewGVwuYw6Wwebw9ey2IyRWwjCROKH6UwuLYgT74PapdJZZAAIRYhWKpQqVXeYFqO1qVJ+LT+HUB2gCTjBGIMo2Gk3MTkR2gWpn89iCpkMkyxC3sBKJSRSBzJTEp1IuVxudwez3Obw+LO17LkvAU-06oCBvLwgqGejhS2Mcxs4p6kLwTmMQXdtksQdcEUsKpZav2h2OyAASrkaVgSuhypVqkyifHchbWlb2gCuohLBITMHBTKQZYnDoDF7sY7jE2bIEccNw7FCZGSRqjuSE2dLtdbvcnq9GcyErUE7nOYW7cWjCM7JjIfZ1tDpkiFkZDE5gxDbE5QgFTBGp7dzmAKBxeBle5lPGkaABnjIkABScBwrBZs-zNrcgg662HgthmAYNgGJCLiCqYXrAhIaJ6DCQZ2P6grnhwl7Xre94xhkT7oK+74COkLxcFgXAYIA2oAAMaYP+1pckWwGong6KmL4cyuBIrgIfYdh4Hojg1hIxi2KEELKp2qrCCITAMN+TAAPIsEwdDEL+U6UeRdAkExBa2hoiAuBxcwYjKBgSPYfrQV6ImlpEzkuDK4mCVhiTyYpylqRpWlsDpTAxhRBkGM0lrMfOJkIHoUorOsIz7hI4H6PYXq+DoYLjE4BhNq41ZoZ5+CUNG6SBRwXB0RABnSL8AEsQuyJWNlIyQTYEnmDo9a5f4LmDMYzi2HFxV4KVpJHBVuBVTVYjhfVUXGd0ER4KYa1rTokQScEdYzAg+5Sut+hYu66yBHoMSdlgvAQHAahEgtRlAVoG5gSWATWXFczwghei2KBLgwv61ZDFxo2EMQj2AaxWj-XyQY2bWfFcQsCJ7Vovh6KtgThOYljA8Y0KjT2BEnGQUONTFiGgnoViBITdiOIYCHWHycp5dCGw7oNxPqqT2oU9FQL4-0iwGCskHgTB4QIZzvqJUhKxLEegy82VfZagmgtLTyLrCaElnjFCIRintIRgX9Aa+Gt1kLKN3BXjeuB3g+hHPm+2tAfYpa1iukTwptm20yzfimDjcWhATmyyZG3lKbAP5+Zpk0srpRwUZ7rG5aW3GY7BoR2AhQb604qUpcsEkXTHF7jQ+U2cEw1WZ01vSbWWGIpclSwGKbSKYxxR65WYDiSjJ2wXiwKiYHRTAk+gXD13QzcxTKwnmJi4mCoNjho0iKJZRYkE2yJcJrGel1AA */
         context: {
             CBKchecked: 0,
             CRMchecked: 0,
@@ -104,44 +102,35 @@ export const ClientMachine = createMachine(
                 entry: assign({ error: "none" }),
                 on: {
                     "Jest Klient": {
-                        target: "Radość!",
+                        // actions: assign({ CBKchecked: 0, CRMchecked: 0 }),
+                        target: "idle",
                     },
-                    "Nie ma na liście": {
-                        target: "NIP jest OK ale Klienta nie ma",
-                    },
+                    "Nie ma na liście": "NIP jest OK ale Klienta nie ma",
                 },
             },
 
-            "Radość!": {},
-
             "NIP jest OK ale Klienta nie ma": {
-                on: {
-                    G5: [
-                        {
-                            target: "Szukanie Klienta cd",
-                            // cond: (context) => context.CBKchecked > 0,
-                            cond: "CBKchecked",
-                        },
-                        {
-                            target: "szukanie w CBK",
-                            cond: !"CBKchecked",
-                        },
-                    ],
-                },
+                always: [
+                    {
+                        target: "szukanie w CBK",
+                        cond: "condCBKchecked",
+                    },
+                    {
+                        target: "Szukanie Klienta cd",
+                    },
+                ],
             },
 
             "Szukanie Klienta cd": {
-                on: {
-                    G4: [
-                        {
-                            target: "Koniec szukania Klienta",
-                            cond: "SCRMchecked",
-                        },
-                        {
-                            target: "szukanie w CRM",
-                        },
-                    ],
-                },
+                always: [
+                    {
+                        target: "szukanie w CRM",
+                        cond: "condCRMchecked",
+                    },
+                    {
+                        target: "Koniec szukania Klienta",
+                    },
+                ],
             },
 
             "Koniec szukania Klienta": {},
@@ -157,20 +146,13 @@ export const ClientMachine = createMachine(
         },
         services: {},
         guards: {
-            jest_w_TMS: (context, event) => {
-                return true;
+            condCBKchecked: (context, event) => {
+                console.log("context.CBKchecked: " + context.CBKchecked === 0);
+                return !context.CBKchecked;
             },
-            nie_ma_w_TMS: (context, event) => {
-                return false;
-            },
-            nie_ma_w_CBK: (context, event) => {
-                return false;
-            },
-            nie_ma_w_CRM: (context, event) => {
-                return false;
-            },
-            CBKchecked: (context, event) => {
-                return true;
+            condCRMchecked: (context, event) => {
+                console.log("context.CRMchecked: " + context.CRMchecked === 0);
+                return !context.CRMchecked;
             },
         },
         delays: {},

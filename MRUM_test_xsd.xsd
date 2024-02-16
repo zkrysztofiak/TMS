@@ -1,0 +1,3966 @@
+<?xml version='1.0' encoding='utf-8'?>
+<soapenv:Envelope xmlns:soapenv="http://www.w3.org/2003/05/soap-envelope">
+	<SOAP-ENV:Header xmlns:SOAP-ENV="http://www.w3.org/2003/05/soap-envelope" xmlns:SOAP-ENC="http://www.w3.org/2003/05/soap-encoding"/>
+	<soapenv:Body>
+		<tns:GetContractCardResponse xmlns:tns="http://poczta-polska.pl/kmd">
+			<MRUMContractCard xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="tns:MRUmContractCardType">
+				<tns:idContractCard>458350</tns:idContractCard>
+				<tns:name>KLIENT TESTOWY PIT - EN</tns:name>
+				<tns:idContract>302977</tns:idContract>
+				<tns:idCustomer>208006</tns:idCustomer>
+				<tns:customer>
+					<tns:idCustomer>208006</tns:idCustomer>
+					<tns:fullName>KLIENT TESTOWY Wer. 1</tns:fullName>
+					<tns:shortName>KLIENT TESTOWY wer. 1</tns:shortName>
+					<tns:addressList xsi:type="tns:PersonalizedAddressType">
+						<tns:idAddress>452474</tns:idAddress>
+						<tns:street>Testowa</tns:street>
+						<tns:houseNumber>12</tns:houseNumber>
+						<tns:apartamentNumber/>
+						<tns:city>Otwock</tns:city>
+						<tns:zipCode>05-400</tns:zipCode>
+						<tns:country>PL</tns:country>
+						<tns:idPersonalizedAddress>1</tns:idPersonalizedAddress>
+						<tns:companyNameOrFirstName>KLIENT TESTOWY Wer. 1</tns:companyNameOrFirstName>
+						<tns:companyNameContinuedOrLastName/>
+						<tns:natureList>HEADQUARTER</tns:natureList>
+					</tns:addressList>
+					<tns:nip>5250007313</tns:nip>
+				</tns:customer>
+				<tns:paySide>SENDER</tns:paySide>
+				<tns:machineShipment>1</tns:machineShipment>
+				<tns:validityProduct>
+					<tns:validFrom>2015-04-30</tns:validFrom>
+					<tns:validTo>2999-12-31</tns:validTo>
+					<tns:product>
+						<tns:typp2>852</tns:typp2>
+						<tns:assortmentId>101</tns:assortmentId>
+						<tns:name>Kurier 48</tns:name>
+						<tns:attribute xsi:type="tns:MRUmProductBaseAttributeType">
+							<tns:firm>false</tns:firm>
+							<tns:eGiveBack>false</tns:eGiveBack>
+							<tns:declareValue>false</tns:declareValue>
+						</tns:attribute>
+						<tns:attribute xsi:type="tns:MRUmDeclareValueRangeType">
+							<tns:minimum>0</tns:minimum>
+							<tns:maximum>999999999</tns:maximum>
+						</tns:attribute>
+						<tns:attribute xsi:type="tns:MRUmPaySideType">
+							<tns:paySide>SENDER</tns:paySide>
+						</tns:attribute>
+						<tns:attribute xsi:type="tns:MRUmEpoType">
+							<tns:epoType>STANDARD</tns:epoType>
+							<tns:epoType>EXTEND</tns:epoType>
+						</tns:attribute>
+						<tns:attribute xsi:type="tns:MRUmGabaritType">
+							<tns:parcelGauge>XS</tns:parcelGauge>
+						</tns:attribute>
+						<tns:attribute xsi:type="tns:MRUmGabaritType">
+							<tns:parcelGauge>S</tns:parcelGauge>
+						</tns:attribute>
+						<tns:attribute xsi:type="tns:MRUmGabaritType">
+							<tns:parcelGauge>M</tns:parcelGauge>
+						</tns:attribute>
+						<tns:attribute xsi:type="tns:MRUmGabaritType">
+							<tns:parcelGauge>L</tns:parcelGauge>
+						</tns:attribute>
+						<tns:attribute xsi:type="tns:MRUmGabaritType">
+							<tns:parcelGauge>XL</tns:parcelGauge>
+						</tns:attribute>
+						<tns:attribute xsi:type="tns:MRUmGabaritType">
+							<tns:parcelGauge>XXL</tns:parcelGauge>
+						</tns:attribute>
+						<tns:attribute xsi:type="tns:MRUmInsuranceType">
+							<tns:insurance xsi:type="tns:MRUmInsuranceInfoType">
+								<tns:symbol>D</tns:symbol>
+								<tns:name>Ubezpieczenie standard (nd)</tns:name>
+							</tns:insurance>
+							<tns:insuranceRange>
+								<tns:threshold>
+									<tns:currency>
+										<tns:code>PLN</tns:code>
+									</tns:currency>
+									<tns:amount>100000</tns:amount>
+								</tns:threshold>
+								<tns:declaration>false</tns:declaration>
+							</tns:insuranceRange>
+							<tns:insuranceRange>
+								<tns:threshold>
+									<tns:currency>
+										<tns:code>PLN</tns:code>
+									</tns:currency>
+									<tns:amount>500000</tns:amount>
+								</tns:threshold>
+								<tns:declaration>false</tns:declaration>
+							</tns:insuranceRange>
+							<tns:insuranceRange>
+								<tns:threshold>
+									<tns:currency>
+										<tns:code>PLN</tns:code>
+									</tns:currency>
+									<tns:amount>1000000</tns:amount>
+								</tns:threshold>
+								<tns:declaration>false</tns:declaration>
+							</tns:insuranceRange>
+							<tns:insuranceRange>
+								<tns:threshold>
+									<tns:currency>
+										<tns:code>PLN</tns:code>
+									</tns:currency>
+									<tns:amount>2000000</tns:amount>
+								</tns:threshold>
+								<tns:declaration>false</tns:declaration>
+							</tns:insuranceRange>
+							<tns:insuranceRange>
+								<tns:threshold>
+									<tns:currency>
+										<tns:code>PLN</tns:code>
+									</tns:currency>
+									<tns:amount>5000000</tns:amount>
+								</tns:threshold>
+								<tns:declaration>false</tns:declaration>
+							</tns:insuranceRange>
+							<tns:insuranceRange>
+								<tns:threshold>
+									<tns:currency>
+										<tns:code>PLN</tns:code>
+									</tns:currency>
+									<tns:amount>25000000</tns:amount>
+								</tns:threshold>
+								<tns:declaration>true</tns:declaration>
+							</tns:insuranceRange>
+						</tns:attribute>
+						<tns:attribute xsi:type="tns:MRUmSubParcelValueType">
+							<tns:maximum>10</tns:maximum>
+						</tns:attribute>
+						<tns:attribute xsi:type="tns:MRUmProductAdditionalAttributeType">
+							<tns:additionalAttribute>CAREFULLY</tns:additionalAttribute>
+							<tns:isRequired>false</tns:isRequired>
+						</tns:attribute>
+						<tns:attribute xsi:type="tns:MRUmProductAdditionalAttributeType">
+							<tns:additionalAttribute>NON_STANDARD_SHIPMENT</tns:additionalAttribute>
+							<tns:isRequired>false</tns:isRequired>
+						</tns:attribute>
+						<tns:attribute xsi:type="tns:MRUmProductAdditionalAttributeType">
+							<tns:additionalAttribute>PAPER_PROOF_OF_DELIVERY</tns:additionalAttribute>
+							<tns:isRequired>false</tns:isRequired>
+						</tns:attribute>
+						<tns:attribute xsi:type="tns:MRUmProductAdditionalAttributeType">
+							<tns:additionalAttribute>RETURN_DOCUMENT</tns:additionalAttribute>
+							<tns:isRequired>false</tns:isRequired>
+						</tns:attribute>
+						<tns:attribute xsi:type="tns:MRUmProductAdditionalAttributeType">
+							<tns:additionalAttribute>VERIFICATION_BEFORE_DELIVERY</tns:additionalAttribute>
+							<tns:isRequired>false</tns:isRequired>
+						</tns:attribute>
+						<tns:attribute xsi:type="tns:MRUmProductAdditionalAttributeType">
+							<tns:additionalAttribute>DELIVERY_FOR_RECIPIENT_ONLY</tns:additionalAttribute>
+							<tns:isRequired>false</tns:isRequired>
+						</tns:attribute>
+					</tns:product>
+				</tns:validityProduct>
+				<tns:validityProduct>
+					<tns:validFrom>2019-01-04</tns:validFrom>
+					<tns:validTo>2999-12-31</tns:validTo>
+					<tns:product>
+						<tns:typp2>840</tns:typp2>
+						<tns:assortmentId>82</tns:assortmentId>
+						<tns:name>Przesyłka firmowa nierejestrowana</tns:name>
+						<tns:attribute xsi:type="tns:MRUmProductBaseAttributeType">
+							<tns:firm>true</tns:firm>
+							<tns:eGiveBack>false</tns:eGiveBack>
+							<tns:declareValue>false</tns:declareValue>
+						</tns:attribute>
+						<tns:attribute xsi:type="tns:MRUmAddressAreaType">
+							<tns:addressAreaEnums>LOCAL</tns:addressAreaEnums>
+							<tns:addressAreaEnums>NON_LOCAL</tns:addressAreaEnums>
+						</tns:attribute>
+						<tns:attribute xsi:type="tns:MRUmGabaritType">
+							<tns:letterGauge>A</tns:letterGauge>
+						</tns:attribute>
+						<tns:attribute xsi:type="tns:MRUmGabaritType">
+							<tns:letterGauge>B</tns:letterGauge>
+						</tns:attribute>
+						<tns:attribute xsi:type="tns:MRUmMassRangeType">
+							<tns:minimum>0</tns:minimum>
+							<tns:maximum>2000</tns:maximum>
+						</tns:attribute>
+						<tns:attribute xsi:type="tns:MRUmPackageCategoryType">
+							<tns:category>EKONOMICZNA</tns:category>
+							<tns:category>PRIORYTETOWA</tns:category>
+						</tns:attribute>
+					</tns:product>
+				</tns:validityProduct>
+				<tns:validityProduct>
+					<tns:validFrom>2017-02-01</tns:validFrom>
+					<tns:validTo>2999-12-31</tns:validTo>
+					<tns:product>
+						<tns:typp2>811</tns:typp2>
+						<tns:assortmentId>47</tns:assortmentId>
+						<tns:name>Przesyłka marketingowa nierejestrowana z numerem</tns:name>
+						<tns:service>LIST_MARKETINGOWY</tns:service>
+						<tns:attribute xsi:type="tns:MRUmProductBaseAttributeType">
+							<tns:firm>false</tns:firm>
+							<tns:eGiveBack>false</tns:eGiveBack>
+							<tns:declareValue>false</tns:declareValue>
+						</tns:attribute>
+						<tns:attribute xsi:type="tns:MRUmGabaritType">
+							<tns:letterGauge>A</tns:letterGauge>
+						</tns:attribute>
+						<tns:attribute xsi:type="tns:MRUmGabaritType">
+							<tns:letterGauge>B</tns:letterGauge>
+						</tns:attribute>
+						<tns:attribute xsi:type="tns:MRUmMassRangeType">
+							<tns:minimum>0</tns:minimum>
+							<tns:maximum>2000</tns:maximum>
+						</tns:attribute>
+					</tns:product>
+				</tns:validityProduct>
+				<tns:validityProduct>
+					<tns:validFrom>2017-02-01</tns:validFrom>
+					<tns:validTo>2999-12-31</tns:validTo>
+					<tns:product>
+						<tns:typp2>811</tns:typp2>
+						<tns:assortmentId>44</tns:assortmentId>
+						<tns:name>List biznesowy nierejestrowany z numerem</tns:name>
+						<tns:service>LIST_BIZNESOWY</tns:service>
+						<tns:attribute xsi:type="tns:MRUmProductBaseAttributeType">
+							<tns:firm>false</tns:firm>
+							<tns:eGiveBack>false</tns:eGiveBack>
+							<tns:declareValue>false</tns:declareValue>
+						</tns:attribute>
+						<tns:attribute xsi:type="tns:MRUmMassRangeType">
+							<tns:minimum>0</tns:minimum>
+							<tns:maximum>1000</tns:maximum>
+						</tns:attribute>
+					</tns:product>
+				</tns:validityProduct>
+				<tns:validityProduct>
+					<tns:validFrom>2015-04-30</tns:validFrom>
+					<tns:validTo>2999-12-31</tns:validTo>
+					<tns:product>
+						<tns:typp2>878</tns:typp2>
+						<tns:assortmentId>113</tns:assortmentId>
+						<tns:name>Paczka pocztowa zagraniczna PR</tns:name>
+						<tns:attribute xsi:type="tns:MRUmProductBaseAttributeType">
+							<tns:firm>false</tns:firm>
+							<tns:eGiveBack>false</tns:eGiveBack>
+							<tns:declareValue>false</tns:declareValue>
+						</tns:attribute>
+						<tns:attribute xsi:type="tns:MRUmDeclareValueRangeType">
+							<tns:minimum>0</tns:minimum>
+							<tns:maximum>999999999</tns:maximum>
+						</tns:attribute>
+						<tns:attribute xsi:type="tns:MRUmMassRangeType">
+							<tns:minimum>0</tns:minimum>
+							<tns:maximum>20000</tns:maximum>
+						</tns:attribute>
+						<tns:attribute xsi:type="tns:MRUmPackageCategoryType">
+							<tns:category>PRIORYTETOWA</tns:category>
+						</tns:attribute>
+						<tns:attribute xsi:type="tns:MRUmProductAdditionalAttributeType">
+							<tns:additionalAttribute>PAPER_PROOF_OF_DELIVERY</tns:additionalAttribute>
+							<tns:isRequired>false</tns:isRequired>
+						</tns:attribute>
+					</tns:product>
+				</tns:validityProduct>
+				<tns:validityProduct>
+					<tns:validFrom>2017-02-01</tns:validFrom>
+					<tns:validTo>2999-12-31</tns:validTo>
+					<tns:product>
+						<tns:typp2>838</tns:typp2>
+						<tns:assortmentId>80</tns:assortmentId>
+						<tns:name>Pocztex Procedura VIP III</tns:name>
+						<tns:service>PROCEDURALNA_VIP_TRZY_STOPNIE</tns:service>
+						<tns:attribute xsi:type="tns:MRUmProductBaseAttributeType">
+							<tns:firm>false</tns:firm>
+							<tns:eGiveBack>false</tns:eGiveBack>
+							<tns:declareValue>false</tns:declareValue>
+						</tns:attribute>
+						<tns:attribute xsi:type="tns:MRUmDeclareValueRangeType">
+							<tns:minimum>0</tns:minimum>
+							<tns:maximum>999999999</tns:maximum>
+						</tns:attribute>
+						<tns:attribute xsi:type="tns:MRUmEpoType">
+							<tns:epoType>EXTEND</tns:epoType>
+						</tns:attribute>
+						<tns:attribute xsi:type="tns:MRUmMassRangeType">
+							<tns:minimum>0</tns:minimum>
+							<tns:maximum>50000</tns:maximum>
+						</tns:attribute>
+						<tns:attribute xsi:type="tns:MRUmProceduralOptionType">
+							<tns:additionalActivities>
+								<tns:idActivity>1</tns:idActivity>
+							</tns:additionalActivities>
+							<tns:additionalActivities>
+								<tns:idActivity>2</tns:idActivity>
+							</tns:additionalActivities>
+							<tns:additionalActivities>
+								<tns:idActivity>3</tns:idActivity>
+							</tns:additionalActivities>
+							<tns:additionalActivities>
+								<tns:idActivity>4</tns:idActivity>
+							</tns:additionalActivities>
+							<tns:additionalActivities>
+								<tns:idActivity>5</tns:idActivity>
+							</tns:additionalActivities>
+							<tns:additionalActivities>
+								<tns:idActivity>6</tns:idActivity>
+							</tns:additionalActivities>
+							<tns:additionalActivities>
+								<tns:idActivity>7</tns:idActivity>
+							</tns:additionalActivities>
+							<tns:additionalActivities>
+								<tns:idActivity>8</tns:idActivity>
+							</tns:additionalActivities>
+							<tns:additionalActivities>
+								<tns:idActivity>9</tns:idActivity>
+							</tns:additionalActivities>
+							<tns:additionalActivities>
+								<tns:idActivity>10</tns:idActivity>
+							</tns:additionalActivities>
+							<tns:additionalActivities>
+								<tns:idActivity>11</tns:idActivity>
+							</tns:additionalActivities>
+							<tns:additionalActivities>
+								<tns:idActivity>12</tns:idActivity>
+							</tns:additionalActivities>
+							<tns:additionalActivities>
+								<tns:idActivity>13</tns:idActivity>
+							</tns:additionalActivities>
+							<tns:additionalActivities>
+								<tns:idActivity>14</tns:idActivity>
+							</tns:additionalActivities>
+							<tns:additionalActivities>
+								<tns:idActivity>15</tns:idActivity>
+							</tns:additionalActivities>
+						</tns:attribute>
+						<tns:attribute xsi:type="tns:MRUmInsuranceType">
+							<tns:insurance xsi:type="tns:MRUmInsuranceInfoType">
+								<tns:symbol>V3</tns:symbol>
+								<tns:name>838V3 - Ubezpieczenie standard (nd)</tns:name>
+							</tns:insurance>
+							<tns:insuranceRange>
+								<tns:threshold>
+									<tns:currency>
+										<tns:code>PLN</tns:code>
+									</tns:currency>
+									<tns:amount>100000</tns:amount>
+								</tns:threshold>
+								<tns:declaration>false</tns:declaration>
+							</tns:insuranceRange>
+							<tns:insuranceRange>
+								<tns:threshold>
+									<tns:currency>
+										<tns:code>PLN</tns:code>
+									</tns:currency>
+									<tns:amount>500000</tns:amount>
+								</tns:threshold>
+								<tns:declaration>false</tns:declaration>
+							</tns:insuranceRange>
+							<tns:insuranceRange>
+								<tns:threshold>
+									<tns:currency>
+										<tns:code>PLN</tns:code>
+									</tns:currency>
+									<tns:amount>1000000</tns:amount>
+								</tns:threshold>
+								<tns:declaration>false</tns:declaration>
+							</tns:insuranceRange>
+							<tns:insuranceRange>
+								<tns:threshold>
+									<tns:currency>
+										<tns:code>PLN</tns:code>
+									</tns:currency>
+									<tns:amount>2000000</tns:amount>
+								</tns:threshold>
+								<tns:declaration>false</tns:declaration>
+							</tns:insuranceRange>
+							<tns:insuranceRange>
+								<tns:threshold>
+									<tns:currency>
+										<tns:code>PLN</tns:code>
+									</tns:currency>
+									<tns:amount>5000000</tns:amount>
+								</tns:threshold>
+								<tns:declaration>false</tns:declaration>
+							</tns:insuranceRange>
+							<tns:insuranceRange>
+								<tns:threshold>
+									<tns:currency>
+										<tns:code>PLN</tns:code>
+									</tns:currency>
+									<tns:amount>25000000</tns:amount>
+								</tns:threshold>
+								<tns:declaration>true</tns:declaration>
+							</tns:insuranceRange>
+						</tns:attribute>
+						<tns:attribute xsi:type="tns:MRUmProductAdditionalAttributeType">
+							<tns:additionalAttribute>CASH_ON_DELIVERY</tns:additionalAttribute>
+							<tns:isRequired>false</tns:isRequired>
+						</tns:attribute>
+					</tns:product>
+				</tns:validityProduct>
+				<tns:validityProduct>
+					<tns:validFrom>2017-04-01</tns:validFrom>
+					<tns:validTo>2999-12-31</tns:validTo>
+					<tns:product>
+						<tns:typp2>516</tns:typp2>
+						<tns:assortmentId>43</tns:assortmentId>
+						<tns:name>Druki płatne</tns:name>
+						<tns:attribute xsi:type="tns:MRUmProductBaseAttributeType">
+							<tns:firm>false</tns:firm>
+							<tns:eGiveBack>false</tns:eGiveBack>
+							<tns:declareValue>false</tns:declareValue>
+						</tns:attribute>
+					</tns:product>
+				</tns:validityProduct>
+				<tns:validityProduct>
+					<tns:validFrom>2017-02-01</tns:validFrom>
+					<tns:validTo>2999-12-31</tns:validTo>
+					<tns:product>
+						<tns:typp2>838</tns:typp2>
+						<tns:assortmentId>77</tns:assortmentId>
+						<tns:name>Pocztex Procedura II</tns:name>
+						<tns:service>PROCEDURALNA_STANDARD_DWA_STOPNIE</tns:service>
+						<tns:attribute xsi:type="tns:MRUmProductBaseAttributeType">
+							<tns:firm>false</tns:firm>
+							<tns:eGiveBack>false</tns:eGiveBack>
+							<tns:declareValue>false</tns:declareValue>
+						</tns:attribute>
+						<tns:attribute xsi:type="tns:MRUmDeclareValueRangeType">
+							<tns:minimum>0</tns:minimum>
+							<tns:maximum>999999999</tns:maximum>
+						</tns:attribute>
+						<tns:attribute xsi:type="tns:MRUmEpoType">
+							<tns:epoType>EXTEND</tns:epoType>
+						</tns:attribute>
+						<tns:attribute xsi:type="tns:MRUmMassRangeType">
+							<tns:minimum>0</tns:minimum>
+							<tns:maximum>50000</tns:maximum>
+						</tns:attribute>
+						<tns:attribute xsi:type="tns:MRUmProceduralOptionType">
+							<tns:additionalActivities>
+								<tns:idActivity>7</tns:idActivity>
+							</tns:additionalActivities>
+							<tns:additionalActivities>
+								<tns:idActivity>8</tns:idActivity>
+							</tns:additionalActivities>
+							<tns:additionalActivities>
+								<tns:idActivity>9</tns:idActivity>
+							</tns:additionalActivities>
+							<tns:additionalActivities>
+								<tns:idActivity>10</tns:idActivity>
+							</tns:additionalActivities>
+							<tns:additionalActivities>
+								<tns:idActivity>11</tns:idActivity>
+							</tns:additionalActivities>
+							<tns:additionalActivities>
+								<tns:idActivity>12</tns:idActivity>
+							</tns:additionalActivities>
+							<tns:additionalActivities>
+								<tns:idActivity>13</tns:idActivity>
+							</tns:additionalActivities>
+							<tns:additionalActivities>
+								<tns:idActivity>14</tns:idActivity>
+							</tns:additionalActivities>
+							<tns:additionalActivities>
+								<tns:idActivity>15</tns:idActivity>
+							</tns:additionalActivities>
+						</tns:attribute>
+						<tns:attribute xsi:type="tns:MRUmInsuranceType">
+							<tns:insurance xsi:type="tns:MRUmInsuranceInfoType">
+								<tns:symbol>S2</tns:symbol>
+								<tns:name>838S2 - Ubezpieczenie standard (nd)</tns:name>
+							</tns:insurance>
+							<tns:insuranceRange>
+								<tns:threshold>
+									<tns:currency>
+										<tns:code>PLN</tns:code>
+									</tns:currency>
+									<tns:amount>100000</tns:amount>
+								</tns:threshold>
+								<tns:declaration>false</tns:declaration>
+							</tns:insuranceRange>
+							<tns:insuranceRange>
+								<tns:threshold>
+									<tns:currency>
+										<tns:code>PLN</tns:code>
+									</tns:currency>
+									<tns:amount>500000</tns:amount>
+								</tns:threshold>
+								<tns:declaration>false</tns:declaration>
+							</tns:insuranceRange>
+							<tns:insuranceRange>
+								<tns:threshold>
+									<tns:currency>
+										<tns:code>PLN</tns:code>
+									</tns:currency>
+									<tns:amount>1000000</tns:amount>
+								</tns:threshold>
+								<tns:declaration>false</tns:declaration>
+							</tns:insuranceRange>
+							<tns:insuranceRange>
+								<tns:threshold>
+									<tns:currency>
+										<tns:code>PLN</tns:code>
+									</tns:currency>
+									<tns:amount>2000000</tns:amount>
+								</tns:threshold>
+								<tns:declaration>false</tns:declaration>
+							</tns:insuranceRange>
+							<tns:insuranceRange>
+								<tns:threshold>
+									<tns:currency>
+										<tns:code>PLN</tns:code>
+									</tns:currency>
+									<tns:amount>5000000</tns:amount>
+								</tns:threshold>
+								<tns:declaration>false</tns:declaration>
+							</tns:insuranceRange>
+							<tns:insuranceRange>
+								<tns:threshold>
+									<tns:currency>
+										<tns:code>PLN</tns:code>
+									</tns:currency>
+									<tns:amount>25000000</tns:amount>
+								</tns:threshold>
+								<tns:declaration>true</tns:declaration>
+							</tns:insuranceRange>
+						</tns:attribute>
+						<tns:attribute xsi:type="tns:MRUmProductAdditionalAttributeType">
+							<tns:additionalAttribute>CASH_ON_DELIVERY</tns:additionalAttribute>
+							<tns:isRequired>false</tns:isRequired>
+						</tns:attribute>
+					</tns:product>
+				</tns:validityProduct>
+				<tns:validityProduct>
+					<tns:validFrom>2015-04-30</tns:validFrom>
+					<tns:validTo>2999-12-31</tns:validTo>
+					<tns:product>
+						<tns:typp2>834</tns:typp2>
+						<tns:assortmentId>73</tns:assortmentId>
+						<tns:name>Kurier Miejski do 4h</tns:name>
+						<tns:service>MIEJSKI_DO_4H_DO_10KM</tns:service>
+						<tns:attribute xsi:type="tns:MRUmProductBaseAttributeType">
+							<tns:firm>false</tns:firm>
+							<tns:eGiveBack>false</tns:eGiveBack>
+							<tns:declareValue>false</tns:declareValue>
+						</tns:attribute>
+						<tns:attribute xsi:type="tns:MRUmDeclareValueRangeType">
+							<tns:minimum>0</tns:minimum>
+							<tns:maximum>999999999</tns:maximum>
+						</tns:attribute>
+						<tns:attribute xsi:type="tns:MRUmPaySideType">
+							<tns:paySide>SENDER</tns:paySide>
+						</tns:attribute>
+						<tns:attribute xsi:type="tns:MRUmEpoType">
+							<tns:epoType>STANDARD</tns:epoType>
+							<tns:epoType>EXTEND</tns:epoType>
+						</tns:attribute>
+						<tns:attribute xsi:type="tns:MRUmMassRangeType">
+							<tns:minimum>0</tns:minimum>
+							<tns:maximum>50000</tns:maximum>
+						</tns:attribute>
+						<tns:attribute xsi:type="tns:MRUmInsuranceType">
+							<tns:insurance xsi:type="tns:MRUmInsuranceInfoType">
+								<tns:symbol>F2</tns:symbol>
+								<tns:name>Ubezpieczenie standard (nd)</tns:name>
+							</tns:insurance>
+							<tns:insuranceRange>
+								<tns:threshold>
+									<tns:currency>
+										<tns:code>PLN</tns:code>
+									</tns:currency>
+									<tns:amount>500000</tns:amount>
+								</tns:threshold>
+								<tns:declaration>false</tns:declaration>
+							</tns:insuranceRange>
+							<tns:insuranceRange>
+								<tns:threshold>
+									<tns:currency>
+										<tns:code>PLN</tns:code>
+									</tns:currency>
+									<tns:amount>1000000</tns:amount>
+								</tns:threshold>
+								<tns:declaration>false</tns:declaration>
+							</tns:insuranceRange>
+							<tns:insuranceRange>
+								<tns:threshold>
+									<tns:currency>
+										<tns:code>PLN</tns:code>
+									</tns:currency>
+									<tns:amount>2000000</tns:amount>
+								</tns:threshold>
+								<tns:declaration>false</tns:declaration>
+							</tns:insuranceRange>
+							<tns:insuranceRange>
+								<tns:threshold>
+									<tns:currency>
+										<tns:code>PLN</tns:code>
+									</tns:currency>
+									<tns:amount>5000000</tns:amount>
+								</tns:threshold>
+								<tns:declaration>false</tns:declaration>
+							</tns:insuranceRange>
+							<tns:insuranceRange>
+								<tns:threshold>
+									<tns:currency>
+										<tns:code>PLN</tns:code>
+									</tns:currency>
+									<tns:amount>25000000</tns:amount>
+								</tns:threshold>
+								<tns:declaration>true</tns:declaration>
+							</tns:insuranceRange>
+						</tns:attribute>
+						<tns:attribute xsi:type="tns:MRUmSubParcelValueType">
+							<tns:maximum>10</tns:maximum>
+						</tns:attribute>
+						<tns:attribute xsi:type="tns:MRUmProductAdditionalAttributeType">
+							<tns:additionalAttribute>SATURDAY_PICKUP</tns:additionalAttribute>
+							<tns:isRequired>false</tns:isRequired>
+						</tns:attribute>
+						<tns:attribute xsi:type="tns:MRUmProductAdditionalAttributeType">
+							<tns:additionalAttribute>CAREFULLY</tns:additionalAttribute>
+							<tns:isRequired>false</tns:isRequired>
+						</tns:attribute>
+						<tns:attribute xsi:type="tns:MRUmProductAdditionalAttributeType">
+							<tns:additionalAttribute>NON_STANDARD_SHIPMENT</tns:additionalAttribute>
+							<tns:isRequired>false</tns:isRequired>
+						</tns:attribute>
+						<tns:attribute xsi:type="tns:MRUmProductAdditionalAttributeType">
+							<tns:additionalAttribute>PAPER_PROOF_OF_DELIVERY</tns:additionalAttribute>
+							<tns:isRequired>false</tns:isRequired>
+						</tns:attribute>
+						<tns:attribute xsi:type="tns:MRUmProductAdditionalAttributeType">
+							<tns:additionalAttribute>CASH_ON_DELIVERY</tns:additionalAttribute>
+							<tns:isRequired>false</tns:isRequired>
+						</tns:attribute>
+						<tns:attribute xsi:type="tns:MRUmProductAdditionalAttributeType">
+							<tns:additionalAttribute>RETURN_DOCUMENT</tns:additionalAttribute>
+							<tns:isRequired>false</tns:isRequired>
+						</tns:attribute>
+						<tns:attribute xsi:type="tns:MRUmProductAdditionalAttributeType">
+							<tns:additionalAttribute>VERIFICATION_BEFORE_DELIVERY</tns:additionalAttribute>
+							<tns:isRequired>false</tns:isRequired>
+						</tns:attribute>
+						<tns:attribute xsi:type="tns:MRUmProductAdditionalAttributeType">
+							<tns:additionalAttribute>DELIVERY_FOR_RECIPIENT_ONLY</tns:additionalAttribute>
+							<tns:isRequired>false</tns:isRequired>
+						</tns:attribute>
+					</tns:product>
+				</tns:validityProduct>
+				<tns:validityProduct>
+					<tns:validFrom>2015-04-30</tns:validFrom>
+					<tns:validTo>2999-12-31</tns:validTo>
+					<tns:product>
+						<tns:typp2>834</tns:typp2>
+						<tns:assortmentId>73</tns:assortmentId>
+						<tns:name>Kurier Miejski do 4h</tns:name>
+						<tns:service>MIEJSKI_DO_4H_DO_15KM</tns:service>
+						<tns:attribute xsi:type="tns:MRUmProductBaseAttributeType">
+							<tns:firm>false</tns:firm>
+							<tns:eGiveBack>false</tns:eGiveBack>
+							<tns:declareValue>false</tns:declareValue>
+						</tns:attribute>
+						<tns:attribute xsi:type="tns:MRUmDeclareValueRangeType">
+							<tns:minimum>0</tns:minimum>
+							<tns:maximum>999999999</tns:maximum>
+						</tns:attribute>
+						<tns:attribute xsi:type="tns:MRUmPaySideType">
+							<tns:paySide>SENDER</tns:paySide>
+						</tns:attribute>
+						<tns:attribute xsi:type="tns:MRUmEpoType">
+							<tns:epoType>STANDARD</tns:epoType>
+							<tns:epoType>EXTEND</tns:epoType>
+						</tns:attribute>
+						<tns:attribute xsi:type="tns:MRUmMassRangeType">
+							<tns:minimum>0</tns:minimum>
+							<tns:maximum>50000</tns:maximum>
+						</tns:attribute>
+						<tns:attribute xsi:type="tns:MRUmInsuranceType">
+							<tns:insurance xsi:type="tns:MRUmInsuranceInfoType">
+								<tns:symbol>F2</tns:symbol>
+								<tns:name>Ubezpieczenie standard (nd)</tns:name>
+							</tns:insurance>
+							<tns:insuranceRange>
+								<tns:threshold>
+									<tns:currency>
+										<tns:code>PLN</tns:code>
+									</tns:currency>
+									<tns:amount>500000</tns:amount>
+								</tns:threshold>
+								<tns:declaration>false</tns:declaration>
+							</tns:insuranceRange>
+							<tns:insuranceRange>
+								<tns:threshold>
+									<tns:currency>
+										<tns:code>PLN</tns:code>
+									</tns:currency>
+									<tns:amount>1000000</tns:amount>
+								</tns:threshold>
+								<tns:declaration>false</tns:declaration>
+							</tns:insuranceRange>
+							<tns:insuranceRange>
+								<tns:threshold>
+									<tns:currency>
+										<tns:code>PLN</tns:code>
+									</tns:currency>
+									<tns:amount>2000000</tns:amount>
+								</tns:threshold>
+								<tns:declaration>false</tns:declaration>
+							</tns:insuranceRange>
+							<tns:insuranceRange>
+								<tns:threshold>
+									<tns:currency>
+										<tns:code>PLN</tns:code>
+									</tns:currency>
+									<tns:amount>5000000</tns:amount>
+								</tns:threshold>
+								<tns:declaration>false</tns:declaration>
+							</tns:insuranceRange>
+							<tns:insuranceRange>
+								<tns:threshold>
+									<tns:currency>
+										<tns:code>PLN</tns:code>
+									</tns:currency>
+									<tns:amount>25000000</tns:amount>
+								</tns:threshold>
+								<tns:declaration>true</tns:declaration>
+							</tns:insuranceRange>
+						</tns:attribute>
+						<tns:attribute xsi:type="tns:MRUmSubParcelValueType">
+							<tns:maximum>10</tns:maximum>
+						</tns:attribute>
+						<tns:attribute xsi:type="tns:MRUmProductAdditionalAttributeType">
+							<tns:additionalAttribute>SATURDAY_PICKUP</tns:additionalAttribute>
+							<tns:isRequired>false</tns:isRequired>
+						</tns:attribute>
+						<tns:attribute xsi:type="tns:MRUmProductAdditionalAttributeType">
+							<tns:additionalAttribute>CAREFULLY</tns:additionalAttribute>
+							<tns:isRequired>false</tns:isRequired>
+						</tns:attribute>
+						<tns:attribute xsi:type="tns:MRUmProductAdditionalAttributeType">
+							<tns:additionalAttribute>NON_STANDARD_SHIPMENT</tns:additionalAttribute>
+							<tns:isRequired>false</tns:isRequired>
+						</tns:attribute>
+						<tns:attribute xsi:type="tns:MRUmProductAdditionalAttributeType">
+							<tns:additionalAttribute>PAPER_PROOF_OF_DELIVERY</tns:additionalAttribute>
+							<tns:isRequired>false</tns:isRequired>
+						</tns:attribute>
+						<tns:attribute xsi:type="tns:MRUmProductAdditionalAttributeType">
+							<tns:additionalAttribute>CASH_ON_DELIVERY</tns:additionalAttribute>
+							<tns:isRequired>false</tns:isRequired>
+						</tns:attribute>
+						<tns:attribute xsi:type="tns:MRUmProductAdditionalAttributeType">
+							<tns:additionalAttribute>RETURN_DOCUMENT</tns:additionalAttribute>
+							<tns:isRequired>false</tns:isRequired>
+						</tns:attribute>
+						<tns:attribute xsi:type="tns:MRUmProductAdditionalAttributeType">
+							<tns:additionalAttribute>VERIFICATION_BEFORE_DELIVERY</tns:additionalAttribute>
+							<tns:isRequired>false</tns:isRequired>
+						</tns:attribute>
+						<tns:attribute xsi:type="tns:MRUmProductAdditionalAttributeType">
+							<tns:additionalAttribute>DELIVERY_FOR_RECIPIENT_ONLY</tns:additionalAttribute>
+							<tns:isRequired>false</tns:isRequired>
+						</tns:attribute>
+					</tns:product>
+				</tns:validityProduct>
+				<tns:validityProduct>
+					<tns:validFrom>2015-04-30</tns:validFrom>
+					<tns:validTo>2999-12-31</tns:validTo>
+					<tns:product>
+						<tns:typp2>834</tns:typp2>
+						<tns:assortmentId>73</tns:assortmentId>
+						<tns:name>Kurier Miejski do 4h</tns:name>
+						<tns:service>MIEJSKI_DO_4H_DO_20KM</tns:service>
+						<tns:attribute xsi:type="tns:MRUmProductBaseAttributeType">
+							<tns:firm>false</tns:firm>
+							<tns:eGiveBack>false</tns:eGiveBack>
+							<tns:declareValue>false</tns:declareValue>
+						</tns:attribute>
+						<tns:attribute xsi:type="tns:MRUmDeclareValueRangeType">
+							<tns:minimum>0</tns:minimum>
+							<tns:maximum>999999999</tns:maximum>
+						</tns:attribute>
+						<tns:attribute xsi:type="tns:MRUmPaySideType">
+							<tns:paySide>SENDER</tns:paySide>
+						</tns:attribute>
+						<tns:attribute xsi:type="tns:MRUmEpoType">
+							<tns:epoType>STANDARD</tns:epoType>
+							<tns:epoType>EXTEND</tns:epoType>
+						</tns:attribute>
+						<tns:attribute xsi:type="tns:MRUmMassRangeType">
+							<tns:minimum>0</tns:minimum>
+							<tns:maximum>50000</tns:maximum>
+						</tns:attribute>
+						<tns:attribute xsi:type="tns:MRUmInsuranceType">
+							<tns:insurance xsi:type="tns:MRUmInsuranceInfoType">
+								<tns:symbol>F2</tns:symbol>
+								<tns:name>Ubezpieczenie standard (nd)</tns:name>
+							</tns:insurance>
+							<tns:insuranceRange>
+								<tns:threshold>
+									<tns:currency>
+										<tns:code>PLN</tns:code>
+									</tns:currency>
+									<tns:amount>500000</tns:amount>
+								</tns:threshold>
+								<tns:declaration>false</tns:declaration>
+							</tns:insuranceRange>
+							<tns:insuranceRange>
+								<tns:threshold>
+									<tns:currency>
+										<tns:code>PLN</tns:code>
+									</tns:currency>
+									<tns:amount>1000000</tns:amount>
+								</tns:threshold>
+								<tns:declaration>false</tns:declaration>
+							</tns:insuranceRange>
+							<tns:insuranceRange>
+								<tns:threshold>
+									<tns:currency>
+										<tns:code>PLN</tns:code>
+									</tns:currency>
+									<tns:amount>2000000</tns:amount>
+								</tns:threshold>
+								<tns:declaration>false</tns:declaration>
+							</tns:insuranceRange>
+							<tns:insuranceRange>
+								<tns:threshold>
+									<tns:currency>
+										<tns:code>PLN</tns:code>
+									</tns:currency>
+									<tns:amount>5000000</tns:amount>
+								</tns:threshold>
+								<tns:declaration>false</tns:declaration>
+							</tns:insuranceRange>
+							<tns:insuranceRange>
+								<tns:threshold>
+									<tns:currency>
+										<tns:code>PLN</tns:code>
+									</tns:currency>
+									<tns:amount>25000000</tns:amount>
+								</tns:threshold>
+								<tns:declaration>true</tns:declaration>
+							</tns:insuranceRange>
+						</tns:attribute>
+						<tns:attribute xsi:type="tns:MRUmSubParcelValueType">
+							<tns:maximum>10</tns:maximum>
+						</tns:attribute>
+						<tns:attribute xsi:type="tns:MRUmProductAdditionalAttributeType">
+							<tns:additionalAttribute>SATURDAY_PICKUP</tns:additionalAttribute>
+							<tns:isRequired>false</tns:isRequired>
+						</tns:attribute>
+						<tns:attribute xsi:type="tns:MRUmProductAdditionalAttributeType">
+							<tns:additionalAttribute>CAREFULLY</tns:additionalAttribute>
+							<tns:isRequired>false</tns:isRequired>
+						</tns:attribute>
+						<tns:attribute xsi:type="tns:MRUmProductAdditionalAttributeType">
+							<tns:additionalAttribute>NON_STANDARD_SHIPMENT</tns:additionalAttribute>
+							<tns:isRequired>false</tns:isRequired>
+						</tns:attribute>
+						<tns:attribute xsi:type="tns:MRUmProductAdditionalAttributeType">
+							<tns:additionalAttribute>PAPER_PROOF_OF_DELIVERY</tns:additionalAttribute>
+							<tns:isRequired>false</tns:isRequired>
+						</tns:attribute>
+						<tns:attribute xsi:type="tns:MRUmProductAdditionalAttributeType">
+							<tns:additionalAttribute>CASH_ON_DELIVERY</tns:additionalAttribute>
+							<tns:isRequired>false</tns:isRequired>
+						</tns:attribute>
+						<tns:attribute xsi:type="tns:MRUmProductAdditionalAttributeType">
+							<tns:additionalAttribute>RETURN_DOCUMENT</tns:additionalAttribute>
+							<tns:isRequired>false</tns:isRequired>
+						</tns:attribute>
+						<tns:attribute xsi:type="tns:MRUmProductAdditionalAttributeType">
+							<tns:additionalAttribute>VERIFICATION_BEFORE_DELIVERY</tns:additionalAttribute>
+							<tns:isRequired>false</tns:isRequired>
+						</tns:attribute>
+						<tns:attribute xsi:type="tns:MRUmProductAdditionalAttributeType">
+							<tns:additionalAttribute>DELIVERY_FOR_RECIPIENT_ONLY</tns:additionalAttribute>
+							<tns:isRequired>false</tns:isRequired>
+						</tns:attribute>
+					</tns:product>
+				</tns:validityProduct>
+				<tns:validityProduct>
+					<tns:validFrom>2015-04-30</tns:validFrom>
+					<tns:validTo>2999-12-31</tns:validTo>
+					<tns:product>
+						<tns:typp2>834</tns:typp2>
+						<tns:assortmentId>73</tns:assortmentId>
+						<tns:name>Kurier Miejski do 4h</tns:name>
+						<tns:service>MIEJSKI_DO_4H_DO_30KM</tns:service>
+						<tns:attribute xsi:type="tns:MRUmProductBaseAttributeType">
+							<tns:firm>false</tns:firm>
+							<tns:eGiveBack>false</tns:eGiveBack>
+							<tns:declareValue>false</tns:declareValue>
+						</tns:attribute>
+						<tns:attribute xsi:type="tns:MRUmDeclareValueRangeType">
+							<tns:minimum>0</tns:minimum>
+							<tns:maximum>999999999</tns:maximum>
+						</tns:attribute>
+						<tns:attribute xsi:type="tns:MRUmPaySideType">
+							<tns:paySide>SENDER</tns:paySide>
+						</tns:attribute>
+						<tns:attribute xsi:type="tns:MRUmEpoType">
+							<tns:epoType>STANDARD</tns:epoType>
+							<tns:epoType>EXTEND</tns:epoType>
+						</tns:attribute>
+						<tns:attribute xsi:type="tns:MRUmMassRangeType">
+							<tns:minimum>0</tns:minimum>
+							<tns:maximum>50000</tns:maximum>
+						</tns:attribute>
+						<tns:attribute xsi:type="tns:MRUmInsuranceType">
+							<tns:insurance xsi:type="tns:MRUmInsuranceInfoType">
+								<tns:symbol>F2</tns:symbol>
+								<tns:name>Ubezpieczenie standard (nd)</tns:name>
+							</tns:insurance>
+							<tns:insuranceRange>
+								<tns:threshold>
+									<tns:currency>
+										<tns:code>PLN</tns:code>
+									</tns:currency>
+									<tns:amount>500000</tns:amount>
+								</tns:threshold>
+								<tns:declaration>false</tns:declaration>
+							</tns:insuranceRange>
+							<tns:insuranceRange>
+								<tns:threshold>
+									<tns:currency>
+										<tns:code>PLN</tns:code>
+									</tns:currency>
+									<tns:amount>1000000</tns:amount>
+								</tns:threshold>
+								<tns:declaration>false</tns:declaration>
+							</tns:insuranceRange>
+							<tns:insuranceRange>
+								<tns:threshold>
+									<tns:currency>
+										<tns:code>PLN</tns:code>
+									</tns:currency>
+									<tns:amount>2000000</tns:amount>
+								</tns:threshold>
+								<tns:declaration>false</tns:declaration>
+							</tns:insuranceRange>
+							<tns:insuranceRange>
+								<tns:threshold>
+									<tns:currency>
+										<tns:code>PLN</tns:code>
+									</tns:currency>
+									<tns:amount>5000000</tns:amount>
+								</tns:threshold>
+								<tns:declaration>false</tns:declaration>
+							</tns:insuranceRange>
+							<tns:insuranceRange>
+								<tns:threshold>
+									<tns:currency>
+										<tns:code>PLN</tns:code>
+									</tns:currency>
+									<tns:amount>25000000</tns:amount>
+								</tns:threshold>
+								<tns:declaration>true</tns:declaration>
+							</tns:insuranceRange>
+						</tns:attribute>
+						<tns:attribute xsi:type="tns:MRUmSubParcelValueType">
+							<tns:maximum>10</tns:maximum>
+						</tns:attribute>
+						<tns:attribute xsi:type="tns:MRUmProductAdditionalAttributeType">
+							<tns:additionalAttribute>SATURDAY_PICKUP</tns:additionalAttribute>
+							<tns:isRequired>false</tns:isRequired>
+						</tns:attribute>
+						<tns:attribute xsi:type="tns:MRUmProductAdditionalAttributeType">
+							<tns:additionalAttribute>CAREFULLY</tns:additionalAttribute>
+							<tns:isRequired>false</tns:isRequired>
+						</tns:attribute>
+						<tns:attribute xsi:type="tns:MRUmProductAdditionalAttributeType">
+							<tns:additionalAttribute>NON_STANDARD_SHIPMENT</tns:additionalAttribute>
+							<tns:isRequired>false</tns:isRequired>
+						</tns:attribute>
+						<tns:attribute xsi:type="tns:MRUmProductAdditionalAttributeType">
+							<tns:additionalAttribute>PAPER_PROOF_OF_DELIVERY</tns:additionalAttribute>
+							<tns:isRequired>false</tns:isRequired>
+						</tns:attribute>
+						<tns:attribute xsi:type="tns:MRUmProductAdditionalAttributeType">
+							<tns:additionalAttribute>CASH_ON_DELIVERY</tns:additionalAttribute>
+							<tns:isRequired>false</tns:isRequired>
+						</tns:attribute>
+						<tns:attribute xsi:type="tns:MRUmProductAdditionalAttributeType">
+							<tns:additionalAttribute>RETURN_DOCUMENT</tns:additionalAttribute>
+							<tns:isRequired>false</tns:isRequired>
+						</tns:attribute>
+						<tns:attribute xsi:type="tns:MRUmProductAdditionalAttributeType">
+							<tns:additionalAttribute>VERIFICATION_BEFORE_DELIVERY</tns:additionalAttribute>
+							<tns:isRequired>false</tns:isRequired>
+						</tns:attribute>
+						<tns:attribute xsi:type="tns:MRUmProductAdditionalAttributeType">
+							<tns:additionalAttribute>DELIVERY_FOR_RECIPIENT_ONLY</tns:additionalAttribute>
+							<tns:isRequired>false</tns:isRequired>
+						</tns:attribute>
+					</tns:product>
+				</tns:validityProduct>
+				<tns:validityProduct>
+					<tns:validFrom>2015-04-30</tns:validFrom>
+					<tns:validTo>2999-12-31</tns:validTo>
+					<tns:product>
+						<tns:typp2>834</tns:typp2>
+						<tns:assortmentId>73</tns:assortmentId>
+						<tns:name>Kurier Miejski do 4h</tns:name>
+						<tns:service>MIEJSKI_DO_4H_DO_40KM</tns:service>
+						<tns:attribute xsi:type="tns:MRUmProductBaseAttributeType">
+							<tns:firm>false</tns:firm>
+							<tns:eGiveBack>false</tns:eGiveBack>
+							<tns:declareValue>false</tns:declareValue>
+						</tns:attribute>
+						<tns:attribute xsi:type="tns:MRUmDeclareValueRangeType">
+							<tns:minimum>0</tns:minimum>
+							<tns:maximum>999999999</tns:maximum>
+						</tns:attribute>
+						<tns:attribute xsi:type="tns:MRUmPaySideType">
+							<tns:paySide>SENDER</tns:paySide>
+						</tns:attribute>
+						<tns:attribute xsi:type="tns:MRUmEpoType">
+							<tns:epoType>STANDARD</tns:epoType>
+							<tns:epoType>EXTEND</tns:epoType>
+						</tns:attribute>
+						<tns:attribute xsi:type="tns:MRUmMassRangeType">
+							<tns:minimum>0</tns:minimum>
+							<tns:maximum>50000</tns:maximum>
+						</tns:attribute>
+						<tns:attribute xsi:type="tns:MRUmInsuranceType">
+							<tns:insurance xsi:type="tns:MRUmInsuranceInfoType">
+								<tns:symbol>F2</tns:symbol>
+								<tns:name>Ubezpieczenie standard (nd)</tns:name>
+							</tns:insurance>
+							<tns:insuranceRange>
+								<tns:threshold>
+									<tns:currency>
+										<tns:code>PLN</tns:code>
+									</tns:currency>
+									<tns:amount>500000</tns:amount>
+								</tns:threshold>
+								<tns:declaration>false</tns:declaration>
+							</tns:insuranceRange>
+							<tns:insuranceRange>
+								<tns:threshold>
+									<tns:currency>
+										<tns:code>PLN</tns:code>
+									</tns:currency>
+									<tns:amount>1000000</tns:amount>
+								</tns:threshold>
+								<tns:declaration>false</tns:declaration>
+							</tns:insuranceRange>
+							<tns:insuranceRange>
+								<tns:threshold>
+									<tns:currency>
+										<tns:code>PLN</tns:code>
+									</tns:currency>
+									<tns:amount>2000000</tns:amount>
+								</tns:threshold>
+								<tns:declaration>false</tns:declaration>
+							</tns:insuranceRange>
+							<tns:insuranceRange>
+								<tns:threshold>
+									<tns:currency>
+										<tns:code>PLN</tns:code>
+									</tns:currency>
+									<tns:amount>5000000</tns:amount>
+								</tns:threshold>
+								<tns:declaration>false</tns:declaration>
+							</tns:insuranceRange>
+							<tns:insuranceRange>
+								<tns:threshold>
+									<tns:currency>
+										<tns:code>PLN</tns:code>
+									</tns:currency>
+									<tns:amount>25000000</tns:amount>
+								</tns:threshold>
+								<tns:declaration>true</tns:declaration>
+							</tns:insuranceRange>
+						</tns:attribute>
+						<tns:attribute xsi:type="tns:MRUmSubParcelValueType">
+							<tns:maximum>10</tns:maximum>
+						</tns:attribute>
+						<tns:attribute xsi:type="tns:MRUmProductAdditionalAttributeType">
+							<tns:additionalAttribute>SATURDAY_PICKUP</tns:additionalAttribute>
+							<tns:isRequired>false</tns:isRequired>
+						</tns:attribute>
+						<tns:attribute xsi:type="tns:MRUmProductAdditionalAttributeType">
+							<tns:additionalAttribute>CAREFULLY</tns:additionalAttribute>
+							<tns:isRequired>false</tns:isRequired>
+						</tns:attribute>
+						<tns:attribute xsi:type="tns:MRUmProductAdditionalAttributeType">
+							<tns:additionalAttribute>NON_STANDARD_SHIPMENT</tns:additionalAttribute>
+							<tns:isRequired>false</tns:isRequired>
+						</tns:attribute>
+						<tns:attribute xsi:type="tns:MRUmProductAdditionalAttributeType">
+							<tns:additionalAttribute>PAPER_PROOF_OF_DELIVERY</tns:additionalAttribute>
+							<tns:isRequired>false</tns:isRequired>
+						</tns:attribute>
+						<tns:attribute xsi:type="tns:MRUmProductAdditionalAttributeType">
+							<tns:additionalAttribute>CASH_ON_DELIVERY</tns:additionalAttribute>
+							<tns:isRequired>false</tns:isRequired>
+						</tns:attribute>
+						<tns:attribute xsi:type="tns:MRUmProductAdditionalAttributeType">
+							<tns:additionalAttribute>RETURN_DOCUMENT</tns:additionalAttribute>
+							<tns:isRequired>false</tns:isRequired>
+						</tns:attribute>
+						<tns:attribute xsi:type="tns:MRUmProductAdditionalAttributeType">
+							<tns:additionalAttribute>VERIFICATION_BEFORE_DELIVERY</tns:additionalAttribute>
+							<tns:isRequired>false</tns:isRequired>
+						</tns:attribute>
+						<tns:attribute xsi:type="tns:MRUmProductAdditionalAttributeType">
+							<tns:additionalAttribute>DELIVERY_FOR_RECIPIENT_ONLY</tns:additionalAttribute>
+							<tns:isRequired>false</tns:isRequired>
+						</tns:attribute>
+					</tns:product>
+				</tns:validityProduct>
+				<tns:validityProduct>
+					<tns:validFrom>2015-04-30</tns:validFrom>
+					<tns:validTo>2999-12-31</tns:validTo>
+					<tns:product>
+						<tns:typp2>831</tns:typp2>
+						<tns:assortmentId>56</tns:assortmentId>
+						<tns:name>EMS</tns:name>
+						<tns:attribute xsi:type="tns:MRUmProductBaseAttributeType">
+							<tns:firm>false</tns:firm>
+							<tns:eGiveBack>false</tns:eGiveBack>
+							<tns:declareValue>false</tns:declareValue>
+						</tns:attribute>
+						<tns:attribute xsi:type="tns:MRUmMassRangeType">
+							<tns:minimum>0</tns:minimum>
+							<tns:maximum>20000</tns:maximum>
+						</tns:attribute>
+						<tns:attribute xsi:type="tns:MRUmInsuranceType">
+							<tns:insurance xsi:type="tns:MRUmInsuranceInfoType">
+								<tns:symbol>A</tns:symbol>
+								<tns:name>Ubezpieczenie standard (nd)</tns:name>
+							</tns:insurance>
+							<tns:insuranceRange>
+								<tns:threshold>
+									<tns:currency>
+										<tns:code>PLN</tns:code>
+									</tns:currency>
+									<tns:amount>100000</tns:amount>
+								</tns:threshold>
+								<tns:declaration>false</tns:declaration>
+							</tns:insuranceRange>
+							<tns:insuranceRange>
+								<tns:threshold>
+									<tns:currency>
+										<tns:code>PLN</tns:code>
+									</tns:currency>
+									<tns:amount>1000000</tns:amount>
+								</tns:threshold>
+								<tns:declaration>false</tns:declaration>
+							</tns:insuranceRange>
+							<tns:insuranceRange>
+								<tns:threshold>
+									<tns:currency>
+										<tns:code>PLN</tns:code>
+									</tns:currency>
+									<tns:amount>5000000</tns:amount>
+								</tns:threshold>
+								<tns:declaration>false</tns:declaration>
+							</tns:insuranceRange>
+							<tns:insuranceRange>
+								<tns:threshold>
+									<tns:currency>
+										<tns:code>PLN</tns:code>
+									</tns:currency>
+									<tns:amount>25000000</tns:amount>
+								</tns:threshold>
+								<tns:declaration>true</tns:declaration>
+							</tns:insuranceRange>
+						</tns:attribute>
+					</tns:product>
+				</tns:validityProduct>
+				<tns:validityProduct>
+					<tns:validFrom>2019-04-01</tns:validFrom>
+					<tns:validTo>2999-12-31</tns:validTo>
+					<tns:product>
+						<tns:typp2>807</tns:typp2>
+						<tns:assortmentId>484</tns:assortmentId>
+						<tns:name>Przesyłka polecona (format)</tns:name>
+						<tns:attribute xsi:type="tns:MRUmProductBaseAttributeType">
+							<tns:firm>false</tns:firm>
+							<tns:eGiveBack>false</tns:eGiveBack>
+							<tns:declareValue>false</tns:declareValue>
+						</tns:attribute>
+						<tns:attribute xsi:type="tns:MRUmPaySideType">
+							<tns:paySide>SENDER</tns:paySide>
+						</tns:attribute>
+						<tns:attribute xsi:type="tns:MRUmEpoType">
+							<tns:epoType>STANDARD</tns:epoType>
+							<tns:epoType>EXTEND</tns:epoType>
+						</tns:attribute>
+						<tns:attribute xsi:type="tns:MRUmMassRangeType">
+							<tns:minimum>0</tns:minimum>
+							<tns:maximum>2000</tns:maximum>
+						</tns:attribute>
+						<tns:attribute xsi:type="tns:MRUmPackageCategoryType">
+							<tns:category>EKONOMICZNA</tns:category>
+							<tns:category>PRIORYTETOWA</tns:category>
+						</tns:attribute>
+						<tns:attribute xsi:type="tns:MRUmFormatType">
+							<tns:letterFormat>S</tns:letterFormat>
+						</tns:attribute>
+						<tns:attribute xsi:type="tns:MRUmFormatType">
+							<tns:letterFormat>M</tns:letterFormat>
+						</tns:attribute>
+						<tns:attribute xsi:type="tns:MRUmFormatType">
+							<tns:letterFormat>L</tns:letterFormat>
+						</tns:attribute>
+						<tns:attribute xsi:type="tns:MRUmProductAdditionalAttributeType">
+							<tns:additionalAttribute>PAPER_PROOF_OF_DELIVERY</tns:additionalAttribute>
+							<tns:isRequired>false</tns:isRequired>
+						</tns:attribute>
+					</tns:product>
+				</tns:validityProduct>
+				<tns:validityProduct>
+					<tns:validFrom>2022-05-01</tns:validFrom>
+					<tns:validTo>2999-12-31</tns:validTo>
+					<tns:product>
+						<tns:typp2>855</tns:typp2>
+						<tns:assortmentId>519</tns:assortmentId>
+						<tns:name>Pocztex 2.0 Na dziś - Kraj</tns:name>
+						<tns:service>NA_DZIS</tns:service>
+						<tns:attribute xsi:type="tns:MRUmProductBaseAttributeType">
+							<tns:firm>false</tns:firm>
+							<tns:eGiveBack>false</tns:eGiveBack>
+							<tns:declareValue>false</tns:declareValue>
+						</tns:attribute>
+						<tns:attribute xsi:type="tns:MRUmDeclareValueRangeType">
+							<tns:minimum>0</tns:minimum>
+							<tns:maximum>999999999</tns:maximum>
+						</tns:attribute>
+						<tns:attribute xsi:type="tns:MRUmEpoType">
+							<tns:epoType>EXTEND</tns:epoType>
+						</tns:attribute>
+						<tns:attribute xsi:type="tns:MRUmMassRangeType">
+							<tns:minimum>0</tns:minimum>
+							<tns:maximum>10000</tns:maximum>
+						</tns:attribute>
+						<tns:attribute xsi:type="tns:MRUmInsuranceType">
+							<tns:insurance xsi:type="tns:MRUmInsuranceInfoType">
+								<tns:symbol>A</tns:symbol>
+								<tns:name>Ubezpieczenie standard (nd)</tns:name>
+							</tns:insurance>
+							<tns:insuranceRange>
+								<tns:threshold>
+									<tns:currency>
+										<tns:code>PLN</tns:code>
+									</tns:currency>
+									<tns:amount>100000</tns:amount>
+								</tns:threshold>
+								<tns:declaration>false</tns:declaration>
+							</tns:insuranceRange>
+							<tns:insuranceRange>
+								<tns:threshold>
+									<tns:currency>
+										<tns:code>PLN</tns:code>
+									</tns:currency>
+									<tns:amount>500000</tns:amount>
+								</tns:threshold>
+								<tns:declaration>false</tns:declaration>
+							</tns:insuranceRange>
+							<tns:insuranceRange>
+								<tns:threshold>
+									<tns:currency>
+										<tns:code>PLN</tns:code>
+									</tns:currency>
+									<tns:amount>1000000</tns:amount>
+								</tns:threshold>
+								<tns:declaration>false</tns:declaration>
+							</tns:insuranceRange>
+							<tns:insuranceRange>
+								<tns:threshold>
+									<tns:currency>
+										<tns:code>PLN</tns:code>
+									</tns:currency>
+									<tns:amount>2000000</tns:amount>
+								</tns:threshold>
+								<tns:declaration>false</tns:declaration>
+							</tns:insuranceRange>
+							<tns:insuranceRange>
+								<tns:threshold>
+									<tns:currency>
+										<tns:code>PLN</tns:code>
+									</tns:currency>
+									<tns:amount>5000000</tns:amount>
+								</tns:threshold>
+								<tns:declaration>false</tns:declaration>
+							</tns:insuranceRange>
+							<tns:insuranceRange>
+								<tns:threshold>
+									<tns:currency>
+										<tns:code>PLN</tns:code>
+									</tns:currency>
+									<tns:amount>25000000</tns:amount>
+								</tns:threshold>
+								<tns:declaration>true</tns:declaration>
+							</tns:insuranceRange>
+						</tns:attribute>
+						<tns:attribute xsi:type="tns:MRUmSubParcelValueType">
+							<tns:maximum>10</tns:maximum>
+						</tns:attribute>
+						<tns:attribute xsi:type="tns:MRUmProductAdditionalAttributeType">
+							<tns:additionalAttribute>SATURDAY_PICKUP</tns:additionalAttribute>
+							<tns:isRequired>false</tns:isRequired>
+						</tns:attribute>
+						<tns:attribute xsi:type="tns:MRUmProductAdditionalAttributeType">
+							<tns:additionalAttribute>CAREFULLY</tns:additionalAttribute>
+							<tns:isRequired>false</tns:isRequired>
+						</tns:attribute>
+						<tns:attribute xsi:type="tns:MRUmProductAdditionalAttributeType">
+							<tns:additionalAttribute>PAPER_PROOF_OF_DELIVERY</tns:additionalAttribute>
+							<tns:isRequired>false</tns:isRequired>
+						</tns:attribute>
+						<tns:attribute xsi:type="tns:MRUmProductAdditionalAttributeType">
+							<tns:additionalAttribute>CASH_ON_DELIVERY</tns:additionalAttribute>
+							<tns:isRequired>false</tns:isRequired>
+						</tns:attribute>
+						<tns:attribute xsi:type="tns:MRUmProductAdditionalAttributeType">
+							<tns:additionalAttribute>RETURN_DOCUMENT</tns:additionalAttribute>
+							<tns:isRequired>false</tns:isRequired>
+						</tns:attribute>
+						<tns:attribute xsi:type="tns:MRUmProductAdditionalAttributeType">
+							<tns:additionalAttribute>VERIFICATION_BEFORE_DELIVERY</tns:additionalAttribute>
+							<tns:isRequired>false</tns:isRequired>
+						</tns:attribute>
+						<tns:attribute xsi:type="tns:MRUmProductAdditionalAttributeType">
+							<tns:additionalAttribute>DELIVERY_FOR_RECIPIENT_ONLY</tns:additionalAttribute>
+							<tns:isRequired>false</tns:isRequired>
+						</tns:attribute>
+					</tns:product>
+				</tns:validityProduct>
+				<tns:validityProduct>
+					<tns:validFrom>2022-05-01</tns:validFrom>
+					<tns:validTo>2999-12-31</tns:validTo>
+					<tns:product>
+						<tns:typp2>855</tns:typp2>
+						<tns:assortmentId>520</tns:assortmentId>
+						<tns:name>Pocztex 2.0 Na dziś - Miasto</tns:name>
+						<tns:service>NA_DZIS</tns:service>
+						<tns:attribute xsi:type="tns:MRUmProductBaseAttributeType">
+							<tns:firm>false</tns:firm>
+							<tns:eGiveBack>false</tns:eGiveBack>
+							<tns:declareValue>false</tns:declareValue>
+						</tns:attribute>
+						<tns:attribute xsi:type="tns:MRUmDeclareValueRangeType">
+							<tns:minimum>0</tns:minimum>
+							<tns:maximum>999999999</tns:maximum>
+						</tns:attribute>
+						<tns:attribute xsi:type="tns:MRUmDistanceRangeType">
+							<tns:minimum>0</tns:minimum>
+							<tns:maximum>40</tns:maximum>
+						</tns:attribute>
+						<tns:attribute xsi:type="tns:MRUmEpoType">
+							<tns:epoType>EXTEND</tns:epoType>
+						</tns:attribute>
+						<tns:attribute xsi:type="tns:MRUmMassRangeType">
+							<tns:minimum>0</tns:minimum>
+							<tns:maximum>50000</tns:maximum>
+						</tns:attribute>
+						<tns:attribute xsi:type="tns:MRUmInsuranceType">
+							<tns:insurance xsi:type="tns:MRUmInsuranceInfoType">
+								<tns:symbol>A</tns:symbol>
+								<tns:name>Ubezpieczenie standard (nd)</tns:name>
+							</tns:insurance>
+							<tns:insuranceRange>
+								<tns:threshold>
+									<tns:currency>
+										<tns:code>PLN</tns:code>
+									</tns:currency>
+									<tns:amount>100000</tns:amount>
+								</tns:threshold>
+								<tns:declaration>false</tns:declaration>
+							</tns:insuranceRange>
+							<tns:insuranceRange>
+								<tns:threshold>
+									<tns:currency>
+										<tns:code>PLN</tns:code>
+									</tns:currency>
+									<tns:amount>500000</tns:amount>
+								</tns:threshold>
+								<tns:declaration>false</tns:declaration>
+							</tns:insuranceRange>
+							<tns:insuranceRange>
+								<tns:threshold>
+									<tns:currency>
+										<tns:code>PLN</tns:code>
+									</tns:currency>
+									<tns:amount>1000000</tns:amount>
+								</tns:threshold>
+								<tns:declaration>false</tns:declaration>
+							</tns:insuranceRange>
+							<tns:insuranceRange>
+								<tns:threshold>
+									<tns:currency>
+										<tns:code>PLN</tns:code>
+									</tns:currency>
+									<tns:amount>2000000</tns:amount>
+								</tns:threshold>
+								<tns:declaration>false</tns:declaration>
+							</tns:insuranceRange>
+							<tns:insuranceRange>
+								<tns:threshold>
+									<tns:currency>
+										<tns:code>PLN</tns:code>
+									</tns:currency>
+									<tns:amount>5000000</tns:amount>
+								</tns:threshold>
+								<tns:declaration>false</tns:declaration>
+							</tns:insuranceRange>
+							<tns:insuranceRange>
+								<tns:threshold>
+									<tns:currency>
+										<tns:code>PLN</tns:code>
+									</tns:currency>
+									<tns:amount>25000000</tns:amount>
+								</tns:threshold>
+								<tns:declaration>true</tns:declaration>
+							</tns:insuranceRange>
+						</tns:attribute>
+						<tns:attribute xsi:type="tns:MRUmFormatType">
+							<tns:parcelFormat>S</tns:parcelFormat>
+						</tns:attribute>
+						<tns:attribute xsi:type="tns:MRUmFormatType">
+							<tns:parcelFormat>M</tns:parcelFormat>
+						</tns:attribute>
+						<tns:attribute xsi:type="tns:MRUmFormatType">
+							<tns:parcelFormat>L</tns:parcelFormat>
+						</tns:attribute>
+						<tns:attribute xsi:type="tns:MRUmFormatType">
+							<tns:parcelFormat>XL</tns:parcelFormat>
+						</tns:attribute>
+						<tns:attribute xsi:type="tns:MRUmFormatType">
+							<tns:parcelFormat>2XL</tns:parcelFormat>
+						</tns:attribute>
+						<tns:attribute xsi:type="tns:MRUmSubParcelValueType">
+							<tns:maximum>10</tns:maximum>
+						</tns:attribute>
+						<tns:attribute xsi:type="tns:MRUmProductAdditionalAttributeType">
+							<tns:additionalAttribute>SATURDAY_PICKUP</tns:additionalAttribute>
+							<tns:isRequired>false</tns:isRequired>
+						</tns:attribute>
+						<tns:attribute xsi:type="tns:MRUmProductAdditionalAttributeType">
+							<tns:additionalAttribute>CAREFULLY</tns:additionalAttribute>
+							<tns:isRequired>false</tns:isRequired>
+						</tns:attribute>
+						<tns:attribute xsi:type="tns:MRUmProductAdditionalAttributeType">
+							<tns:additionalAttribute>NON_STANDARD_SHIPMENT</tns:additionalAttribute>
+							<tns:isRequired>false</tns:isRequired>
+						</tns:attribute>
+						<tns:attribute xsi:type="tns:MRUmProductAdditionalAttributeType">
+							<tns:additionalAttribute>PAPER_PROOF_OF_DELIVERY</tns:additionalAttribute>
+							<tns:isRequired>false</tns:isRequired>
+						</tns:attribute>
+						<tns:attribute xsi:type="tns:MRUmProductAdditionalAttributeType">
+							<tns:additionalAttribute>CASH_ON_DELIVERY</tns:additionalAttribute>
+							<tns:isRequired>false</tns:isRequired>
+						</tns:attribute>
+						<tns:attribute xsi:type="tns:MRUmProductAdditionalAttributeType">
+							<tns:additionalAttribute>RETURN_DOCUMENT</tns:additionalAttribute>
+							<tns:isRequired>false</tns:isRequired>
+						</tns:attribute>
+						<tns:attribute xsi:type="tns:MRUmProductAdditionalAttributeType">
+							<tns:additionalAttribute>VERIFICATION_BEFORE_DELIVERY</tns:additionalAttribute>
+							<tns:isRequired>false</tns:isRequired>
+						</tns:attribute>
+						<tns:attribute xsi:type="tns:MRUmProductAdditionalAttributeType">
+							<tns:additionalAttribute>DELIVERY_FOR_RECIPIENT_ONLY</tns:additionalAttribute>
+							<tns:isRequired>false</tns:isRequired>
+						</tns:attribute>
+						<tns:attribute xsi:type="tns:MRUmProductAdditionalAttributeType">
+							<tns:additionalAttribute>HIGH_WEIGHT</tns:additionalAttribute>
+							<tns:isRequired>false</tns:isRequired>
+						</tns:attribute>
+					</tns:product>
+				</tns:validityProduct>
+				<tns:validityProduct>
+					<tns:validFrom>2017-02-01</tns:validFrom>
+					<tns:validTo>2999-12-31</tns:validTo>
+					<tns:product>
+						<tns:typp2>838</tns:typp2>
+						<tns:assortmentId>79</tns:assortmentId>
+						<tns:name>Pocztex Procedura VIP II</tns:name>
+						<tns:service>PROCEDURALNA_VIP_DWA_STOPNIE</tns:service>
+						<tns:attribute xsi:type="tns:MRUmProductBaseAttributeType">
+							<tns:firm>false</tns:firm>
+							<tns:eGiveBack>false</tns:eGiveBack>
+							<tns:declareValue>false</tns:declareValue>
+						</tns:attribute>
+						<tns:attribute xsi:type="tns:MRUmDeclareValueRangeType">
+							<tns:minimum>0</tns:minimum>
+							<tns:maximum>999999999</tns:maximum>
+						</tns:attribute>
+						<tns:attribute xsi:type="tns:MRUmEpoType">
+							<tns:epoType>EXTEND</tns:epoType>
+						</tns:attribute>
+						<tns:attribute xsi:type="tns:MRUmMassRangeType">
+							<tns:minimum>0</tns:minimum>
+							<tns:maximum>50000</tns:maximum>
+						</tns:attribute>
+						<tns:attribute xsi:type="tns:MRUmProceduralOptionType">
+							<tns:additionalActivities>
+								<tns:idActivity>1</tns:idActivity>
+							</tns:additionalActivities>
+							<tns:additionalActivities>
+								<tns:idActivity>2</tns:idActivity>
+							</tns:additionalActivities>
+							<tns:additionalActivities>
+								<tns:idActivity>3</tns:idActivity>
+							</tns:additionalActivities>
+							<tns:additionalActivities>
+								<tns:idActivity>4</tns:idActivity>
+							</tns:additionalActivities>
+							<tns:additionalActivities>
+								<tns:idActivity>5</tns:idActivity>
+							</tns:additionalActivities>
+							<tns:additionalActivities>
+								<tns:idActivity>6</tns:idActivity>
+							</tns:additionalActivities>
+							<tns:additionalActivities>
+								<tns:idActivity>7</tns:idActivity>
+							</tns:additionalActivities>
+							<tns:additionalActivities>
+								<tns:idActivity>8</tns:idActivity>
+							</tns:additionalActivities>
+							<tns:additionalActivities>
+								<tns:idActivity>9</tns:idActivity>
+							</tns:additionalActivities>
+							<tns:additionalActivities>
+								<tns:idActivity>10</tns:idActivity>
+							</tns:additionalActivities>
+						</tns:attribute>
+						<tns:attribute xsi:type="tns:MRUmInsuranceType">
+							<tns:insurance xsi:type="tns:MRUmInsuranceInfoType">
+								<tns:symbol>V2</tns:symbol>
+								<tns:name>838V2 - Ubezpieczenie standard (nd)</tns:name>
+							</tns:insurance>
+							<tns:insuranceRange>
+								<tns:threshold>
+									<tns:currency>
+										<tns:code>PLN</tns:code>
+									</tns:currency>
+									<tns:amount>100000</tns:amount>
+								</tns:threshold>
+								<tns:declaration>false</tns:declaration>
+							</tns:insuranceRange>
+							<tns:insuranceRange>
+								<tns:threshold>
+									<tns:currency>
+										<tns:code>PLN</tns:code>
+									</tns:currency>
+									<tns:amount>500000</tns:amount>
+								</tns:threshold>
+								<tns:declaration>false</tns:declaration>
+							</tns:insuranceRange>
+							<tns:insuranceRange>
+								<tns:threshold>
+									<tns:currency>
+										<tns:code>PLN</tns:code>
+									</tns:currency>
+									<tns:amount>1000000</tns:amount>
+								</tns:threshold>
+								<tns:declaration>false</tns:declaration>
+							</tns:insuranceRange>
+							<tns:insuranceRange>
+								<tns:threshold>
+									<tns:currency>
+										<tns:code>PLN</tns:code>
+									</tns:currency>
+									<tns:amount>2000000</tns:amount>
+								</tns:threshold>
+								<tns:declaration>false</tns:declaration>
+							</tns:insuranceRange>
+							<tns:insuranceRange>
+								<tns:threshold>
+									<tns:currency>
+										<tns:code>PLN</tns:code>
+									</tns:currency>
+									<tns:amount>5000000</tns:amount>
+								</tns:threshold>
+								<tns:declaration>false</tns:declaration>
+							</tns:insuranceRange>
+							<tns:insuranceRange>
+								<tns:threshold>
+									<tns:currency>
+										<tns:code>PLN</tns:code>
+									</tns:currency>
+									<tns:amount>25000000</tns:amount>
+								</tns:threshold>
+								<tns:declaration>true</tns:declaration>
+							</tns:insuranceRange>
+						</tns:attribute>
+						<tns:attribute xsi:type="tns:MRUmProductAdditionalAttributeType">
+							<tns:additionalAttribute>CASH_ON_DELIVERY</tns:additionalAttribute>
+							<tns:isRequired>false</tns:isRequired>
+						</tns:attribute>
+					</tns:product>
+				</tns:validityProduct>
+				<tns:validityProduct>
+					<tns:validFrom>2015-04-30</tns:validFrom>
+					<tns:validTo>2999-12-31</tns:validTo>
+					<tns:product>
+						<tns:typp2>834</tns:typp2>
+						<tns:assortmentId>74</tns:assortmentId>
+						<tns:name>Pocztex Kurier Bezpośredni</tns:name>
+						<tns:service>BEZPOSREDNI_DO_20KG</tns:service>
+						<tns:attribute xsi:type="tns:MRUmProductBaseAttributeType">
+							<tns:firm>false</tns:firm>
+							<tns:eGiveBack>false</tns:eGiveBack>
+							<tns:declareValue>false</tns:declareValue>
+						</tns:attribute>
+						<tns:attribute xsi:type="tns:MRUmDeclareValueRangeType">
+							<tns:minimum>0</tns:minimum>
+							<tns:maximum>999999999</tns:maximum>
+						</tns:attribute>
+						<tns:attribute xsi:type="tns:MRUmPaySideType">
+							<tns:paySide>SENDER</tns:paySide>
+						</tns:attribute>
+						<tns:attribute xsi:type="tns:MRUmEpoType">
+							<tns:epoType>STANDARD</tns:epoType>
+							<tns:epoType>EXTEND</tns:epoType>
+						</tns:attribute>
+						<tns:attribute xsi:type="tns:MRUmMassRangeType">
+							<tns:minimum>0</tns:minimum>
+							<tns:maximum>100000</tns:maximum>
+						</tns:attribute>
+						<tns:attribute xsi:type="tns:MRUmInsuranceType">
+							<tns:insurance xsi:type="tns:MRUmInsuranceInfoType">
+								<tns:symbol>F2</tns:symbol>
+								<tns:name>Ubezpieczenie standard (nd)</tns:name>
+							</tns:insurance>
+							<tns:insuranceRange>
+								<tns:threshold>
+									<tns:currency>
+										<tns:code>PLN</tns:code>
+									</tns:currency>
+									<tns:amount>500000</tns:amount>
+								</tns:threshold>
+								<tns:declaration>false</tns:declaration>
+							</tns:insuranceRange>
+							<tns:insuranceRange>
+								<tns:threshold>
+									<tns:currency>
+										<tns:code>PLN</tns:code>
+									</tns:currency>
+									<tns:amount>1000000</tns:amount>
+								</tns:threshold>
+								<tns:declaration>false</tns:declaration>
+							</tns:insuranceRange>
+							<tns:insuranceRange>
+								<tns:threshold>
+									<tns:currency>
+										<tns:code>PLN</tns:code>
+									</tns:currency>
+									<tns:amount>2000000</tns:amount>
+								</tns:threshold>
+								<tns:declaration>false</tns:declaration>
+							</tns:insuranceRange>
+							<tns:insuranceRange>
+								<tns:threshold>
+									<tns:currency>
+										<tns:code>PLN</tns:code>
+									</tns:currency>
+									<tns:amount>5000000</tns:amount>
+								</tns:threshold>
+								<tns:declaration>false</tns:declaration>
+							</tns:insuranceRange>
+							<tns:insuranceRange>
+								<tns:threshold>
+									<tns:currency>
+										<tns:code>PLN</tns:code>
+									</tns:currency>
+									<tns:amount>25000000</tns:amount>
+								</tns:threshold>
+								<tns:declaration>true</tns:declaration>
+							</tns:insuranceRange>
+						</tns:attribute>
+						<tns:attribute xsi:type="tns:MRUmSubParcelValueType">
+							<tns:maximum>10</tns:maximum>
+						</tns:attribute>
+						<tns:attribute xsi:type="tns:MRUmProductAdditionalAttributeType">
+							<tns:additionalAttribute>SATURDAY_PICKUP</tns:additionalAttribute>
+							<tns:isRequired>false</tns:isRequired>
+						</tns:attribute>
+						<tns:attribute xsi:type="tns:MRUmProductAdditionalAttributeType">
+							<tns:additionalAttribute>CAREFULLY</tns:additionalAttribute>
+							<tns:isRequired>false</tns:isRequired>
+						</tns:attribute>
+						<tns:attribute xsi:type="tns:MRUmProductAdditionalAttributeType">
+							<tns:additionalAttribute>NON_STANDARD_SHIPMENT</tns:additionalAttribute>
+							<tns:isRequired>false</tns:isRequired>
+						</tns:attribute>
+						<tns:attribute xsi:type="tns:MRUmProductAdditionalAttributeType">
+							<tns:additionalAttribute>PAPER_PROOF_OF_DELIVERY</tns:additionalAttribute>
+							<tns:isRequired>false</tns:isRequired>
+						</tns:attribute>
+						<tns:attribute xsi:type="tns:MRUmProductAdditionalAttributeType">
+							<tns:additionalAttribute>CASH_ON_DELIVERY</tns:additionalAttribute>
+							<tns:isRequired>false</tns:isRequired>
+						</tns:attribute>
+						<tns:attribute xsi:type="tns:MRUmProductAdditionalAttributeType">
+							<tns:additionalAttribute>RETURN_DOCUMENT</tns:additionalAttribute>
+							<tns:isRequired>false</tns:isRequired>
+						</tns:attribute>
+						<tns:attribute xsi:type="tns:MRUmProductAdditionalAttributeType">
+							<tns:additionalAttribute>VERIFICATION_BEFORE_DELIVERY</tns:additionalAttribute>
+							<tns:isRequired>false</tns:isRequired>
+						</tns:attribute>
+						<tns:attribute xsi:type="tns:MRUmProductAdditionalAttributeType">
+							<tns:additionalAttribute>DELIVERY_FOR_RECIPIENT_ONLY</tns:additionalAttribute>
+							<tns:isRequired>false</tns:isRequired>
+						</tns:attribute>
+					</tns:product>
+				</tns:validityProduct>
+				<tns:validityProduct>
+					<tns:validFrom>2015-04-30</tns:validFrom>
+					<tns:validTo>2999-12-31</tns:validTo>
+					<tns:product>
+						<tns:typp2>834</tns:typp2>
+						<tns:assortmentId>74</tns:assortmentId>
+						<tns:name>Pocztex Kurier Bezpośredni</tns:name>
+						<tns:service>BEZPOSREDNI_DO_30KG</tns:service>
+						<tns:attribute xsi:type="tns:MRUmProductBaseAttributeType">
+							<tns:firm>false</tns:firm>
+							<tns:eGiveBack>false</tns:eGiveBack>
+							<tns:declareValue>false</tns:declareValue>
+						</tns:attribute>
+						<tns:attribute xsi:type="tns:MRUmDeclareValueRangeType">
+							<tns:minimum>0</tns:minimum>
+							<tns:maximum>999999999</tns:maximum>
+						</tns:attribute>
+						<tns:attribute xsi:type="tns:MRUmPaySideType">
+							<tns:paySide>SENDER</tns:paySide>
+						</tns:attribute>
+						<tns:attribute xsi:type="tns:MRUmEpoType">
+							<tns:epoType>STANDARD</tns:epoType>
+							<tns:epoType>EXTEND</tns:epoType>
+						</tns:attribute>
+						<tns:attribute xsi:type="tns:MRUmMassRangeType">
+							<tns:minimum>0</tns:minimum>
+							<tns:maximum>100000</tns:maximum>
+						</tns:attribute>
+						<tns:attribute xsi:type="tns:MRUmInsuranceType">
+							<tns:insurance xsi:type="tns:MRUmInsuranceInfoType">
+								<tns:symbol>F2</tns:symbol>
+								<tns:name>Ubezpieczenie standard (nd)</tns:name>
+							</tns:insurance>
+							<tns:insuranceRange>
+								<tns:threshold>
+									<tns:currency>
+										<tns:code>PLN</tns:code>
+									</tns:currency>
+									<tns:amount>500000</tns:amount>
+								</tns:threshold>
+								<tns:declaration>false</tns:declaration>
+							</tns:insuranceRange>
+							<tns:insuranceRange>
+								<tns:threshold>
+									<tns:currency>
+										<tns:code>PLN</tns:code>
+									</tns:currency>
+									<tns:amount>1000000</tns:amount>
+								</tns:threshold>
+								<tns:declaration>false</tns:declaration>
+							</tns:insuranceRange>
+							<tns:insuranceRange>
+								<tns:threshold>
+									<tns:currency>
+										<tns:code>PLN</tns:code>
+									</tns:currency>
+									<tns:amount>2000000</tns:amount>
+								</tns:threshold>
+								<tns:declaration>false</tns:declaration>
+							</tns:insuranceRange>
+							<tns:insuranceRange>
+								<tns:threshold>
+									<tns:currency>
+										<tns:code>PLN</tns:code>
+									</tns:currency>
+									<tns:amount>5000000</tns:amount>
+								</tns:threshold>
+								<tns:declaration>false</tns:declaration>
+							</tns:insuranceRange>
+							<tns:insuranceRange>
+								<tns:threshold>
+									<tns:currency>
+										<tns:code>PLN</tns:code>
+									</tns:currency>
+									<tns:amount>25000000</tns:amount>
+								</tns:threshold>
+								<tns:declaration>true</tns:declaration>
+							</tns:insuranceRange>
+						</tns:attribute>
+						<tns:attribute xsi:type="tns:MRUmSubParcelValueType">
+							<tns:maximum>10</tns:maximum>
+						</tns:attribute>
+						<tns:attribute xsi:type="tns:MRUmProductAdditionalAttributeType">
+							<tns:additionalAttribute>SATURDAY_PICKUP</tns:additionalAttribute>
+							<tns:isRequired>false</tns:isRequired>
+						</tns:attribute>
+						<tns:attribute xsi:type="tns:MRUmProductAdditionalAttributeType">
+							<tns:additionalAttribute>CAREFULLY</tns:additionalAttribute>
+							<tns:isRequired>false</tns:isRequired>
+						</tns:attribute>
+						<tns:attribute xsi:type="tns:MRUmProductAdditionalAttributeType">
+							<tns:additionalAttribute>NON_STANDARD_SHIPMENT</tns:additionalAttribute>
+							<tns:isRequired>false</tns:isRequired>
+						</tns:attribute>
+						<tns:attribute xsi:type="tns:MRUmProductAdditionalAttributeType">
+							<tns:additionalAttribute>PAPER_PROOF_OF_DELIVERY</tns:additionalAttribute>
+							<tns:isRequired>false</tns:isRequired>
+						</tns:attribute>
+						<tns:attribute xsi:type="tns:MRUmProductAdditionalAttributeType">
+							<tns:additionalAttribute>CASH_ON_DELIVERY</tns:additionalAttribute>
+							<tns:isRequired>false</tns:isRequired>
+						</tns:attribute>
+						<tns:attribute xsi:type="tns:MRUmProductAdditionalAttributeType">
+							<tns:additionalAttribute>RETURN_DOCUMENT</tns:additionalAttribute>
+							<tns:isRequired>false</tns:isRequired>
+						</tns:attribute>
+						<tns:attribute xsi:type="tns:MRUmProductAdditionalAttributeType">
+							<tns:additionalAttribute>VERIFICATION_BEFORE_DELIVERY</tns:additionalAttribute>
+							<tns:isRequired>false</tns:isRequired>
+						</tns:attribute>
+						<tns:attribute xsi:type="tns:MRUmProductAdditionalAttributeType">
+							<tns:additionalAttribute>DELIVERY_FOR_RECIPIENT_ONLY</tns:additionalAttribute>
+							<tns:isRequired>false</tns:isRequired>
+						</tns:attribute>
+					</tns:product>
+				</tns:validityProduct>
+				<tns:validityProduct>
+					<tns:validFrom>2015-04-30</tns:validFrom>
+					<tns:validTo>2999-12-31</tns:validTo>
+					<tns:product>
+						<tns:typp2>834</tns:typp2>
+						<tns:assortmentId>74</tns:assortmentId>
+						<tns:name>Pocztex Kurier Bezpośredni</tns:name>
+						<tns:service>BEZPOSREDNI_OD_30KG_DO_100KG</tns:service>
+						<tns:attribute xsi:type="tns:MRUmProductBaseAttributeType">
+							<tns:firm>false</tns:firm>
+							<tns:eGiveBack>false</tns:eGiveBack>
+							<tns:declareValue>false</tns:declareValue>
+						</tns:attribute>
+						<tns:attribute xsi:type="tns:MRUmDeclareValueRangeType">
+							<tns:minimum>0</tns:minimum>
+							<tns:maximum>999999999</tns:maximum>
+						</tns:attribute>
+						<tns:attribute xsi:type="tns:MRUmPaySideType">
+							<tns:paySide>SENDER</tns:paySide>
+						</tns:attribute>
+						<tns:attribute xsi:type="tns:MRUmEpoType">
+							<tns:epoType>STANDARD</tns:epoType>
+							<tns:epoType>EXTEND</tns:epoType>
+						</tns:attribute>
+						<tns:attribute xsi:type="tns:MRUmMassRangeType">
+							<tns:minimum>0</tns:minimum>
+							<tns:maximum>100000</tns:maximum>
+						</tns:attribute>
+						<tns:attribute xsi:type="tns:MRUmInsuranceType">
+							<tns:insurance xsi:type="tns:MRUmInsuranceInfoType">
+								<tns:symbol>F2</tns:symbol>
+								<tns:name>Ubezpieczenie standard (nd)</tns:name>
+							</tns:insurance>
+							<tns:insuranceRange>
+								<tns:threshold>
+									<tns:currency>
+										<tns:code>PLN</tns:code>
+									</tns:currency>
+									<tns:amount>500000</tns:amount>
+								</tns:threshold>
+								<tns:declaration>false</tns:declaration>
+							</tns:insuranceRange>
+							<tns:insuranceRange>
+								<tns:threshold>
+									<tns:currency>
+										<tns:code>PLN</tns:code>
+									</tns:currency>
+									<tns:amount>1000000</tns:amount>
+								</tns:threshold>
+								<tns:declaration>false</tns:declaration>
+							</tns:insuranceRange>
+							<tns:insuranceRange>
+								<tns:threshold>
+									<tns:currency>
+										<tns:code>PLN</tns:code>
+									</tns:currency>
+									<tns:amount>2000000</tns:amount>
+								</tns:threshold>
+								<tns:declaration>false</tns:declaration>
+							</tns:insuranceRange>
+							<tns:insuranceRange>
+								<tns:threshold>
+									<tns:currency>
+										<tns:code>PLN</tns:code>
+									</tns:currency>
+									<tns:amount>5000000</tns:amount>
+								</tns:threshold>
+								<tns:declaration>false</tns:declaration>
+							</tns:insuranceRange>
+							<tns:insuranceRange>
+								<tns:threshold>
+									<tns:currency>
+										<tns:code>PLN</tns:code>
+									</tns:currency>
+									<tns:amount>25000000</tns:amount>
+								</tns:threshold>
+								<tns:declaration>true</tns:declaration>
+							</tns:insuranceRange>
+						</tns:attribute>
+						<tns:attribute xsi:type="tns:MRUmSubParcelValueType">
+							<tns:maximum>10</tns:maximum>
+						</tns:attribute>
+						<tns:attribute xsi:type="tns:MRUmProductAdditionalAttributeType">
+							<tns:additionalAttribute>SATURDAY_PICKUP</tns:additionalAttribute>
+							<tns:isRequired>false</tns:isRequired>
+						</tns:attribute>
+						<tns:attribute xsi:type="tns:MRUmProductAdditionalAttributeType">
+							<tns:additionalAttribute>CAREFULLY</tns:additionalAttribute>
+							<tns:isRequired>false</tns:isRequired>
+						</tns:attribute>
+						<tns:attribute xsi:type="tns:MRUmProductAdditionalAttributeType">
+							<tns:additionalAttribute>NON_STANDARD_SHIPMENT</tns:additionalAttribute>
+							<tns:isRequired>false</tns:isRequired>
+						</tns:attribute>
+						<tns:attribute xsi:type="tns:MRUmProductAdditionalAttributeType">
+							<tns:additionalAttribute>PAPER_PROOF_OF_DELIVERY</tns:additionalAttribute>
+							<tns:isRequired>false</tns:isRequired>
+						</tns:attribute>
+						<tns:attribute xsi:type="tns:MRUmProductAdditionalAttributeType">
+							<tns:additionalAttribute>CASH_ON_DELIVERY</tns:additionalAttribute>
+							<tns:isRequired>false</tns:isRequired>
+						</tns:attribute>
+						<tns:attribute xsi:type="tns:MRUmProductAdditionalAttributeType">
+							<tns:additionalAttribute>RETURN_DOCUMENT</tns:additionalAttribute>
+							<tns:isRequired>false</tns:isRequired>
+						</tns:attribute>
+						<tns:attribute xsi:type="tns:MRUmProductAdditionalAttributeType">
+							<tns:additionalAttribute>VERIFICATION_BEFORE_DELIVERY</tns:additionalAttribute>
+							<tns:isRequired>false</tns:isRequired>
+						</tns:attribute>
+						<tns:attribute xsi:type="tns:MRUmProductAdditionalAttributeType">
+							<tns:additionalAttribute>DELIVERY_FOR_RECIPIENT_ONLY</tns:additionalAttribute>
+							<tns:isRequired>false</tns:isRequired>
+						</tns:attribute>
+					</tns:product>
+				</tns:validityProduct>
+				<tns:validityProduct>
+					<tns:validFrom>2017-05-01</tns:validFrom>
+					<tns:validTo>2999-12-31</tns:validTo>
+					<tns:product>
+						<tns:typp2>869</tns:typp2>
+						<tns:assortmentId>107</tns:assortmentId>
+						<tns:name>Global Expres</tns:name>
+						<tns:attribute xsi:type="tns:MRUmProductBaseAttributeType">
+							<tns:firm>false</tns:firm>
+							<tns:eGiveBack>false</tns:eGiveBack>
+							<tns:declareValue>false</tns:declareValue>
+						</tns:attribute>
+						<tns:attribute xsi:type="tns:MRUmMassRangeType">
+							<tns:minimum>0</tns:minimum>
+							<tns:maximum>2000</tns:maximum>
+						</tns:attribute>
+						<tns:attribute xsi:type="tns:MRUmPackageCategoryType">
+							<tns:category>PRIORYTETOWA</tns:category>
+						</tns:attribute>
+						<tns:attribute xsi:type="tns:MRUmInsuranceType">
+							<tns:insurance xsi:type="tns:MRUmInsuranceInfoType">
+								<tns:symbol>PA</tns:symbol>
+								<tns:name>Ubezpieczenie precjoza - strefa A (nd)</tns:name>
+							</tns:insurance>
+							<tns:insuranceRange>
+								<tns:threshold>
+									<tns:currency>
+										<tns:code>PLN</tns:code>
+									</tns:currency>
+									<tns:amount>25000000</tns:amount>
+								</tns:threshold>
+								<tns:declaration>false</tns:declaration>
+							</tns:insuranceRange>
+						</tns:attribute>
+					</tns:product>
+				</tns:validityProduct>
+				<tns:validityProduct>
+					<tns:validFrom>2022-09-21</tns:validFrom>
+					<tns:validTo>2999-12-31</tns:validTo>
+					<tns:product>
+						<tns:typp2>897</tns:typp2>
+						<tns:assortmentId>119</tns:assortmentId>
+						<tns:name>Przesyłka paletowa</tns:name>
+						<tns:attribute xsi:type="tns:MRUmProductBaseAttributeType">
+							<tns:firm>false</tns:firm>
+							<tns:eGiveBack>false</tns:eGiveBack>
+							<tns:declareValue>false</tns:declareValue>
+						</tns:attribute>
+						<tns:attribute xsi:type="tns:MRUmDeclareValueRangeType">
+							<tns:minimum>0</tns:minimum>
+							<tns:maximum>999999999</tns:maximum>
+						</tns:attribute>
+						<tns:attribute xsi:type="tns:MRUmMassRangeType">
+							<tns:minimum>0</tns:minimum>
+							<tns:maximum>1400001</tns:maximum>
+						</tns:attribute>
+						<tns:attribute xsi:type="tns:MRUmProductAdditionalAttributeType">
+							<tns:additionalAttribute>ROP</tns:additionalAttribute>
+							<tns:isRequired>false</tns:isRequired>
+						</tns:attribute>
+					</tns:product>
+				</tns:validityProduct>
+				<tns:validityProduct>
+					<tns:validFrom>2015-04-30</tns:validFrom>
+					<tns:validTo>2999-12-31</tns:validTo>
+					<tns:product>
+						<tns:typp2>834</tns:typp2>
+						<tns:assortmentId>70</tns:assortmentId>
+						<tns:name>Pocztex Ekspres 24</tns:name>
+						<tns:service>EKSPRES24</tns:service>
+						<tns:attribute xsi:type="tns:MRUmProductBaseAttributeType">
+							<tns:firm>false</tns:firm>
+							<tns:eGiveBack>false</tns:eGiveBack>
+							<tns:declareValue>false</tns:declareValue>
+						</tns:attribute>
+						<tns:attribute xsi:type="tns:MRUmExpectedDeliveryType">
+							<tns:expectedDeliveryTime>BEFORE_9</tns:expectedDeliveryTime>
+						</tns:attribute>
+						<tns:attribute xsi:type="tns:MRUmExpectedDeliveryType">
+							<tns:expectedDeliveryTime>BEFORE_12</tns:expectedDeliveryTime>
+						</tns:attribute>
+						<tns:attribute xsi:type="tns:MRUmDeclareValueRangeType">
+							<tns:minimum>0</tns:minimum>
+							<tns:maximum>999999999</tns:maximum>
+						</tns:attribute>
+						<tns:attribute xsi:type="tns:MRUmPaySideType">
+							<tns:paySide>SENDER</tns:paySide>
+						</tns:attribute>
+						<tns:attribute xsi:type="tns:MRUmEpoType">
+							<tns:epoType>STANDARD</tns:epoType>
+							<tns:epoType>EXTEND</tns:epoType>
+						</tns:attribute>
+						<tns:attribute xsi:type="tns:MRUmMassRangeType">
+							<tns:minimum>0</tns:minimum>
+							<tns:maximum>50000</tns:maximum>
+						</tns:attribute>
+						<tns:attribute xsi:type="tns:MRUmInsuranceType">
+							<tns:insurance xsi:type="tns:MRUmInsuranceInfoType">
+								<tns:symbol>F1</tns:symbol>
+								<tns:name>Ubezpieczenie standard (nd)</tns:name>
+							</tns:insurance>
+							<tns:insuranceRange>
+								<tns:threshold>
+									<tns:currency>
+										<tns:code>PLN</tns:code>
+									</tns:currency>
+									<tns:amount>500000</tns:amount>
+								</tns:threshold>
+								<tns:declaration>false</tns:declaration>
+							</tns:insuranceRange>
+							<tns:insuranceRange>
+								<tns:threshold>
+									<tns:currency>
+										<tns:code>PLN</tns:code>
+									</tns:currency>
+									<tns:amount>1000000</tns:amount>
+								</tns:threshold>
+								<tns:declaration>false</tns:declaration>
+							</tns:insuranceRange>
+							<tns:insuranceRange>
+								<tns:threshold>
+									<tns:currency>
+										<tns:code>PLN</tns:code>
+									</tns:currency>
+									<tns:amount>2000000</tns:amount>
+								</tns:threshold>
+								<tns:declaration>false</tns:declaration>
+							</tns:insuranceRange>
+							<tns:insuranceRange>
+								<tns:threshold>
+									<tns:currency>
+										<tns:code>PLN</tns:code>
+									</tns:currency>
+									<tns:amount>5000000</tns:amount>
+								</tns:threshold>
+								<tns:declaration>false</tns:declaration>
+							</tns:insuranceRange>
+							<tns:insuranceRange>
+								<tns:threshold>
+									<tns:currency>
+										<tns:code>PLN</tns:code>
+									</tns:currency>
+									<tns:amount>25000000</tns:amount>
+								</tns:threshold>
+								<tns:declaration>true</tns:declaration>
+							</tns:insuranceRange>
+						</tns:attribute>
+						<tns:attribute xsi:type="tns:MRUmSubParcelValueType">
+							<tns:maximum>10</tns:maximum>
+						</tns:attribute>
+						<tns:attribute xsi:type="tns:MRUmProductAdditionalAttributeType">
+							<tns:additionalAttribute>INDICATED_DAY</tns:additionalAttribute>
+							<tns:isRequired>false</tns:isRequired>
+						</tns:attribute>
+						<tns:attribute xsi:type="tns:MRUmProductAdditionalAttributeType">
+							<tns:additionalAttribute>SATURDAY_PICKUP</tns:additionalAttribute>
+							<tns:isRequired>false</tns:isRequired>
+						</tns:attribute>
+						<tns:attribute xsi:type="tns:MRUmProductAdditionalAttributeType">
+							<tns:additionalAttribute>CAREFULLY</tns:additionalAttribute>
+							<tns:isRequired>false</tns:isRequired>
+						</tns:attribute>
+						<tns:attribute xsi:type="tns:MRUmProductAdditionalAttributeType">
+							<tns:additionalAttribute>DELIVERY_AFTER_17</tns:additionalAttribute>
+							<tns:isRequired>false</tns:isRequired>
+						</tns:attribute>
+						<tns:attribute xsi:type="tns:MRUmProductAdditionalAttributeType">
+							<tns:additionalAttribute>NON_STANDARD_SHIPMENT</tns:additionalAttribute>
+							<tns:isRequired>false</tns:isRequired>
+						</tns:attribute>
+						<tns:attribute xsi:type="tns:MRUmProductAdditionalAttributeType">
+							<tns:additionalAttribute>PAPER_PROOF_OF_DELIVERY</tns:additionalAttribute>
+							<tns:isRequired>false</tns:isRequired>
+						</tns:attribute>
+						<tns:attribute xsi:type="tns:MRUmProductAdditionalAttributeType">
+							<tns:additionalAttribute>CASH_ON_DELIVERY</tns:additionalAttribute>
+							<tns:isRequired>false</tns:isRequired>
+						</tns:attribute>
+						<tns:attribute xsi:type="tns:MRUmProductAdditionalAttributeType">
+							<tns:additionalAttribute>RETURN_DOCUMENT</tns:additionalAttribute>
+							<tns:isRequired>false</tns:isRequired>
+						</tns:attribute>
+						<tns:attribute xsi:type="tns:MRUmProductAdditionalAttributeType">
+							<tns:additionalAttribute>VERIFICATION_BEFORE_DELIVERY</tns:additionalAttribute>
+							<tns:isRequired>false</tns:isRequired>
+						</tns:attribute>
+						<tns:attribute xsi:type="tns:MRUmProductAdditionalAttributeType">
+							<tns:additionalAttribute>DELIVERY_FOR_RECIPIENT_ONLY</tns:additionalAttribute>
+							<tns:isRequired>false</tns:isRequired>
+						</tns:attribute>
+					</tns:product>
+				</tns:validityProduct>
+				<tns:validityProduct>
+					<tns:validFrom>2015-04-30</tns:validFrom>
+					<tns:validTo>2999-12-31</tns:validTo>
+					<tns:product>
+						<tns:typp2>846</tns:typp2>
+						<tns:assortmentId>96</tns:assortmentId>
+						<tns:name>Paczka z zadeklarowaną wartością</tns:name>
+						<tns:attribute xsi:type="tns:MRUmProductBaseAttributeType">
+							<tns:firm>false</tns:firm>
+							<tns:eGiveBack>false</tns:eGiveBack>
+							<tns:declareValue>true</tns:declareValue>
+						</tns:attribute>
+						<tns:attribute xsi:type="tns:MRUmDeclareValueRangeType">
+							<tns:minimum>0</tns:minimum>
+							<tns:maximum>999999999</tns:maximum>
+						</tns:attribute>
+						<tns:attribute xsi:type="tns:MRUmPaySideType">
+							<tns:paySide>SENDER</tns:paySide>
+						</tns:attribute>
+						<tns:attribute xsi:type="tns:MRUmEpoType">
+							<tns:epoType>STANDARD</tns:epoType>
+							<tns:epoType>EXTEND</tns:epoType>
+						</tns:attribute>
+						<tns:attribute xsi:type="tns:MRUmGabaritType">
+							<tns:letterGauge>A</tns:letterGauge>
+						</tns:attribute>
+						<tns:attribute xsi:type="tns:MRUmGabaritType">
+							<tns:letterGauge>B</tns:letterGauge>
+						</tns:attribute>
+						<tns:attribute xsi:type="tns:MRUmMassRangeType">
+							<tns:minimum>0</tns:minimum>
+							<tns:maximum>10000</tns:maximum>
+						</tns:attribute>
+						<tns:attribute xsi:type="tns:MRUmPackageCategoryType">
+							<tns:category>EKONOMICZNA</tns:category>
+							<tns:category>PRIORYTETOWA</tns:category>
+						</tns:attribute>
+						<tns:attribute xsi:type="tns:MRUmProductAdditionalAttributeType">
+							<tns:additionalAttribute>PAPER_PROOF_OF_DELIVERY</tns:additionalAttribute>
+							<tns:isRequired>false</tns:isRequired>
+						</tns:attribute>
+					</tns:product>
+				</tns:validityProduct>
+				<tns:validityProduct>
+					<tns:validFrom>2015-04-30</tns:validFrom>
+					<tns:validTo>2999-12-31</tns:validTo>
+					<tns:product>
+						<tns:typp2>877</tns:typp2>
+						<tns:assortmentId>111</tns:assortmentId>
+						<tns:name>Przesyłka listowa zwykła zagraniczna z ZW</tns:name>
+						<tns:attribute xsi:type="tns:MRUmProductBaseAttributeType">
+							<tns:firm>false</tns:firm>
+							<tns:eGiveBack>false</tns:eGiveBack>
+							<tns:declareValue>true</tns:declareValue>
+						</tns:attribute>
+						<tns:attribute xsi:type="tns:MRUmDeclareValueRangeType">
+							<tns:minimum>0</tns:minimum>
+							<tns:maximum>999999999</tns:maximum>
+						</tns:attribute>
+						<tns:attribute xsi:type="tns:MRUmMassRangeType">
+							<tns:minimum>0</tns:minimum>
+							<tns:maximum>2000</tns:maximum>
+						</tns:attribute>
+						<tns:attribute xsi:type="tns:MRUmPackageCategoryType">
+							<tns:category>EKONOMICZNA</tns:category>
+							<tns:category>PRIORYTETOWA</tns:category>
+						</tns:attribute>
+						<tns:attribute xsi:type="tns:MRUmProductAdditionalAttributeType">
+							<tns:additionalAttribute>PAPER_PROOF_OF_DELIVERY</tns:additionalAttribute>
+							<tns:isRequired>false</tns:isRequired>
+						</tns:attribute>
+					</tns:product>
+				</tns:validityProduct>
+				<tns:validityProduct>
+					<tns:validFrom>2017-04-01</tns:validFrom>
+					<tns:validTo>2999-12-31</tns:validTo>
+					<tns:product>
+						<tns:typp2>889</tns:typp2>
+						<tns:assortmentId>117</tns:assortmentId>
+						<tns:name>Wydanie opakowań EMS</tns:name>
+						<tns:attribute xsi:type="tns:MRUmProductBaseAttributeType">
+							<tns:firm>false</tns:firm>
+							<tns:eGiveBack>false</tns:eGiveBack>
+							<tns:declareValue>false</tns:declareValue>
+						</tns:attribute>
+					</tns:product>
+				</tns:validityProduct>
+				<tns:validityProduct>
+					<tns:validFrom>2015-04-30</tns:validFrom>
+					<tns:validTo>2999-12-31</tns:validTo>
+					<tns:product>
+						<tns:typp2>834</tns:typp2>
+						<tns:assortmentId>71</tns:assortmentId>
+						<tns:name>Kurier Krajowy</tns:name>
+						<tns:service>KRAJOWY</tns:service>
+						<tns:attribute xsi:type="tns:MRUmProductBaseAttributeType">
+							<tns:firm>false</tns:firm>
+							<tns:eGiveBack>false</tns:eGiveBack>
+							<tns:declareValue>false</tns:declareValue>
+						</tns:attribute>
+						<tns:attribute xsi:type="tns:MRUmDeclareValueRangeType">
+							<tns:minimum>0</tns:minimum>
+							<tns:maximum>999999999</tns:maximum>
+						</tns:attribute>
+						<tns:attribute xsi:type="tns:MRUmPaySideType">
+							<tns:paySide>SENDER</tns:paySide>
+						</tns:attribute>
+						<tns:attribute xsi:type="tns:MRUmEpoType">
+							<tns:epoType>STANDARD</tns:epoType>
+							<tns:epoType>EXTEND</tns:epoType>
+						</tns:attribute>
+						<tns:attribute xsi:type="tns:MRUmMassRangeType">
+							<tns:minimum>0</tns:minimum>
+							<tns:maximum>50000</tns:maximum>
+						</tns:attribute>
+						<tns:attribute xsi:type="tns:MRUmInsuranceType">
+							<tns:insurance xsi:type="tns:MRUmInsuranceInfoType">
+								<tns:symbol>F2</tns:symbol>
+								<tns:name>Ubezpieczenie standard (nd)</tns:name>
+							</tns:insurance>
+							<tns:insuranceRange>
+								<tns:threshold>
+									<tns:currency>
+										<tns:code>PLN</tns:code>
+									</tns:currency>
+									<tns:amount>500000</tns:amount>
+								</tns:threshold>
+								<tns:declaration>false</tns:declaration>
+							</tns:insuranceRange>
+							<tns:insuranceRange>
+								<tns:threshold>
+									<tns:currency>
+										<tns:code>PLN</tns:code>
+									</tns:currency>
+									<tns:amount>1000000</tns:amount>
+								</tns:threshold>
+								<tns:declaration>false</tns:declaration>
+							</tns:insuranceRange>
+							<tns:insuranceRange>
+								<tns:threshold>
+									<tns:currency>
+										<tns:code>PLN</tns:code>
+									</tns:currency>
+									<tns:amount>2000000</tns:amount>
+								</tns:threshold>
+								<tns:declaration>false</tns:declaration>
+							</tns:insuranceRange>
+							<tns:insuranceRange>
+								<tns:threshold>
+									<tns:currency>
+										<tns:code>PLN</tns:code>
+									</tns:currency>
+									<tns:amount>5000000</tns:amount>
+								</tns:threshold>
+								<tns:declaration>false</tns:declaration>
+							</tns:insuranceRange>
+							<tns:insuranceRange>
+								<tns:threshold>
+									<tns:currency>
+										<tns:code>PLN</tns:code>
+									</tns:currency>
+									<tns:amount>25000000</tns:amount>
+								</tns:threshold>
+								<tns:declaration>true</tns:declaration>
+							</tns:insuranceRange>
+						</tns:attribute>
+						<tns:attribute xsi:type="tns:MRUmSubParcelValueType">
+							<tns:maximum>10</tns:maximum>
+						</tns:attribute>
+						<tns:attribute xsi:type="tns:MRUmProductAdditionalAttributeType">
+							<tns:additionalAttribute>SATURDAY_PICKUP</tns:additionalAttribute>
+							<tns:isRequired>false</tns:isRequired>
+						</tns:attribute>
+						<tns:attribute xsi:type="tns:MRUmProductAdditionalAttributeType">
+							<tns:additionalAttribute>CAREFULLY</tns:additionalAttribute>
+							<tns:isRequired>false</tns:isRequired>
+						</tns:attribute>
+						<tns:attribute xsi:type="tns:MRUmProductAdditionalAttributeType">
+							<tns:additionalAttribute>NON_STANDARD_SHIPMENT</tns:additionalAttribute>
+							<tns:isRequired>false</tns:isRequired>
+						</tns:attribute>
+						<tns:attribute xsi:type="tns:MRUmProductAdditionalAttributeType">
+							<tns:additionalAttribute>PAPER_PROOF_OF_DELIVERY</tns:additionalAttribute>
+							<tns:isRequired>false</tns:isRequired>
+						</tns:attribute>
+						<tns:attribute xsi:type="tns:MRUmProductAdditionalAttributeType">
+							<tns:additionalAttribute>CASH_ON_DELIVERY</tns:additionalAttribute>
+							<tns:isRequired>false</tns:isRequired>
+						</tns:attribute>
+						<tns:attribute xsi:type="tns:MRUmProductAdditionalAttributeType">
+							<tns:additionalAttribute>RETURN_DOCUMENT</tns:additionalAttribute>
+							<tns:isRequired>false</tns:isRequired>
+						</tns:attribute>
+						<tns:attribute xsi:type="tns:MRUmProductAdditionalAttributeType">
+							<tns:additionalAttribute>VERIFICATION_BEFORE_DELIVERY</tns:additionalAttribute>
+							<tns:isRequired>false</tns:isRequired>
+						</tns:attribute>
+						<tns:attribute xsi:type="tns:MRUmProductAdditionalAttributeType">
+							<tns:additionalAttribute>DELIVERY_FOR_RECIPIENT_ONLY</tns:additionalAttribute>
+							<tns:isRequired>false</tns:isRequired>
+						</tns:attribute>
+					</tns:product>
+				</tns:validityProduct>
+				<tns:validityProduct>
+					<tns:validFrom>2017-02-01</tns:validFrom>
+					<tns:validTo>2999-12-31</tns:validTo>
+					<tns:product>
+						<tns:typp2>838</tns:typp2>
+						<tns:assortmentId>78</tns:assortmentId>
+						<tns:name>Pocztex Procedura III</tns:name>
+						<tns:service>PROCEDURALNA_STANDARD_TRZY_STOPNIE</tns:service>
+						<tns:attribute xsi:type="tns:MRUmProductBaseAttributeType">
+							<tns:firm>false</tns:firm>
+							<tns:eGiveBack>false</tns:eGiveBack>
+							<tns:declareValue>false</tns:declareValue>
+						</tns:attribute>
+						<tns:attribute xsi:type="tns:MRUmDeclareValueRangeType">
+							<tns:minimum>0</tns:minimum>
+							<tns:maximum>999999999</tns:maximum>
+						</tns:attribute>
+						<tns:attribute xsi:type="tns:MRUmEpoType">
+							<tns:epoType>EXTEND</tns:epoType>
+						</tns:attribute>
+						<tns:attribute xsi:type="tns:MRUmMassRangeType">
+							<tns:minimum>0</tns:minimum>
+							<tns:maximum>50000</tns:maximum>
+						</tns:attribute>
+						<tns:attribute xsi:type="tns:MRUmProceduralOptionType">
+							<tns:additionalActivities>
+								<tns:idActivity>1</tns:idActivity>
+							</tns:additionalActivities>
+							<tns:additionalActivities>
+								<tns:idActivity>2</tns:idActivity>
+							</tns:additionalActivities>
+							<tns:additionalActivities>
+								<tns:idActivity>3</tns:idActivity>
+							</tns:additionalActivities>
+							<tns:additionalActivities>
+								<tns:idActivity>4</tns:idActivity>
+							</tns:additionalActivities>
+							<tns:additionalActivities>
+								<tns:idActivity>5</tns:idActivity>
+							</tns:additionalActivities>
+							<tns:additionalActivities>
+								<tns:idActivity>6</tns:idActivity>
+							</tns:additionalActivities>
+							<tns:additionalActivities>
+								<tns:idActivity>9</tns:idActivity>
+							</tns:additionalActivities>
+							<tns:additionalActivities>
+								<tns:idActivity>10</tns:idActivity>
+							</tns:additionalActivities>
+							<tns:additionalActivities>
+								<tns:idActivity>11</tns:idActivity>
+							</tns:additionalActivities>
+							<tns:additionalActivities>
+								<tns:idActivity>12</tns:idActivity>
+							</tns:additionalActivities>
+							<tns:additionalActivities>
+								<tns:idActivity>13</tns:idActivity>
+							</tns:additionalActivities>
+							<tns:additionalActivities>
+								<tns:idActivity>14</tns:idActivity>
+							</tns:additionalActivities>
+							<tns:additionalActivities>
+								<tns:idActivity>15</tns:idActivity>
+							</tns:additionalActivities>
+						</tns:attribute>
+						<tns:attribute xsi:type="tns:MRUmInsuranceType">
+							<tns:insurance xsi:type="tns:MRUmInsuranceInfoType">
+								<tns:symbol>S3</tns:symbol>
+								<tns:name>838S3 - Ubezpieczenie standard (nd)</tns:name>
+							</tns:insurance>
+							<tns:insuranceRange>
+								<tns:threshold>
+									<tns:currency>
+										<tns:code>PLN</tns:code>
+									</tns:currency>
+									<tns:amount>100000</tns:amount>
+								</tns:threshold>
+								<tns:declaration>false</tns:declaration>
+							</tns:insuranceRange>
+							<tns:insuranceRange>
+								<tns:threshold>
+									<tns:currency>
+										<tns:code>PLN</tns:code>
+									</tns:currency>
+									<tns:amount>500000</tns:amount>
+								</tns:threshold>
+								<tns:declaration>false</tns:declaration>
+							</tns:insuranceRange>
+							<tns:insuranceRange>
+								<tns:threshold>
+									<tns:currency>
+										<tns:code>PLN</tns:code>
+									</tns:currency>
+									<tns:amount>1000000</tns:amount>
+								</tns:threshold>
+								<tns:declaration>false</tns:declaration>
+							</tns:insuranceRange>
+							<tns:insuranceRange>
+								<tns:threshold>
+									<tns:currency>
+										<tns:code>PLN</tns:code>
+									</tns:currency>
+									<tns:amount>2000000</tns:amount>
+								</tns:threshold>
+								<tns:declaration>false</tns:declaration>
+							</tns:insuranceRange>
+							<tns:insuranceRange>
+								<tns:threshold>
+									<tns:currency>
+										<tns:code>PLN</tns:code>
+									</tns:currency>
+									<tns:amount>5000000</tns:amount>
+								</tns:threshold>
+								<tns:declaration>false</tns:declaration>
+							</tns:insuranceRange>
+							<tns:insuranceRange>
+								<tns:threshold>
+									<tns:currency>
+										<tns:code>PLN</tns:code>
+									</tns:currency>
+									<tns:amount>25000000</tns:amount>
+								</tns:threshold>
+								<tns:declaration>true</tns:declaration>
+							</tns:insuranceRange>
+						</tns:attribute>
+						<tns:attribute xsi:type="tns:MRUmProductAdditionalAttributeType">
+							<tns:additionalAttribute>CASH_ON_DELIVERY</tns:additionalAttribute>
+							<tns:isRequired>false</tns:isRequired>
+						</tns:attribute>
+					</tns:product>
+				</tns:validityProduct>
+				<tns:validityProduct>
+					<tns:validFrom>2015-04-30</tns:validFrom>
+					<tns:validTo>2999-12-31</tns:validTo>
+					<tns:product>
+						<tns:typp2>846</tns:typp2>
+						<tns:assortmentId>95</tns:assortmentId>
+						<tns:name>Paczka pocztowa krajowa</tns:name>
+						<tns:attribute xsi:type="tns:MRUmProductBaseAttributeType">
+							<tns:firm>false</tns:firm>
+							<tns:eGiveBack>false</tns:eGiveBack>
+							<tns:declareValue>false</tns:declareValue>
+						</tns:attribute>
+						<tns:attribute xsi:type="tns:MRUmPaySideType">
+							<tns:paySide>SENDER</tns:paySide>
+						</tns:attribute>
+						<tns:attribute xsi:type="tns:MRUmEpoType">
+							<tns:epoType>STANDARD</tns:epoType>
+							<tns:epoType>EXTEND</tns:epoType>
+						</tns:attribute>
+						<tns:attribute xsi:type="tns:MRUmGabaritType">
+							<tns:letterGauge>A</tns:letterGauge>
+						</tns:attribute>
+						<tns:attribute xsi:type="tns:MRUmGabaritType">
+							<tns:letterGauge>B</tns:letterGauge>
+						</tns:attribute>
+						<tns:attribute xsi:type="tns:MRUmMassRangeType">
+							<tns:minimum>0</tns:minimum>
+							<tns:maximum>10000</tns:maximum>
+						</tns:attribute>
+						<tns:attribute xsi:type="tns:MRUmPackageCategoryType">
+							<tns:category>EKONOMICZNA</tns:category>
+							<tns:category>PRIORYTETOWA</tns:category>
+						</tns:attribute>
+						<tns:attribute xsi:type="tns:MRUmProductAdditionalAttributeType">
+							<tns:additionalAttribute>PAPER_PROOF_OF_DELIVERY</tns:additionalAttribute>
+							<tns:isRequired>false</tns:isRequired>
+						</tns:attribute>
+					</tns:product>
+				</tns:validityProduct>
+				<tns:validityProduct>
+					<tns:validFrom>2020-03-06</tns:validFrom>
+					<tns:validTo>2999-12-31</tns:validTo>
+					<tns:product>
+						<tns:typp2>868</tns:typp2>
+						<tns:assortmentId>495</tns:assortmentId>
+						<tns:name>Paczka Premium</tns:name>
+						<tns:attribute xsi:type="tns:MRUmProductBaseAttributeType">
+							<tns:firm>false</tns:firm>
+							<tns:eGiveBack>false</tns:eGiveBack>
+							<tns:declareValue>false</tns:declareValue>
+						</tns:attribute>
+						<tns:attribute xsi:type="tns:MRUmMassRangeType">
+							<tns:minimum>0</tns:minimum>
+							<tns:maximum>30000</tns:maximum>
+						</tns:attribute>
+					</tns:product>
+				</tns:validityProduct>
+				<tns:validityProduct>
+					<tns:validFrom>2019-04-01</tns:validFrom>
+					<tns:validTo>2999-12-31</tns:validTo>
+					<tns:product>
+						<tns:typp2>806</tns:typp2>
+						<tns:assortmentId>483</tns:assortmentId>
+						<tns:name>Przesyłka listowa z ZW (format)</tns:name>
+						<tns:attribute xsi:type="tns:MRUmProductBaseAttributeType">
+							<tns:firm>false</tns:firm>
+							<tns:eGiveBack>false</tns:eGiveBack>
+							<tns:declareValue>true</tns:declareValue>
+						</tns:attribute>
+						<tns:attribute xsi:type="tns:MRUmDeclareValueRangeType">
+							<tns:minimum>0</tns:minimum>
+							<tns:maximum>999999999</tns:maximum>
+						</tns:attribute>
+						<tns:attribute xsi:type="tns:MRUmPaySideType">
+							<tns:paySide>SENDER</tns:paySide>
+						</tns:attribute>
+						<tns:attribute xsi:type="tns:MRUmMassRangeType">
+							<tns:minimum>0</tns:minimum>
+							<tns:maximum>2000</tns:maximum>
+						</tns:attribute>
+						<tns:attribute xsi:type="tns:MRUmPackageCategoryType">
+							<tns:category>EKONOMICZNA</tns:category>
+							<tns:category>PRIORYTETOWA</tns:category>
+						</tns:attribute>
+						<tns:attribute xsi:type="tns:MRUmFormatType">
+							<tns:letterFormat>S</tns:letterFormat>
+						</tns:attribute>
+						<tns:attribute xsi:type="tns:MRUmFormatType">
+							<tns:letterFormat>M</tns:letterFormat>
+						</tns:attribute>
+						<tns:attribute xsi:type="tns:MRUmFormatType">
+							<tns:letterFormat>L</tns:letterFormat>
+						</tns:attribute>
+						<tns:attribute xsi:type="tns:MRUmProductAdditionalAttributeType">
+							<tns:additionalAttribute>PAPER_PROOF_OF_DELIVERY</tns:additionalAttribute>
+							<tns:isRequired>false</tns:isRequired>
+						</tns:attribute>
+					</tns:product>
+				</tns:validityProduct>
+				<tns:validityProduct>
+					<tns:validFrom>2019-04-01</tns:validFrom>
+					<tns:validTo>2999-12-31</tns:validTo>
+					<tns:product>
+						<tns:typp2>870</tns:typp2>
+						<tns:assortmentId>488</tns:assortmentId>
+						<tns:name>Przesyłka listowa polecona zagraniczna</tns:name>
+						<tns:attribute xsi:type="tns:MRUmProductBaseAttributeType">
+							<tns:firm>false</tns:firm>
+							<tns:eGiveBack>false</tns:eGiveBack>
+							<tns:declareValue>false</tns:declareValue>
+						</tns:attribute>
+						<tns:attribute xsi:type="tns:MRUmMassRangeType">
+							<tns:minimum>0</tns:minimum>
+							<tns:maximum>2000</tns:maximum>
+						</tns:attribute>
+						<tns:attribute xsi:type="tns:MRUmPackageCategoryType">
+							<tns:category>PRIORYTETOWA</tns:category>
+						</tns:attribute>
+						<tns:attribute xsi:type="tns:MRUmProductAdditionalAttributeType">
+							<tns:additionalAttribute>PAPER_PROOF_OF_DELIVERY</tns:additionalAttribute>
+							<tns:isRequired>false</tns:isRequired>
+						</tns:attribute>
+					</tns:product>
+				</tns:validityProduct>
+				<tns:validityProduct>
+					<tns:validFrom>2017-02-01</tns:validFrom>
+					<tns:validTo>2999-12-31</tns:validTo>
+					<tns:product>
+						<tns:typp2>811</tns:typp2>
+						<tns:assortmentId>46</tns:assortmentId>
+						<tns:name>Przesyłka handlowa nierejestrowana z numerem</tns:name>
+						<tns:service>LIST_HANDLOWY</tns:service>
+						<tns:attribute xsi:type="tns:MRUmProductBaseAttributeType">
+							<tns:firm>false</tns:firm>
+							<tns:eGiveBack>false</tns:eGiveBack>
+							<tns:declareValue>false</tns:declareValue>
+						</tns:attribute>
+						<tns:attribute xsi:type="tns:MRUmMassRangeType">
+							<tns:minimum>0</tns:minimum>
+							<tns:maximum>1000</tns:maximum>
+						</tns:attribute>
+					</tns:product>
+				</tns:validityProduct>
+				<tns:validityProduct>
+					<tns:validFrom>2015-04-30</tns:validFrom>
+					<tns:validTo>2999-12-31</tns:validTo>
+					<tns:product>
+						<tns:typp2>878</tns:typp2>
+						<tns:assortmentId>112</tns:assortmentId>
+						<tns:name>Paczka pocztowa zagraniczna EK</tns:name>
+						<tns:attribute xsi:type="tns:MRUmProductBaseAttributeType">
+							<tns:firm>false</tns:firm>
+							<tns:eGiveBack>false</tns:eGiveBack>
+							<tns:declareValue>false</tns:declareValue>
+						</tns:attribute>
+						<tns:attribute xsi:type="tns:MRUmDeclareValueRangeType">
+							<tns:minimum>0</tns:minimum>
+							<tns:maximum>999999999</tns:maximum>
+						</tns:attribute>
+						<tns:attribute xsi:type="tns:MRUmMassRangeType">
+							<tns:minimum>0</tns:minimum>
+							<tns:maximum>20000</tns:maximum>
+						</tns:attribute>
+						<tns:attribute xsi:type="tns:MRUmPackageCategoryType">
+							<tns:category>EKONOMICZNA</tns:category>
+						</tns:attribute>
+						<tns:attribute xsi:type="tns:MRUmProductAdditionalAttributeType">
+							<tns:additionalAttribute>PAPER_PROOF_OF_DELIVERY</tns:additionalAttribute>
+							<tns:isRequired>false</tns:isRequired>
+						</tns:attribute>
+					</tns:product>
+				</tns:validityProduct>
+				<tns:validityProduct>
+					<tns:validFrom>2015-04-30</tns:validFrom>
+					<tns:validTo>2999-12-31</tns:validTo>
+					<tns:product>
+						<tns:typp2>833</tns:typp2>
+						<tns:assortmentId>66</tns:assortmentId>
+						<tns:name>Paczka 24</tns:name>
+						<tns:service>PACZKA_24</tns:service>
+						<tns:attribute xsi:type="tns:MRUmProductBaseAttributeType">
+							<tns:firm>false</tns:firm>
+							<tns:eGiveBack>false</tns:eGiveBack>
+							<tns:declareValue>false</tns:declareValue>
+						</tns:attribute>
+						<tns:attribute xsi:type="tns:MRUmExpectedDeliveryType">
+							<tns:expectedDeliveryTime>BEFORE_9</tns:expectedDeliveryTime>
+						</tns:attribute>
+						<tns:attribute xsi:type="tns:MRUmExpectedDeliveryType">
+							<tns:expectedDeliveryTime>BEFORE_12</tns:expectedDeliveryTime>
+						</tns:attribute>
+						<tns:attribute xsi:type="tns:MRUmDeclareValueRangeType">
+							<tns:minimum>0</tns:minimum>
+							<tns:maximum>999999999</tns:maximum>
+						</tns:attribute>
+						<tns:attribute xsi:type="tns:MRUmPaySideType">
+							<tns:paySide>SENDER</tns:paySide>
+						</tns:attribute>
+						<tns:attribute xsi:type="tns:MRUmEpoType">
+							<tns:epoType>STANDARD</tns:epoType>
+							<tns:epoType>EXTEND</tns:epoType>
+						</tns:attribute>
+						<tns:attribute xsi:type="tns:MRUmGabaritType">
+							<tns:letterGauge>A</tns:letterGauge>
+						</tns:attribute>
+						<tns:attribute xsi:type="tns:MRUmGabaritType">
+							<tns:letterGauge>B</tns:letterGauge>
+						</tns:attribute>
+						<tns:attribute xsi:type="tns:MRUmMassRangeType">
+							<tns:minimum>0</tns:minimum>
+							<tns:maximum>30000</tns:maximum>
+						</tns:attribute>
+						<tns:attribute xsi:type="tns:MRUmInsuranceType">
+							<tns:insurance xsi:type="tns:MRUmInsuranceInfoType">
+								<tns:symbol>E</tns:symbol>
+								<tns:name>Ubezpieczenie standard (nd)</tns:name>
+							</tns:insurance>
+							<tns:insuranceRange>
+								<tns:threshold>
+									<tns:currency>
+										<tns:code>PLN</tns:code>
+									</tns:currency>
+									<tns:amount>100000</tns:amount>
+								</tns:threshold>
+								<tns:declaration>false</tns:declaration>
+							</tns:insuranceRange>
+							<tns:insuranceRange>
+								<tns:threshold>
+									<tns:currency>
+										<tns:code>PLN</tns:code>
+									</tns:currency>
+									<tns:amount>500000</tns:amount>
+								</tns:threshold>
+								<tns:declaration>false</tns:declaration>
+							</tns:insuranceRange>
+							<tns:insuranceRange>
+								<tns:threshold>
+									<tns:currency>
+										<tns:code>PLN</tns:code>
+									</tns:currency>
+									<tns:amount>1000000</tns:amount>
+								</tns:threshold>
+								<tns:declaration>false</tns:declaration>
+							</tns:insuranceRange>
+							<tns:insuranceRange>
+								<tns:threshold>
+									<tns:currency>
+										<tns:code>PLN</tns:code>
+									</tns:currency>
+									<tns:amount>2000000</tns:amount>
+								</tns:threshold>
+								<tns:declaration>false</tns:declaration>
+							</tns:insuranceRange>
+							<tns:insuranceRange>
+								<tns:threshold>
+									<tns:currency>
+										<tns:code>PLN</tns:code>
+									</tns:currency>
+									<tns:amount>5000000</tns:amount>
+								</tns:threshold>
+								<tns:declaration>false</tns:declaration>
+							</tns:insuranceRange>
+							<tns:insuranceRange>
+								<tns:threshold>
+									<tns:currency>
+										<tns:code>PLN</tns:code>
+									</tns:currency>
+									<tns:amount>25000000</tns:amount>
+								</tns:threshold>
+								<tns:declaration>true</tns:declaration>
+							</tns:insuranceRange>
+						</tns:attribute>
+						<tns:attribute xsi:type="tns:MRUmSubParcelValueType">
+							<tns:maximum>10</tns:maximum>
+						</tns:attribute>
+						<tns:attribute xsi:type="tns:MRUmProductAdditionalAttributeType">
+							<tns:additionalAttribute>INDICATED_DAY</tns:additionalAttribute>
+							<tns:isRequired>false</tns:isRequired>
+						</tns:attribute>
+						<tns:attribute xsi:type="tns:MRUmProductAdditionalAttributeType">
+							<tns:additionalAttribute>CAREFULLY</tns:additionalAttribute>
+							<tns:isRequired>false</tns:isRequired>
+						</tns:attribute>
+						<tns:attribute xsi:type="tns:MRUmProductAdditionalAttributeType">
+							<tns:additionalAttribute>DELIVERY_AFTER_17</tns:additionalAttribute>
+							<tns:isRequired>false</tns:isRequired>
+						</tns:attribute>
+						<tns:attribute xsi:type="tns:MRUmProductAdditionalAttributeType">
+							<tns:additionalAttribute>NON_STANDARD_SHIPMENT</tns:additionalAttribute>
+							<tns:isRequired>false</tns:isRequired>
+						</tns:attribute>
+						<tns:attribute xsi:type="tns:MRUmProductAdditionalAttributeType">
+							<tns:additionalAttribute>PAPER_PROOF_OF_DELIVERY</tns:additionalAttribute>
+							<tns:isRequired>false</tns:isRequired>
+						</tns:attribute>
+						<tns:attribute xsi:type="tns:MRUmProductAdditionalAttributeType">
+							<tns:additionalAttribute>CASH_ON_DELIVERY</tns:additionalAttribute>
+							<tns:isRequired>false</tns:isRequired>
+						</tns:attribute>
+						<tns:attribute xsi:type="tns:MRUmProductAdditionalAttributeType">
+							<tns:additionalAttribute>RETURN_DOCUMENT</tns:additionalAttribute>
+							<tns:isRequired>false</tns:isRequired>
+						</tns:attribute>
+						<tns:attribute xsi:type="tns:MRUmProductAdditionalAttributeType">
+							<tns:additionalAttribute>VERIFICATION_BEFORE_DELIVERY</tns:additionalAttribute>
+							<tns:isRequired>false</tns:isRequired>
+						</tns:attribute>
+						<tns:attribute xsi:type="tns:MRUmProductAdditionalAttributeType">
+							<tns:additionalAttribute>DELIVERY_FOR_RECIPIENT_ONLY</tns:additionalAttribute>
+							<tns:isRequired>false</tns:isRequired>
+						</tns:attribute>
+					</tns:product>
+				</tns:validityProduct>
+				<tns:validityProduct>
+					<tns:validFrom>2015-04-30</tns:validFrom>
+					<tns:validTo>2999-12-31</tns:validTo>
+					<tns:product>
+						<tns:typp2>834</tns:typp2>
+						<tns:assortmentId>72</tns:assortmentId>
+						<tns:name>Kurier Miejski do 3h</tns:name>
+						<tns:service>MIEJSKI_DO_3H_DO_5KM</tns:service>
+						<tns:attribute xsi:type="tns:MRUmProductBaseAttributeType">
+							<tns:firm>false</tns:firm>
+							<tns:eGiveBack>false</tns:eGiveBack>
+							<tns:declareValue>false</tns:declareValue>
+						</tns:attribute>
+						<tns:attribute xsi:type="tns:MRUmDeclareValueRangeType">
+							<tns:minimum>0</tns:minimum>
+							<tns:maximum>999999999</tns:maximum>
+						</tns:attribute>
+						<tns:attribute xsi:type="tns:MRUmPaySideType">
+							<tns:paySide>SENDER</tns:paySide>
+						</tns:attribute>
+						<tns:attribute xsi:type="tns:MRUmEpoType">
+							<tns:epoType>STANDARD</tns:epoType>
+							<tns:epoType>EXTEND</tns:epoType>
+						</tns:attribute>
+						<tns:attribute xsi:type="tns:MRUmMassRangeType">
+							<tns:minimum>0</tns:minimum>
+							<tns:maximum>50000</tns:maximum>
+						</tns:attribute>
+						<tns:attribute xsi:type="tns:MRUmInsuranceType">
+							<tns:insurance xsi:type="tns:MRUmInsuranceInfoType">
+								<tns:symbol>F2</tns:symbol>
+								<tns:name>Ubezpieczenie standard (nd)</tns:name>
+							</tns:insurance>
+							<tns:insuranceRange>
+								<tns:threshold>
+									<tns:currency>
+										<tns:code>PLN</tns:code>
+									</tns:currency>
+									<tns:amount>500000</tns:amount>
+								</tns:threshold>
+								<tns:declaration>false</tns:declaration>
+							</tns:insuranceRange>
+							<tns:insuranceRange>
+								<tns:threshold>
+									<tns:currency>
+										<tns:code>PLN</tns:code>
+									</tns:currency>
+									<tns:amount>1000000</tns:amount>
+								</tns:threshold>
+								<tns:declaration>false</tns:declaration>
+							</tns:insuranceRange>
+							<tns:insuranceRange>
+								<tns:threshold>
+									<tns:currency>
+										<tns:code>PLN</tns:code>
+									</tns:currency>
+									<tns:amount>2000000</tns:amount>
+								</tns:threshold>
+								<tns:declaration>false</tns:declaration>
+							</tns:insuranceRange>
+							<tns:insuranceRange>
+								<tns:threshold>
+									<tns:currency>
+										<tns:code>PLN</tns:code>
+									</tns:currency>
+									<tns:amount>5000000</tns:amount>
+								</tns:threshold>
+								<tns:declaration>false</tns:declaration>
+							</tns:insuranceRange>
+							<tns:insuranceRange>
+								<tns:threshold>
+									<tns:currency>
+										<tns:code>PLN</tns:code>
+									</tns:currency>
+									<tns:amount>25000000</tns:amount>
+								</tns:threshold>
+								<tns:declaration>true</tns:declaration>
+							</tns:insuranceRange>
+						</tns:attribute>
+						<tns:attribute xsi:type="tns:MRUmSubParcelValueType">
+							<tns:maximum>10</tns:maximum>
+						</tns:attribute>
+						<tns:attribute xsi:type="tns:MRUmProductAdditionalAttributeType">
+							<tns:additionalAttribute>SATURDAY_PICKUP</tns:additionalAttribute>
+							<tns:isRequired>false</tns:isRequired>
+						</tns:attribute>
+						<tns:attribute xsi:type="tns:MRUmProductAdditionalAttributeType">
+							<tns:additionalAttribute>CAREFULLY</tns:additionalAttribute>
+							<tns:isRequired>false</tns:isRequired>
+						</tns:attribute>
+						<tns:attribute xsi:type="tns:MRUmProductAdditionalAttributeType">
+							<tns:additionalAttribute>NON_STANDARD_SHIPMENT</tns:additionalAttribute>
+							<tns:isRequired>false</tns:isRequired>
+						</tns:attribute>
+						<tns:attribute xsi:type="tns:MRUmProductAdditionalAttributeType">
+							<tns:additionalAttribute>PAPER_PROOF_OF_DELIVERY</tns:additionalAttribute>
+							<tns:isRequired>false</tns:isRequired>
+						</tns:attribute>
+						<tns:attribute xsi:type="tns:MRUmProductAdditionalAttributeType">
+							<tns:additionalAttribute>CASH_ON_DELIVERY</tns:additionalAttribute>
+							<tns:isRequired>false</tns:isRequired>
+						</tns:attribute>
+						<tns:attribute xsi:type="tns:MRUmProductAdditionalAttributeType">
+							<tns:additionalAttribute>RETURN_DOCUMENT</tns:additionalAttribute>
+							<tns:isRequired>false</tns:isRequired>
+						</tns:attribute>
+						<tns:attribute xsi:type="tns:MRUmProductAdditionalAttributeType">
+							<tns:additionalAttribute>VERIFICATION_BEFORE_DELIVERY</tns:additionalAttribute>
+							<tns:isRequired>false</tns:isRequired>
+						</tns:attribute>
+						<tns:attribute xsi:type="tns:MRUmProductAdditionalAttributeType">
+							<tns:additionalAttribute>DELIVERY_FOR_RECIPIENT_ONLY</tns:additionalAttribute>
+							<tns:isRequired>false</tns:isRequired>
+						</tns:attribute>
+					</tns:product>
+				</tns:validityProduct>
+				<tns:validityProduct>
+					<tns:validFrom>2015-04-30</tns:validFrom>
+					<tns:validTo>2999-12-31</tns:validTo>
+					<tns:product>
+						<tns:typp2>834</tns:typp2>
+						<tns:assortmentId>72</tns:assortmentId>
+						<tns:name>Kurier Miejski do 3h</tns:name>
+						<tns:service>MIEJSKI_DO_3H_DO_10KM</tns:service>
+						<tns:attribute xsi:type="tns:MRUmProductBaseAttributeType">
+							<tns:firm>false</tns:firm>
+							<tns:eGiveBack>false</tns:eGiveBack>
+							<tns:declareValue>false</tns:declareValue>
+						</tns:attribute>
+						<tns:attribute xsi:type="tns:MRUmDeclareValueRangeType">
+							<tns:minimum>0</tns:minimum>
+							<tns:maximum>999999999</tns:maximum>
+						</tns:attribute>
+						<tns:attribute xsi:type="tns:MRUmPaySideType">
+							<tns:paySide>SENDER</tns:paySide>
+						</tns:attribute>
+						<tns:attribute xsi:type="tns:MRUmEpoType">
+							<tns:epoType>STANDARD</tns:epoType>
+							<tns:epoType>EXTEND</tns:epoType>
+						</tns:attribute>
+						<tns:attribute xsi:type="tns:MRUmMassRangeType">
+							<tns:minimum>0</tns:minimum>
+							<tns:maximum>50000</tns:maximum>
+						</tns:attribute>
+						<tns:attribute xsi:type="tns:MRUmInsuranceType">
+							<tns:insurance xsi:type="tns:MRUmInsuranceInfoType">
+								<tns:symbol>F2</tns:symbol>
+								<tns:name>Ubezpieczenie standard (nd)</tns:name>
+							</tns:insurance>
+							<tns:insuranceRange>
+								<tns:threshold>
+									<tns:currency>
+										<tns:code>PLN</tns:code>
+									</tns:currency>
+									<tns:amount>500000</tns:amount>
+								</tns:threshold>
+								<tns:declaration>false</tns:declaration>
+							</tns:insuranceRange>
+							<tns:insuranceRange>
+								<tns:threshold>
+									<tns:currency>
+										<tns:code>PLN</tns:code>
+									</tns:currency>
+									<tns:amount>1000000</tns:amount>
+								</tns:threshold>
+								<tns:declaration>false</tns:declaration>
+							</tns:insuranceRange>
+							<tns:insuranceRange>
+								<tns:threshold>
+									<tns:currency>
+										<tns:code>PLN</tns:code>
+									</tns:currency>
+									<tns:amount>2000000</tns:amount>
+								</tns:threshold>
+								<tns:declaration>false</tns:declaration>
+							</tns:insuranceRange>
+							<tns:insuranceRange>
+								<tns:threshold>
+									<tns:currency>
+										<tns:code>PLN</tns:code>
+									</tns:currency>
+									<tns:amount>5000000</tns:amount>
+								</tns:threshold>
+								<tns:declaration>false</tns:declaration>
+							</tns:insuranceRange>
+							<tns:insuranceRange>
+								<tns:threshold>
+									<tns:currency>
+										<tns:code>PLN</tns:code>
+									</tns:currency>
+									<tns:amount>25000000</tns:amount>
+								</tns:threshold>
+								<tns:declaration>true</tns:declaration>
+							</tns:insuranceRange>
+						</tns:attribute>
+						<tns:attribute xsi:type="tns:MRUmSubParcelValueType">
+							<tns:maximum>10</tns:maximum>
+						</tns:attribute>
+						<tns:attribute xsi:type="tns:MRUmProductAdditionalAttributeType">
+							<tns:additionalAttribute>SATURDAY_PICKUP</tns:additionalAttribute>
+							<tns:isRequired>false</tns:isRequired>
+						</tns:attribute>
+						<tns:attribute xsi:type="tns:MRUmProductAdditionalAttributeType">
+							<tns:additionalAttribute>CAREFULLY</tns:additionalAttribute>
+							<tns:isRequired>false</tns:isRequired>
+						</tns:attribute>
+						<tns:attribute xsi:type="tns:MRUmProductAdditionalAttributeType">
+							<tns:additionalAttribute>NON_STANDARD_SHIPMENT</tns:additionalAttribute>
+							<tns:isRequired>false</tns:isRequired>
+						</tns:attribute>
+						<tns:attribute xsi:type="tns:MRUmProductAdditionalAttributeType">
+							<tns:additionalAttribute>PAPER_PROOF_OF_DELIVERY</tns:additionalAttribute>
+							<tns:isRequired>false</tns:isRequired>
+						</tns:attribute>
+						<tns:attribute xsi:type="tns:MRUmProductAdditionalAttributeType">
+							<tns:additionalAttribute>CASH_ON_DELIVERY</tns:additionalAttribute>
+							<tns:isRequired>false</tns:isRequired>
+						</tns:attribute>
+						<tns:attribute xsi:type="tns:MRUmProductAdditionalAttributeType">
+							<tns:additionalAttribute>RETURN_DOCUMENT</tns:additionalAttribute>
+							<tns:isRequired>false</tns:isRequired>
+						</tns:attribute>
+						<tns:attribute xsi:type="tns:MRUmProductAdditionalAttributeType">
+							<tns:additionalAttribute>VERIFICATION_BEFORE_DELIVERY</tns:additionalAttribute>
+							<tns:isRequired>false</tns:isRequired>
+						</tns:attribute>
+						<tns:attribute xsi:type="tns:MRUmProductAdditionalAttributeType">
+							<tns:additionalAttribute>DELIVERY_FOR_RECIPIENT_ONLY</tns:additionalAttribute>
+							<tns:isRequired>false</tns:isRequired>
+						</tns:attribute>
+					</tns:product>
+				</tns:validityProduct>
+				<tns:validityProduct>
+					<tns:validFrom>2015-04-30</tns:validFrom>
+					<tns:validTo>2999-12-31</tns:validTo>
+					<tns:product>
+						<tns:typp2>834</tns:typp2>
+						<tns:assortmentId>72</tns:assortmentId>
+						<tns:name>Kurier Miejski do 3h</tns:name>
+						<tns:service>MIEJSKI_DO_3H_DO_15KM</tns:service>
+						<tns:attribute xsi:type="tns:MRUmProductBaseAttributeType">
+							<tns:firm>false</tns:firm>
+							<tns:eGiveBack>false</tns:eGiveBack>
+							<tns:declareValue>false</tns:declareValue>
+						</tns:attribute>
+						<tns:attribute xsi:type="tns:MRUmDeclareValueRangeType">
+							<tns:minimum>0</tns:minimum>
+							<tns:maximum>999999999</tns:maximum>
+						</tns:attribute>
+						<tns:attribute xsi:type="tns:MRUmPaySideType">
+							<tns:paySide>SENDER</tns:paySide>
+						</tns:attribute>
+						<tns:attribute xsi:type="tns:MRUmEpoType">
+							<tns:epoType>STANDARD</tns:epoType>
+							<tns:epoType>EXTEND</tns:epoType>
+						</tns:attribute>
+						<tns:attribute xsi:type="tns:MRUmMassRangeType">
+							<tns:minimum>0</tns:minimum>
+							<tns:maximum>50000</tns:maximum>
+						</tns:attribute>
+						<tns:attribute xsi:type="tns:MRUmInsuranceType">
+							<tns:insurance xsi:type="tns:MRUmInsuranceInfoType">
+								<tns:symbol>F2</tns:symbol>
+								<tns:name>Ubezpieczenie standard (nd)</tns:name>
+							</tns:insurance>
+							<tns:insuranceRange>
+								<tns:threshold>
+									<tns:currency>
+										<tns:code>PLN</tns:code>
+									</tns:currency>
+									<tns:amount>500000</tns:amount>
+								</tns:threshold>
+								<tns:declaration>false</tns:declaration>
+							</tns:insuranceRange>
+							<tns:insuranceRange>
+								<tns:threshold>
+									<tns:currency>
+										<tns:code>PLN</tns:code>
+									</tns:currency>
+									<tns:amount>1000000</tns:amount>
+								</tns:threshold>
+								<tns:declaration>false</tns:declaration>
+							</tns:insuranceRange>
+							<tns:insuranceRange>
+								<tns:threshold>
+									<tns:currency>
+										<tns:code>PLN</tns:code>
+									</tns:currency>
+									<tns:amount>2000000</tns:amount>
+								</tns:threshold>
+								<tns:declaration>false</tns:declaration>
+							</tns:insuranceRange>
+							<tns:insuranceRange>
+								<tns:threshold>
+									<tns:currency>
+										<tns:code>PLN</tns:code>
+									</tns:currency>
+									<tns:amount>5000000</tns:amount>
+								</tns:threshold>
+								<tns:declaration>false</tns:declaration>
+							</tns:insuranceRange>
+							<tns:insuranceRange>
+								<tns:threshold>
+									<tns:currency>
+										<tns:code>PLN</tns:code>
+									</tns:currency>
+									<tns:amount>25000000</tns:amount>
+								</tns:threshold>
+								<tns:declaration>true</tns:declaration>
+							</tns:insuranceRange>
+						</tns:attribute>
+						<tns:attribute xsi:type="tns:MRUmSubParcelValueType">
+							<tns:maximum>10</tns:maximum>
+						</tns:attribute>
+						<tns:attribute xsi:type="tns:MRUmProductAdditionalAttributeType">
+							<tns:additionalAttribute>SATURDAY_PICKUP</tns:additionalAttribute>
+							<tns:isRequired>false</tns:isRequired>
+						</tns:attribute>
+						<tns:attribute xsi:type="tns:MRUmProductAdditionalAttributeType">
+							<tns:additionalAttribute>CAREFULLY</tns:additionalAttribute>
+							<tns:isRequired>false</tns:isRequired>
+						</tns:attribute>
+						<tns:attribute xsi:type="tns:MRUmProductAdditionalAttributeType">
+							<tns:additionalAttribute>NON_STANDARD_SHIPMENT</tns:additionalAttribute>
+							<tns:isRequired>false</tns:isRequired>
+						</tns:attribute>
+						<tns:attribute xsi:type="tns:MRUmProductAdditionalAttributeType">
+							<tns:additionalAttribute>PAPER_PROOF_OF_DELIVERY</tns:additionalAttribute>
+							<tns:isRequired>false</tns:isRequired>
+						</tns:attribute>
+						<tns:attribute xsi:type="tns:MRUmProductAdditionalAttributeType">
+							<tns:additionalAttribute>CASH_ON_DELIVERY</tns:additionalAttribute>
+							<tns:isRequired>false</tns:isRequired>
+						</tns:attribute>
+						<tns:attribute xsi:type="tns:MRUmProductAdditionalAttributeType">
+							<tns:additionalAttribute>RETURN_DOCUMENT</tns:additionalAttribute>
+							<tns:isRequired>false</tns:isRequired>
+						</tns:attribute>
+						<tns:attribute xsi:type="tns:MRUmProductAdditionalAttributeType">
+							<tns:additionalAttribute>VERIFICATION_BEFORE_DELIVERY</tns:additionalAttribute>
+							<tns:isRequired>false</tns:isRequired>
+						</tns:attribute>
+						<tns:attribute xsi:type="tns:MRUmProductAdditionalAttributeType">
+							<tns:additionalAttribute>DELIVERY_FOR_RECIPIENT_ONLY</tns:additionalAttribute>
+							<tns:isRequired>false</tns:isRequired>
+						</tns:attribute>
+					</tns:product>
+				</tns:validityProduct>
+				<tns:validityProduct>
+					<tns:validFrom>2015-04-30</tns:validFrom>
+					<tns:validTo>2999-12-31</tns:validTo>
+					<tns:product>
+						<tns:typp2>834</tns:typp2>
+						<tns:assortmentId>72</tns:assortmentId>
+						<tns:name>Kurier Miejski do 3h</tns:name>
+						<tns:service>MIEJSKI_DO_3H_POWYZEJ_15KM</tns:service>
+						<tns:attribute xsi:type="tns:MRUmProductBaseAttributeType">
+							<tns:firm>false</tns:firm>
+							<tns:eGiveBack>false</tns:eGiveBack>
+							<tns:declareValue>false</tns:declareValue>
+						</tns:attribute>
+						<tns:attribute xsi:type="tns:MRUmDeclareValueRangeType">
+							<tns:minimum>0</tns:minimum>
+							<tns:maximum>999999999</tns:maximum>
+						</tns:attribute>
+						<tns:attribute xsi:type="tns:MRUmPaySideType">
+							<tns:paySide>SENDER</tns:paySide>
+						</tns:attribute>
+						<tns:attribute xsi:type="tns:MRUmEpoType">
+							<tns:epoType>STANDARD</tns:epoType>
+							<tns:epoType>EXTEND</tns:epoType>
+						</tns:attribute>
+						<tns:attribute xsi:type="tns:MRUmMassRangeType">
+							<tns:minimum>0</tns:minimum>
+							<tns:maximum>50000</tns:maximum>
+						</tns:attribute>
+						<tns:attribute xsi:type="tns:MRUmInsuranceType">
+							<tns:insurance xsi:type="tns:MRUmInsuranceInfoType">
+								<tns:symbol>F2</tns:symbol>
+								<tns:name>Ubezpieczenie standard (nd)</tns:name>
+							</tns:insurance>
+							<tns:insuranceRange>
+								<tns:threshold>
+									<tns:currency>
+										<tns:code>PLN</tns:code>
+									</tns:currency>
+									<tns:amount>500000</tns:amount>
+								</tns:threshold>
+								<tns:declaration>false</tns:declaration>
+							</tns:insuranceRange>
+							<tns:insuranceRange>
+								<tns:threshold>
+									<tns:currency>
+										<tns:code>PLN</tns:code>
+									</tns:currency>
+									<tns:amount>1000000</tns:amount>
+								</tns:threshold>
+								<tns:declaration>false</tns:declaration>
+							</tns:insuranceRange>
+							<tns:insuranceRange>
+								<tns:threshold>
+									<tns:currency>
+										<tns:code>PLN</tns:code>
+									</tns:currency>
+									<tns:amount>2000000</tns:amount>
+								</tns:threshold>
+								<tns:declaration>false</tns:declaration>
+							</tns:insuranceRange>
+							<tns:insuranceRange>
+								<tns:threshold>
+									<tns:currency>
+										<tns:code>PLN</tns:code>
+									</tns:currency>
+									<tns:amount>5000000</tns:amount>
+								</tns:threshold>
+								<tns:declaration>false</tns:declaration>
+							</tns:insuranceRange>
+							<tns:insuranceRange>
+								<tns:threshold>
+									<tns:currency>
+										<tns:code>PLN</tns:code>
+									</tns:currency>
+									<tns:amount>25000000</tns:amount>
+								</tns:threshold>
+								<tns:declaration>true</tns:declaration>
+							</tns:insuranceRange>
+						</tns:attribute>
+						<tns:attribute xsi:type="tns:MRUmSubParcelValueType">
+							<tns:maximum>10</tns:maximum>
+						</tns:attribute>
+						<tns:attribute xsi:type="tns:MRUmProductAdditionalAttributeType">
+							<tns:additionalAttribute>SATURDAY_PICKUP</tns:additionalAttribute>
+							<tns:isRequired>false</tns:isRequired>
+						</tns:attribute>
+						<tns:attribute xsi:type="tns:MRUmProductAdditionalAttributeType">
+							<tns:additionalAttribute>CAREFULLY</tns:additionalAttribute>
+							<tns:isRequired>false</tns:isRequired>
+						</tns:attribute>
+						<tns:attribute xsi:type="tns:MRUmProductAdditionalAttributeType">
+							<tns:additionalAttribute>NON_STANDARD_SHIPMENT</tns:additionalAttribute>
+							<tns:isRequired>false</tns:isRequired>
+						</tns:attribute>
+						<tns:attribute xsi:type="tns:MRUmProductAdditionalAttributeType">
+							<tns:additionalAttribute>PAPER_PROOF_OF_DELIVERY</tns:additionalAttribute>
+							<tns:isRequired>false</tns:isRequired>
+						</tns:attribute>
+						<tns:attribute xsi:type="tns:MRUmProductAdditionalAttributeType">
+							<tns:additionalAttribute>CASH_ON_DELIVERY</tns:additionalAttribute>
+							<tns:isRequired>false</tns:isRequired>
+						</tns:attribute>
+						<tns:attribute xsi:type="tns:MRUmProductAdditionalAttributeType">
+							<tns:additionalAttribute>RETURN_DOCUMENT</tns:additionalAttribute>
+							<tns:isRequired>false</tns:isRequired>
+						</tns:attribute>
+						<tns:attribute xsi:type="tns:MRUmProductAdditionalAttributeType">
+							<tns:additionalAttribute>VERIFICATION_BEFORE_DELIVERY</tns:additionalAttribute>
+							<tns:isRequired>false</tns:isRequired>
+						</tns:attribute>
+						<tns:attribute xsi:type="tns:MRUmProductAdditionalAttributeType">
+							<tns:additionalAttribute>DELIVERY_FOR_RECIPIENT_ONLY</tns:additionalAttribute>
+							<tns:isRequired>false</tns:isRequired>
+						</tns:attribute>
+					</tns:product>
+				</tns:validityProduct>
+				<tns:validityProduct>
+					<tns:validFrom>2019-01-04</tns:validFrom>
+					<tns:validTo>2999-12-31</tns:validTo>
+					<tns:product>
+						<tns:typp2>845</tns:typp2>
+						<tns:assortmentId>92</tns:assortmentId>
+						<tns:name>Przesyłka firmowa polecona</tns:name>
+						<tns:attribute xsi:type="tns:MRUmProductBaseAttributeType">
+							<tns:firm>true</tns:firm>
+							<tns:eGiveBack>false</tns:eGiveBack>
+							<tns:declareValue>false</tns:declareValue>
+						</tns:attribute>
+						<tns:attribute xsi:type="tns:MRUmAddressAreaType">
+							<tns:addressAreaEnums>LOCAL</tns:addressAreaEnums>
+							<tns:addressAreaEnums>NON_LOCAL</tns:addressAreaEnums>
+						</tns:attribute>
+						<tns:attribute xsi:type="tns:MRUmPaySideType">
+							<tns:paySide>SENDER</tns:paySide>
+						</tns:attribute>
+						<tns:attribute xsi:type="tns:MRUmEpoType">
+							<tns:epoType>STANDARD</tns:epoType>
+							<tns:epoType>EXTEND</tns:epoType>
+						</tns:attribute>
+						<tns:attribute xsi:type="tns:MRUmGabaritType">
+							<tns:letterGauge>A</tns:letterGauge>
+						</tns:attribute>
+						<tns:attribute xsi:type="tns:MRUmGabaritType">
+							<tns:letterGauge>B</tns:letterGauge>
+						</tns:attribute>
+						<tns:attribute xsi:type="tns:MRUmMassRangeType">
+							<tns:minimum>0</tns:minimum>
+							<tns:maximum>2000</tns:maximum>
+						</tns:attribute>
+						<tns:attribute xsi:type="tns:MRUmPackageCategoryType">
+							<tns:category>EKONOMICZNA</tns:category>
+							<tns:category>PRIORYTETOWA</tns:category>
+						</tns:attribute>
+						<tns:attribute xsi:type="tns:MRUmProductAdditionalAttributeType">
+							<tns:additionalAttribute>PAPER_PROOF_OF_DELIVERY</tns:additionalAttribute>
+							<tns:isRequired>false</tns:isRequired>
+						</tns:attribute>
+					</tns:product>
+				</tns:validityProduct>
+				<tns:validityProduct>
+					<tns:validFrom>2019-11-01</tns:validFrom>
+					<tns:validTo>2999-12-31</tns:validTo>
+					<tns:product>
+						<tns:typp2>874</tns:typp2>
+						<tns:assortmentId>110</tns:assortmentId>
+						<tns:name>Worek specjalny M</tns:name>
+						<tns:attribute xsi:type="tns:MRUmProductBaseAttributeType">
+							<tns:firm>false</tns:firm>
+							<tns:eGiveBack>false</tns:eGiveBack>
+							<tns:declareValue>false</tns:declareValue>
+						</tns:attribute>
+						<tns:attribute xsi:type="tns:MRUmMassRangeType">
+							<tns:minimum>0</tns:minimum>
+							<tns:maximum>30000</tns:maximum>
+						</tns:attribute>
+						<tns:attribute xsi:type="tns:MRUmPackageCategoryType">
+							<tns:category>EKONOMICZNA</tns:category>
+							<tns:category>PRIORYTETOWA</tns:category>
+						</tns:attribute>
+						<tns:attribute xsi:type="tns:MRUmProductAdditionalAttributeType">
+							<tns:additionalAttribute>PAPER_PROOF_OF_DELIVERY</tns:additionalAttribute>
+							<tns:isRequired>false</tns:isRequired>
+						</tns:attribute>
+					</tns:product>
+				</tns:validityProduct>
+				<tns:validityProduct>
+					<tns:validFrom>2019-04-01</tns:validFrom>
+					<tns:validTo>2999-12-31</tns:validTo>
+					<tns:product>
+						<tns:typp2>805</tns:typp2>
+						<tns:assortmentId>482</tns:assortmentId>
+						<tns:name>Przesyłka listowa zwykła krajowa (format)</tns:name>
+						<tns:attribute xsi:type="tns:MRUmProductBaseAttributeType">
+							<tns:firm>false</tns:firm>
+							<tns:eGiveBack>false</tns:eGiveBack>
+							<tns:declareValue>false</tns:declareValue>
+						</tns:attribute>
+						<tns:attribute xsi:type="tns:MRUmMassRangeType">
+							<tns:minimum>0</tns:minimum>
+							<tns:maximum>2000</tns:maximum>
+						</tns:attribute>
+						<tns:attribute xsi:type="tns:MRUmPackageCategoryType">
+							<tns:category>EKONOMICZNA</tns:category>
+							<tns:category>PRIORYTETOWA</tns:category>
+						</tns:attribute>
+						<tns:attribute xsi:type="tns:MRUmFormatType">
+							<tns:letterFormat>S</tns:letterFormat>
+						</tns:attribute>
+						<tns:attribute xsi:type="tns:MRUmFormatType">
+							<tns:letterFormat>M</tns:letterFormat>
+						</tns:attribute>
+						<tns:attribute xsi:type="tns:MRUmFormatType">
+							<tns:letterFormat>L</tns:letterFormat>
+						</tns:attribute>
+					</tns:product>
+				</tns:validityProduct>
+				<tns:validityProduct>
+					<tns:validFrom>2020-05-06</tns:validFrom>
+					<tns:validTo>2999-12-31</tns:validTo>
+					<tns:product>
+						<tns:typp2>842</tns:typp2>
+						<tns:assortmentId>86</tns:assortmentId>
+						<tns:name>Przesyłka marketingowa</tns:name>
+						<tns:attribute xsi:type="tns:MRUmProductBaseAttributeType">
+							<tns:firm>false</tns:firm>
+							<tns:eGiveBack>false</tns:eGiveBack>
+							<tns:declareValue>false</tns:declareValue>
+						</tns:attribute>
+						<tns:attribute xsi:type="tns:MRUmGabaritType">
+							<tns:letterGauge>A</tns:letterGauge>
+						</tns:attribute>
+						<tns:attribute xsi:type="tns:MRUmGabaritType">
+							<tns:letterGauge>B</tns:letterGauge>
+						</tns:attribute>
+						<tns:attribute xsi:type="tns:MRUmMassRangeType">
+							<tns:minimum>0</tns:minimum>
+							<tns:maximum>2000</tns:maximum>
+						</tns:attribute>
+					</tns:product>
+				</tns:validityProduct>
+				<tns:validityProduct>
+					<tns:validFrom>2020-05-06</tns:validFrom>
+					<tns:validTo>2999-12-31</tns:validTo>
+					<tns:product>
+						<tns:typp2>898</tns:typp2>
+						<tns:assortmentId>120</tns:assortmentId>
+						<tns:name>Przesyłka biznesowa PLUS</tns:name>
+						<tns:attribute xsi:type="tns:MRUmProductBaseAttributeType">
+							<tns:firm>false</tns:firm>
+							<tns:eGiveBack>false</tns:eGiveBack>
+							<tns:declareValue>false</tns:declareValue>
+						</tns:attribute>
+						<tns:attribute xsi:type="tns:MRUmMassRangeType">
+							<tns:minimum>0</tns:minimum>
+							<tns:maximum>30000</tns:maximum>
+						</tns:attribute>
+					</tns:product>
+				</tns:validityProduct>
+				<tns:validityProduct>
+					<tns:validFrom>2020-06-10</tns:validFrom>
+					<tns:validTo>2999-12-31</tns:validTo>
+					<tns:product>
+						<tns:typp2>833</tns:typp2>
+						<tns:assortmentId>67</tns:assortmentId>
+						<tns:name>Paczka 48</tns:name>
+						<tns:service>PACZKA_48</tns:service>
+						<tns:attribute xsi:type="tns:MRUmProductBaseAttributeType">
+							<tns:firm>false</tns:firm>
+							<tns:eGiveBack>false</tns:eGiveBack>
+							<tns:declareValue>false</tns:declareValue>
+						</tns:attribute>
+						<tns:attribute xsi:type="tns:MRUmExpectedDeliveryType">
+							<tns:expectedDeliveryTime>BEFORE_9</tns:expectedDeliveryTime>
+						</tns:attribute>
+						<tns:attribute xsi:type="tns:MRUmExpectedDeliveryType">
+							<tns:expectedDeliveryTime>BEFORE_12</tns:expectedDeliveryTime>
+						</tns:attribute>
+						<tns:attribute xsi:type="tns:MRUmDeclareValueRangeType">
+							<tns:minimum>0</tns:minimum>
+							<tns:maximum>999999999</tns:maximum>
+						</tns:attribute>
+						<tns:attribute xsi:type="tns:MRUmPaySideType">
+							<tns:paySide>SENDER</tns:paySide>
+						</tns:attribute>
+						<tns:attribute xsi:type="tns:MRUmEpoType">
+							<tns:epoType>STANDARD</tns:epoType>
+							<tns:epoType>EXTEND</tns:epoType>
+						</tns:attribute>
+						<tns:attribute xsi:type="tns:MRUmGabaritType">
+							<tns:letterGauge>A</tns:letterGauge>
+						</tns:attribute>
+						<tns:attribute xsi:type="tns:MRUmGabaritType">
+							<tns:letterGauge>B</tns:letterGauge>
+						</tns:attribute>
+						<tns:attribute xsi:type="tns:MRUmMassRangeType">
+							<tns:minimum>0</tns:minimum>
+							<tns:maximum>30000</tns:maximum>
+						</tns:attribute>
+						<tns:attribute xsi:type="tns:MRUmInsuranceType">
+							<tns:insurance xsi:type="tns:MRUmInsuranceInfoType">
+								<tns:symbol>E</tns:symbol>
+								<tns:name>Ubezpieczenie standard (nd)</tns:name>
+							</tns:insurance>
+							<tns:insuranceRange>
+								<tns:threshold>
+									<tns:currency>
+										<tns:code>PLN</tns:code>
+									</tns:currency>
+									<tns:amount>100000</tns:amount>
+								</tns:threshold>
+								<tns:declaration>false</tns:declaration>
+							</tns:insuranceRange>
+							<tns:insuranceRange>
+								<tns:threshold>
+									<tns:currency>
+										<tns:code>PLN</tns:code>
+									</tns:currency>
+									<tns:amount>500000</tns:amount>
+								</tns:threshold>
+								<tns:declaration>false</tns:declaration>
+							</tns:insuranceRange>
+							<tns:insuranceRange>
+								<tns:threshold>
+									<tns:currency>
+										<tns:code>PLN</tns:code>
+									</tns:currency>
+									<tns:amount>1000000</tns:amount>
+								</tns:threshold>
+								<tns:declaration>false</tns:declaration>
+							</tns:insuranceRange>
+							<tns:insuranceRange>
+								<tns:threshold>
+									<tns:currency>
+										<tns:code>PLN</tns:code>
+									</tns:currency>
+									<tns:amount>2000000</tns:amount>
+								</tns:threshold>
+								<tns:declaration>false</tns:declaration>
+							</tns:insuranceRange>
+							<tns:insuranceRange>
+								<tns:threshold>
+									<tns:currency>
+										<tns:code>PLN</tns:code>
+									</tns:currency>
+									<tns:amount>5000000</tns:amount>
+								</tns:threshold>
+								<tns:declaration>false</tns:declaration>
+							</tns:insuranceRange>
+							<tns:insuranceRange>
+								<tns:threshold>
+									<tns:currency>
+										<tns:code>PLN</tns:code>
+									</tns:currency>
+									<tns:amount>25000000</tns:amount>
+								</tns:threshold>
+								<tns:declaration>true</tns:declaration>
+							</tns:insuranceRange>
+						</tns:attribute>
+						<tns:attribute xsi:type="tns:MRUmSubParcelValueType">
+							<tns:maximum>10</tns:maximum>
+						</tns:attribute>
+						<tns:attribute xsi:type="tns:MRUmProductAdditionalAttributeType">
+							<tns:additionalAttribute>INDICATED_DAY</tns:additionalAttribute>
+							<tns:isRequired>false</tns:isRequired>
+						</tns:attribute>
+						<tns:attribute xsi:type="tns:MRUmProductAdditionalAttributeType">
+							<tns:additionalAttribute>CAREFULLY</tns:additionalAttribute>
+							<tns:isRequired>false</tns:isRequired>
+						</tns:attribute>
+						<tns:attribute xsi:type="tns:MRUmProductAdditionalAttributeType">
+							<tns:additionalAttribute>DELIVERY_AFTER_17</tns:additionalAttribute>
+							<tns:isRequired>false</tns:isRequired>
+						</tns:attribute>
+						<tns:attribute xsi:type="tns:MRUmProductAdditionalAttributeType">
+							<tns:additionalAttribute>NON_STANDARD_SHIPMENT</tns:additionalAttribute>
+							<tns:isRequired>false</tns:isRequired>
+						</tns:attribute>
+						<tns:attribute xsi:type="tns:MRUmProductAdditionalAttributeType">
+							<tns:additionalAttribute>PAPER_PROOF_OF_DELIVERY</tns:additionalAttribute>
+							<tns:isRequired>false</tns:isRequired>
+						</tns:attribute>
+						<tns:attribute xsi:type="tns:MRUmProductAdditionalAttributeType">
+							<tns:additionalAttribute>CASH_ON_DELIVERY</tns:additionalAttribute>
+							<tns:isRequired>false</tns:isRequired>
+						</tns:attribute>
+						<tns:attribute xsi:type="tns:MRUmProductAdditionalAttributeType">
+							<tns:additionalAttribute>RETURN_DOCUMENT</tns:additionalAttribute>
+							<tns:isRequired>false</tns:isRequired>
+						</tns:attribute>
+						<tns:attribute xsi:type="tns:MRUmProductAdditionalAttributeType">
+							<tns:additionalAttribute>VERIFICATION_BEFORE_DELIVERY</tns:additionalAttribute>
+							<tns:isRequired>false</tns:isRequired>
+						</tns:attribute>
+						<tns:attribute xsi:type="tns:MRUmProductAdditionalAttributeType">
+							<tns:additionalAttribute>DELIVERY_FOR_RECIPIENT_ONLY</tns:additionalAttribute>
+							<tns:isRequired>false</tns:isRequired>
+						</tns:attribute>
+					</tns:product>
+				</tns:validityProduct>
+				<tns:validityProduct>
+					<tns:validFrom>2021-04-26</tns:validFrom>
+					<tns:validTo>2999-12-31</tns:validTo>
+					<tns:product>
+						<tns:typp2>870</tns:typp2>
+						<tns:assortmentId>1471</tns:assortmentId>
+						<tns:name>Przesyłka listowa zwykła zagraniczna masowa</tns:name>
+						<tns:attribute xsi:type="tns:MRUmProductBaseAttributeType">
+							<tns:firm>false</tns:firm>
+							<tns:eGiveBack>false</tns:eGiveBack>
+							<tns:declareValue>false</tns:declareValue>
+						</tns:attribute>
+						<tns:attribute xsi:type="tns:MRUmMassRangeType">
+							<tns:minimum>0</tns:minimum>
+							<tns:maximum>2000</tns:maximum>
+						</tns:attribute>
+						<tns:attribute xsi:type="tns:MRUmPackageCategoryType">
+							<tns:category>EKONOMICZNA</tns:category>
+							<tns:category>PRIORYTETOWA</tns:category>
+						</tns:attribute>
+					</tns:product>
+				</tns:validityProduct>
+				<tns:validityProduct>
+					<tns:validFrom>2022-07-14</tns:validFrom>
+					<tns:validTo>2999-12-31</tns:validTo>
+					<tns:product>
+						<tns:typp2>855</tns:typp2>
+						<tns:assortmentId>518</tns:assortmentId>
+						<tns:name>Pocztex 2.0 Kurier</tns:name>
+						<tns:service>KURIER</tns:service>
+						<tns:attribute xsi:type="tns:MRUmProductBaseAttributeType">
+							<tns:firm>false</tns:firm>
+							<tns:eGiveBack>false</tns:eGiveBack>
+							<tns:declareValue>false</tns:declareValue>
+						</tns:attribute>
+						<tns:attribute xsi:type="tns:MRUmExpectedDeliveryType">
+							<tns:expectedDeliveryTime>BEFORE_9</tns:expectedDeliveryTime>
+						</tns:attribute>
+						<tns:attribute xsi:type="tns:MRUmExpectedDeliveryType">
+							<tns:expectedDeliveryTime>BEFORE_12</tns:expectedDeliveryTime>
+						</tns:attribute>
+						<tns:attribute xsi:type="tns:MRUmDeclareValueRangeType">
+							<tns:minimum>0</tns:minimum>
+							<tns:maximum>999999999</tns:maximum>
+						</tns:attribute>
+						<tns:attribute xsi:type="tns:MRUmEpoType">
+							<tns:epoType>EXTEND</tns:epoType>
+						</tns:attribute>
+						<tns:attribute xsi:type="tns:MRUmMassRangeType">
+							<tns:minimum>0</tns:minimum>
+							<tns:maximum>50000</tns:maximum>
+						</tns:attribute>
+						<tns:attribute xsi:type="tns:MRUmInsuranceType">
+							<tns:insurance xsi:type="tns:MRUmInsuranceInfoType">
+								<tns:symbol>A</tns:symbol>
+								<tns:name>Ubezpieczenie standard (nd)</tns:name>
+							</tns:insurance>
+							<tns:insuranceRange>
+								<tns:threshold>
+									<tns:currency>
+										<tns:code>PLN</tns:code>
+									</tns:currency>
+									<tns:amount>100000</tns:amount>
+								</tns:threshold>
+								<tns:declaration>false</tns:declaration>
+							</tns:insuranceRange>
+							<tns:insuranceRange>
+								<tns:threshold>
+									<tns:currency>
+										<tns:code>PLN</tns:code>
+									</tns:currency>
+									<tns:amount>500000</tns:amount>
+								</tns:threshold>
+								<tns:declaration>false</tns:declaration>
+							</tns:insuranceRange>
+							<tns:insuranceRange>
+								<tns:threshold>
+									<tns:currency>
+										<tns:code>PLN</tns:code>
+									</tns:currency>
+									<tns:amount>1000000</tns:amount>
+								</tns:threshold>
+								<tns:declaration>false</tns:declaration>
+							</tns:insuranceRange>
+							<tns:insuranceRange>
+								<tns:threshold>
+									<tns:currency>
+										<tns:code>PLN</tns:code>
+									</tns:currency>
+									<tns:amount>2000000</tns:amount>
+								</tns:threshold>
+								<tns:declaration>false</tns:declaration>
+							</tns:insuranceRange>
+							<tns:insuranceRange>
+								<tns:threshold>
+									<tns:currency>
+										<tns:code>PLN</tns:code>
+									</tns:currency>
+									<tns:amount>5000000</tns:amount>
+								</tns:threshold>
+								<tns:declaration>false</tns:declaration>
+							</tns:insuranceRange>
+							<tns:insuranceRange>
+								<tns:threshold>
+									<tns:currency>
+										<tns:code>PLN</tns:code>
+									</tns:currency>
+									<tns:amount>25000000</tns:amount>
+								</tns:threshold>
+								<tns:declaration>true</tns:declaration>
+							</tns:insuranceRange>
+						</tns:attribute>
+						<tns:attribute xsi:type="tns:MRUmFormatType">
+							<tns:parcelFormat>S</tns:parcelFormat>
+						</tns:attribute>
+						<tns:attribute xsi:type="tns:MRUmFormatType">
+							<tns:parcelFormat>M</tns:parcelFormat>
+						</tns:attribute>
+						<tns:attribute xsi:type="tns:MRUmFormatType">
+							<tns:parcelFormat>L</tns:parcelFormat>
+						</tns:attribute>
+						<tns:attribute xsi:type="tns:MRUmFormatType">
+							<tns:parcelFormat>XL</tns:parcelFormat>
+						</tns:attribute>
+						<tns:attribute xsi:type="tns:MRUmFormatType">
+							<tns:parcelFormat>2XL</tns:parcelFormat>
+						</tns:attribute>
+						<tns:attribute xsi:type="tns:MRUmSubParcelValueType">
+							<tns:maximum>10</tns:maximum>
+						</tns:attribute>
+						<tns:attribute xsi:type="tns:MRUmProductAdditionalAttributeType">
+							<tns:additionalAttribute>INDICATED_DAY</tns:additionalAttribute>
+							<tns:isRequired>false</tns:isRequired>
+						</tns:attribute>
+						<tns:attribute xsi:type="tns:MRUmProductAdditionalAttributeType">
+							<tns:additionalAttribute>SATURDAY_PICKUP</tns:additionalAttribute>
+							<tns:isRequired>false</tns:isRequired>
+						</tns:attribute>
+						<tns:attribute xsi:type="tns:MRUmProductAdditionalAttributeType">
+							<tns:additionalAttribute>CAREFULLY</tns:additionalAttribute>
+							<tns:isRequired>false</tns:isRequired>
+						</tns:attribute>
+						<tns:attribute xsi:type="tns:MRUmProductAdditionalAttributeType">
+							<tns:additionalAttribute>DELIVERY_AFTER_17</tns:additionalAttribute>
+							<tns:isRequired>false</tns:isRequired>
+						</tns:attribute>
+						<tns:attribute xsi:type="tns:MRUmProductAdditionalAttributeType">
+							<tns:additionalAttribute>NON_STANDARD_SHIPMENT</tns:additionalAttribute>
+							<tns:isRequired>false</tns:isRequired>
+						</tns:attribute>
+						<tns:attribute xsi:type="tns:MRUmProductAdditionalAttributeType">
+							<tns:additionalAttribute>PAPER_PROOF_OF_DELIVERY</tns:additionalAttribute>
+							<tns:isRequired>false</tns:isRequired>
+						</tns:attribute>
+						<tns:attribute xsi:type="tns:MRUmProductAdditionalAttributeType">
+							<tns:additionalAttribute>CASH_ON_DELIVERY</tns:additionalAttribute>
+							<tns:isRequired>false</tns:isRequired>
+						</tns:attribute>
+						<tns:attribute xsi:type="tns:MRUmProductAdditionalAttributeType">
+							<tns:additionalAttribute>RETURN_DOCUMENT</tns:additionalAttribute>
+							<tns:isRequired>false</tns:isRequired>
+						</tns:attribute>
+						<tns:attribute xsi:type="tns:MRUmProductAdditionalAttributeType">
+							<tns:additionalAttribute>VERIFICATION_BEFORE_DELIVERY</tns:additionalAttribute>
+							<tns:isRequired>false</tns:isRequired>
+						</tns:attribute>
+						<tns:attribute xsi:type="tns:MRUmProductAdditionalAttributeType">
+							<tns:additionalAttribute>DELIVERY_FOR_RECIPIENT_ONLY</tns:additionalAttribute>
+							<tns:isRequired>false</tns:isRequired>
+						</tns:attribute>
+						<tns:attribute xsi:type="tns:MRUmProductAdditionalAttributeType">
+							<tns:additionalAttribute>HIGH_WEIGHT</tns:additionalAttribute>
+							<tns:isRequired>false</tns:isRequired>
+						</tns:attribute>
+						<tns:attribute xsi:type="tns:MRUmProductAdditionalAttributeType">
+							<tns:additionalAttribute>ENVELOPE_1KG</tns:additionalAttribute>
+							<tns:isRequired>false</tns:isRequired>
+						</tns:attribute>
+					</tns:product>
+				</tns:validityProduct>
+				<tns:validityPostOffice>
+					<tns:validFrom>2015-04-30</tns:validFrom>
+					<tns:validTo>2999-12-31</tns:validTo>
+					<tns:postOffice>
+						<tns:idPostOffice>2167</tns:idPostOffice>
+						<tns:PNI>260578</tns:PNI>
+						<tns:postOfficeName>UP Poznań 46</tns:postOfficeName>
+						<tns:postOfficeShortName>Poznań 46</tns:postOfficeShortName>
+						<tns:postOfficeAddress>
+							<tns:idAddress>2971437</tns:idAddress>
+							<tns:street>Osiedle Armii Krajowej</tns:street>
+							<tns:houseNumber>101</tns:houseNumber>
+							<tns:apartamentNumber/>
+							<tns:city>Poznań</tns:city>
+							<tns:zipCode/>
+							<tns:country>PL</tns:country>
+						</tns:postOfficeAddress>
+					</tns:postOffice>
+				</tns:validityPostOffice>
+				<tns:validityPostOffice>
+					<tns:validFrom>2015-04-30</tns:validFrom>
+					<tns:validTo>2999-12-31</tns:validTo>
+					<tns:postOffice>
+						<tns:idPostOffice>7189</tns:idPostOffice>
+						<tns:PNI>743378</tns:PNI>
+						<tns:postOfficeName>PP Zabrze S101</tns:postOfficeName>
+						<tns:postOfficeShortName>Zabrze S101</tns:postOfficeShortName>
+						<tns:postOfficeAddress>
+							<tns:idAddress>2971438</tns:idAddress>
+							<tns:street>Macieja Mielżyńskiego</tns:street>
+							<tns:houseNumber>5</tns:houseNumber>
+							<tns:apartamentNumber/>
+							<tns:city>Zabrze</tns:city>
+							<tns:zipCode/>
+							<tns:country>PL</tns:country>
+						</tns:postOfficeAddress>
+					</tns:postOffice>
+				</tns:validityPostOffice>
+				<tns:validityPostOffice>
+					<tns:validFrom>2015-04-30</tns:validFrom>
+					<tns:validTo>2999-12-31</tns:validTo>
+					<tns:postOffice>
+						<tns:idPostOffice>2927</tns:idPostOffice>
+						<tns:PNI>272095</tns:PNI>
+						<tns:postOfficeName>UP Warszawa 24</tns:postOfficeName>
+						<tns:postOfficeShortName>Warszawa 24</tns:postOfficeShortName>
+						<tns:postOfficeAddress>
+							<tns:idAddress>3187312</tns:idAddress>
+							<tns:street>Radzymińska</tns:street>
+							<tns:houseNumber>105</tns:houseNumber>
+							<tns:apartamentNumber/>
+							<tns:city>Warszawa</tns:city>
+							<tns:zipCode/>
+							<tns:country>PL</tns:country>
+						</tns:postOfficeAddress>
+					</tns:postOffice>
+				</tns:validityPostOffice>
+				<tns:validityPostOffice>
+					<tns:validFrom>2015-04-30</tns:validFrom>
+					<tns:validTo>2999-12-31</tns:validTo>
+					<tns:postOffice>
+						<tns:idPostOffice>6447</tns:idPostOffice>
+						<tns:PNI>433423</tns:PNI>
+						<tns:postOfficeName>WER Komorniki</tns:postOfficeName>
+						<tns:postOfficeShortName>Komorniki</tns:postOfficeShortName>
+						<tns:postOfficeAddress>
+							<tns:idAddress>3634397</tns:idAddress>
+							<tns:street>Polna</tns:street>
+							<tns:houseNumber>120</tns:houseNumber>
+							<tns:apartamentNumber/>
+							<tns:city>Komorniki</tns:city>
+							<tns:zipCode/>
+							<tns:country>PL</tns:country>
+						</tns:postOfficeAddress>
+					</tns:postOffice>
+				</tns:validityPostOffice>
+				<tns:validityPostOffice>
+					<tns:validFrom>2023-02-01</tns:validFrom>
+					<tns:validTo>2999-12-31</tns:validTo>
+					<tns:postOffice>
+						<tns:idPostOffice>7190</tns:idPostOffice>
+						<tns:PNI>743385</tns:PNI>
+						<tns:postOfficeName>PP Warszawa W101</tns:postOfficeName>
+						<tns:postOfficeShortName>Warszawa W101</tns:postOfficeShortName>
+						<tns:postOfficeAddress>
+							<tns:idAddress>4078993</tns:idAddress>
+							<tns:street>Łączyny</tns:street>
+							<tns:houseNumber>8</tns:houseNumber>
+							<tns:apartamentNumber/>
+							<tns:city>Warszawa</tns:city>
+							<tns:zipCode/>
+							<tns:country>PL</tns:country>
+						</tns:postOfficeAddress>
+					</tns:postOffice>
+				</tns:validityPostOffice>
+				<tns:validityPostOffice>
+					<tns:validFrom>2023-02-01</tns:validFrom>
+					<tns:validTo>2999-12-31</tns:validTo>
+					<tns:postOffice>
+						<tns:idPostOffice>6438</tns:idPostOffice>
+						<tns:PNI>433335</tns:PNI>
+						<tns:postOfficeName>WER Warszawa</tns:postOfficeName>
+						<tns:postOfficeShortName>Warszawa</tns:postOfficeShortName>
+						<tns:postOfficeAddress>
+							<tns:idAddress>4078992</tns:idAddress>
+							<tns:street>Łączyny</tns:street>
+							<tns:houseNumber>8</tns:houseNumber>
+							<tns:apartamentNumber/>
+							<tns:city>Warszawa</tns:city>
+							<tns:zipCode/>
+							<tns:country>PL</tns:country>
+						</tns:postOfficeAddress>
+					</tns:postOffice>
+				</tns:validityPostOffice>
+				<tns:validityPostOffice>
+					<tns:validFrom>2015-04-30</tns:validFrom>
+					<tns:validTo>2999-12-31</tns:validTo>
+					<tns:postOffice>
+						<tns:idPostOffice>10766</tns:idPostOffice>
+						<tns:PNI>989745</tns:PNI>
+						<tns:postOfficeName>FUP Poznań 46</tns:postOfficeName>
+						<tns:postOfficeShortName>Poznań 46</tns:postOfficeShortName>
+						<tns:postOfficeAddress>
+							<tns:idAddress>4028112</tns:idAddress>
+							<tns:street>Osiedle Jagiellońskie</tns:street>
+							<tns:houseNumber>120</tns:houseNumber>
+							<tns:apartamentNumber/>
+							<tns:city>Poznań</tns:city>
+							<tns:zipCode/>
+							<tns:country>PL</tns:country>
+						</tns:postOfficeAddress>
+					</tns:postOffice>
+				</tns:validityPostOffice>
+				<tns:validityPostOffice>
+					<tns:validFrom>2015-04-30</tns:validFrom>
+					<tns:validTo>2999-12-31</tns:validTo>
+					<tns:postOffice>
+						<tns:idPostOffice>2999</tns:idPostOffice>
+						<tns:PNI>272983</tns:PNI>
+						<tns:postOfficeName>UP Warszawa 113</tns:postOfficeName>
+						<tns:postOfficeShortName>Warszawa 113</tns:postOfficeShortName>
+						<tns:postOfficeAddress>
+							<tns:idAddress>4009059</tns:idAddress>
+							<tns:street>Rodziny Hiszpańskich</tns:street>
+							<tns:houseNumber>8</tns:houseNumber>
+							<tns:apartamentNumber/>
+							<tns:city>Warszawa</tns:city>
+							<tns:zipCode/>
+							<tns:country>PL</tns:country>
+						</tns:postOfficeAddress>
+					</tns:postOffice>
+				</tns:validityPostOffice>
+				<tns:validityPostOffice>
+					<tns:validFrom>2015-04-30</tns:validFrom>
+					<tns:validTo>2999-12-31</tns:validTo>
+					<tns:postOffice>
+						<tns:idPostOffice>3359</tns:idPostOffice>
+						<tns:PNI>278055</tns:PNI>
+						<tns:postOfficeName>UP Żyrardów 1</tns:postOfficeName>
+						<tns:postOfficeShortName>Żyrardów 1</tns:postOfficeShortName>
+						<tns:postOfficeAddress>
+							<tns:idAddress>3971234</tns:idAddress>
+							<tns:street>Jaktorowska</tns:street>
+							<tns:houseNumber>23</tns:houseNumber>
+							<tns:apartamentNumber/>
+							<tns:city>Żyrardów</tns:city>
+							<tns:zipCode/>
+							<tns:country>PL</tns:country>
+						</tns:postOfficeAddress>
+					</tns:postOffice>
+				</tns:validityPostOffice>
+				<tns:validityPostOffice>
+					<tns:validFrom>2015-04-30</tns:validFrom>
+					<tns:validTo>2999-12-31</tns:validTo>
+					<tns:postOffice>
+						<tns:idPostOffice>1796</tns:idPostOffice>
+						<tns:PNI>255069</tns:PNI>
+						<tns:postOfficeName>UP Mszczonów</tns:postOfficeName>
+						<tns:postOfficeShortName>Mszczonów</tns:postOfficeShortName>
+						<tns:postOfficeAddress>
+							<tns:idAddress>3971233</tns:idAddress>
+							<tns:street>Północna</tns:street>
+							<tns:houseNumber>6 a</tns:houseNumber>
+							<tns:apartamentNumber/>
+							<tns:city>Mszczonów</tns:city>
+							<tns:zipCode/>
+							<tns:country>PL</tns:country>
+						</tns:postOfficeAddress>
+					</tns:postOffice>
+				</tns:validityPostOffice>
+				<tns:validityPostOffice>
+					<tns:validFrom>2015-04-30</tns:validFrom>
+					<tns:validTo>2999-12-31</tns:validTo>
+					<tns:postOffice>
+						<tns:idPostOffice>95</tns:idPostOffice>
+						<tns:PNI>201924</tns:PNI>
+						<tns:postOfficeName>PP Wrocław D101</tns:postOfficeName>
+						<tns:postOfficeShortName>Wrocław D101</tns:postOfficeShortName>
+						<tns:postOfficeAddress>
+							<tns:idAddress>3657349</tns:idAddress>
+							<tns:street>Ibn Siny Awicenny</tns:street>
+							<tns:houseNumber>21</tns:houseNumber>
+							<tns:apartamentNumber/>
+							<tns:city>Wrocław</tns:city>
+							<tns:zipCode/>
+							<tns:country>PL</tns:country>
+						</tns:postOfficeAddress>
+					</tns:postOffice>
+				</tns:validityPostOffice>
+				<tns:validityPostOffice>
+					<tns:validFrom>2015-04-30</tns:validFrom>
+					<tns:validTo>2999-12-31</tns:validTo>
+					<tns:postOffice>
+						<tns:idPostOffice>6442</tns:idPostOffice>
+						<tns:PNI>433373</tns:PNI>
+						<tns:postOfficeName>WER Wrocław</tns:postOfficeName>
+						<tns:postOfficeShortName>Wrocław</tns:postOfficeShortName>
+						<tns:postOfficeAddress>
+							<tns:idAddress>3657348</tns:idAddress>
+							<tns:street>Ibn Siny Awicenny</tns:street>
+							<tns:houseNumber>21</tns:houseNumber>
+							<tns:apartamentNumber/>
+							<tns:city>Wrocław</tns:city>
+							<tns:zipCode/>
+							<tns:country>PL</tns:country>
+						</tns:postOfficeAddress>
+					</tns:postOffice>
+				</tns:validityPostOffice>
+				<tns:validityPostOffice>
+					<tns:validFrom>2023-01-01</tns:validFrom>
+					<tns:validTo>2999-12-31</tns:validTo>
+					<tns:postOffice>
+						<tns:idPostOffice>1907</tns:idPostOffice>
+						<tns:PNI>256893</tns:PNI>
+						<tns:postOfficeName>UP Oleśnica Śląska 1</tns:postOfficeName>
+						<tns:postOfficeShortName>Oleśnica Śląska 1</tns:postOfficeShortName>
+						<tns:postOfficeAddress>
+							<tns:idAddress>4074144</tns:idAddress>
+							<tns:street>3 Maja</tns:street>
+							<tns:houseNumber>50-52</tns:houseNumber>
+							<tns:apartamentNumber/>
+							<tns:city>Oleśnica</tns:city>
+							<tns:zipCode/>
+							<tns:country>PL</tns:country>
+						</tns:postOfficeAddress>
+					</tns:postOffice>
+				</tns:validityPostOffice>
+			</MRUMContractCard>
+		</tns:GetContractCardResponse>
+	</soapenv:Body>
+</soapenv:Envelope>

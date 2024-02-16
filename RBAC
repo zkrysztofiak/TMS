@@ -1,0 +1,173 @@
+eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICJsMFltNl9mZnZHX2tSZjFTU19Ba21UdndKQlBOU19KZWhRdlRfaHRMZ1MwIn0.eyJleHAiOjE3MDE5NDMzNDAsImlhdCI6MTcwMTk0MjQ0MCwiYXV0aF90aW1lIjoxNzAxOTQyNDM4LCJqdGkiOiI0YjAyNDUxYy02MDYxLTQ5MzQtOTU3Zi1lZjEyZGFmYWM3ZDUiLCJpc3MiOiJodHRwczovL3Rtcy1kZXYuZW52ZWxvLnBsL2FwaS1rZXljbG9hay9yZWFsbXMvVE1TIiwic3ViIjoiN2FmZjVlNGQtMDJjYy00ZTEyLTgwMDUtZTI2OWMyNzkxNWU4IiwidHlwIjoiQmVhcmVyIiwiYXpwIjoidG1zLWZyb250ZW5kIiwic2Vzc2lvbl9zdGF0ZSI6IjM4ZjNlMGJkLWFjMmMtNDE5Yy1iZWYyLTcwOTg3ZmY2Yzc5NyIsImFjciI6IjEiLCJhbGxvd2VkLW9yaWdpbnMiOlsiaHR0cHM6Ly90bXMtdGVzdC5lbnZlbG8ucGwiLCJodHRwOi8vdG1zLXRlc3QuZW52ZWxvLnBsIiwiaHR0cHM6Ly90bXMtZGV2LmVudmVsby5wbCIsImh0dHA6Ly9sb2NhbGhvc3Q6NDIwMCIsImh0dHA6Ly90bXMtZGV2LmVudmVsby5wbCJdLCJyZXNvdXJjZV9hY2Nlc3MiOnsicmVhbG0tbWFuYWdlbWVudCI6eyJyb2xlcyI6WyJ2aWV3LXJlYWxtIiwibWFuYWdlLXJlYWxtIiwibWFuYWdlLWNvbmZpZyIsIm1hbmFnZS1sb2NhdGlvbnMiLCJtYW5hZ2UtdXNlcnMiLCJ2aWV3LXVzZXJzIiwidmlldy1jbGllbnRzIiwidmlldy1sb2NhdGlvbnMiLCJtYW5hZ2UtbG9jYXRpb24tbWVtYmVycyIsInF1ZXJ5LWNsaWVudHMiLCJxdWVyeS1ncm91cHMiLCJxdWVyeS11c2VycyJdfX0sInNjb3BlIjoib3BlbmlkIHByb2ZpbGUgdG1zX3JvbGVzX3Njb3BlIHRtc193b3JraW5nX3BsYWNlIGVtYWlsIiwic2lkIjoiMzhmM2UwYmQtYWMyYy00MTljLWJlZjItNzA5ODdmZjZjNzk3IiwiZ2xvYmFsX2F1dGhvcml0aWVzIjpbInNhbC1mY29yLXYiLCJzaXUtbG9ndS12Iiwic2l1LWxvYWR2LXYiLCJ1c3ItYXRyLXYiLCJ0cmEtaGlzdC12aWV3Iiwib3JnLXJlZy12aWV3Iiwib3JnLWRlZi1rZXBsLWFkZCIsIm9mLWRlc3QtdiIsImF1ZGl0LXJvbGUiLCJjb25mLXBhci1yb2RvLXYiLCJvcmctZGVmLXByb2QtZGVsIiwib2JqLWNvbnMtdiIsInRyYS1jYWwtY291LXZpZXciLCJvcmctZGVmLWtlcGwiLCJrb2wtY29tLXZpZXciLCJvcmctZGVmLXByb2QtYWRkIiwib3JnLXJlZy1ub3RpLWRlbCIsInRyYS1zZWEtY291LXZpZXciLCJzYWwtb2ZmZS12Iiwia29sLW96LXZpZXciLCJ0cmEtcGxhLWNvdS12aWV3IiwidXNyLXRtcC1hZGQiLCJzaXUtY29scGFjLXYiLCJrb2wtY29ucy12aWV3Iiwib3JnLWRlZi1rZXBsLWRlbCIsInBsYS10YXNrLWxpc3QtdmlldyIsInJlcy1jYXJyLXYiLCJzaXUtYW5vbS12Iiwib3JnLWRlZi1rZXBsLW93biIsInBsYS1wYWNrLXRhc2stdmlldyIsIm9mLWRlbGktdiIsIm9yZy1yZWctcmV0LWRlbCIsImtvbC1kaWN0LXZpZXciLCJvYmotbG9ndS12IiwidWZpcHViLWVkaXQiLCJvcmctcmVnLW5vdGktYWRkIiwiY29uZi1wYXItdXNlci12Iiwib3JnLXVuaXQtcHJpbnQiLCJ1c3ItY2UtYWRkIiwib3JnLXVuaXQtem9uZS1hZGQiLCJzaXUtbG9hZGMtdiIsInVzci12aWV3IiwidXNyLWhpc3QiLCJ1c3ItdG1zIiwiY29ucy12aWV3Iiwic2l1LWxvYWRpLXYiLCJzaXUtY29uZiIsInVzci1pbmYtZSIsInJlcy1lbXBsLXYiLCJzaXUtaW52LXYiLCJrb2wtZGVzdC12aWV3Iiwic2l1LXRtLXYiLCJvcmctdW5pdC16b25lLWFjdCIsInVzci1sb2stZSIsInVzci1yb2wtdiIsIm9yZy1kZWYtdmlldyIsInNldC1lbXBsaW0tdiIsImtvbC1jcmV0LXZpZXciLCJvcmctcmVnLXJldC1hZGQiLCJhdWRpdC11c3IiLCJvZi1yZXAtdiIsInVmaXB1Yi1kZWwiLCJzYWwtaW5xLXYiLCJ0cmEtcG9pLXZpZXciLCJ1c3Itcm9sLWUiLCJvcmctdW5pdC12aWV3Iiwib3JnLWRlZi1rZXBsLW93bi1hZGQiLCJyb2xlLWhpc3QiLCJvZi1jb25mLXYiLCJyb2xlLXZpZXciLCJwbGEtdGFzay12aWV3IiwidXNyLWxvay12Iiwia29sLXRhc2stdmlldyIsIm9yZy1tYXAtdmlldyIsInJlcy12ZWgtdiIsInNhbC1wcmlsLXYiLCJ0cmEtcmVnLWNvdS12aWV3Iiwibm90aS10ZW1wbC12IiwidXNyLWF1dGgtdmlldyIsInVzci1jZS1zcmNoIiwib2YtcGFjay12Iiwic2FsLWdwLXYiLCJrb2wtbWFnLXZpZXciLCJvcmctZGVmLWtlcGwtb3duLWRlbCIsInRyYS1yZWwtY291LXZpZXciLCJvcmctcmVnLXByaW50Il0sImVtYWlsX3ZlcmlmaWVkIjpmYWxzZSwibmFtZSI6IlRNUyBVc2VyIiwicHJlZmVycmVkX3VzZXJuYW1lIjoidG1zX3VzZXIiLCJnaXZlbl9uYW1lIjoiVE1TIiwiZmFtaWx5X25hbWUiOiJVc2VyIiwiZW1haWwiOiJ0bXNfdXNlckBkZXYuZW52ZWxvLnBsIiwid29ya2luZ19wbGFjZSI6eyJ6b25lIjp7ImlkIjoiMzYyMjRhMTgtOWYzMi00ODYwLWE4YWUtMGJhMzQzZjI5ZDNiIiwibmFtZSI6IlN0cmVmYSBla3NwZWR5Y2ppIn0sImxvY2F0aW9uIjp7ImlkIjoiOGM0NWI0NTMtODY2My00NDI0LWI4ZGEtYzgzZjZmN2ZmOTU1IiwibmFtZSI6IlBvY3p0YSBQb2xza2EgU3DDs8WCa2EgQWtjeWpuYSBDZW50cmFsYSJ9fX0.WcygdWAtMAfG0slqliIGECZXWo1h2jNzHf8Ra7oIbZs2XTvhogHquG0O7Gpce_ooQghM6QWTuq-0KICSyyI2wl-T4nesKtcjuZ5F9nqwRfW71zW0gIhmLr7Hlb_vmFWx3767TuXNyc3MEIU9SloITzZY75MTGV2YnSvLLIRMJEgxwOGUZ3vtV86LNwen5Aeu8hKqdMkadLxH8BFnL-mHxBv27JoliT3CBXs3bzf-uNXaznaRnsR8ylVT4vYdQYBfCBpOKYoHz89oC5iqHErjkOuDaIucz-lb1y56YGhGMfnspR15mCPQDTUKadyU0KD79GRwvMCCxRQLNS0Wg0CVIQ
+
+
+HEADER:ALGORITHM & TOKEN TYPE
+
+
+}
+{
+  "alg": "RS256",
+  "typ": "JWT",
+  "kid": "l0Ym6_ffvG_kRf1SS_AkmTvwJBPNS_JehQvT_htLgS0"
+}
+PAYLOAD:DATA
+
+{
+  "exp": 1701943340,
+  "iat": 1701942440,
+  "auth_time": 1701942438,
+  "jti": "4b02451c-6061-4934-957f-ef12dafac7d5",
+  "iss": "https://tms-dev.envelo.pl/api-keycloak/realms/TMS",
+  "sub": "7aff5e4d-02cc-4e12-8005-e269c27915e8",
+  "typ": "Bearer",
+  "azp": "tms-frontend",
+  "session_state": "38f3e0bd-ac2c-419c-bef2-70987ff6c797",
+  "acr": "1",
+  "allowed-origins": [
+    "https://tms-test.envelo.pl",
+    "http://tms-test.envelo.pl",
+    "https://tms-dev.envelo.pl",
+    "http://localhost:4200",
+    "http://tms-dev.envelo.pl"
+  ],
+  "resource_access": {
+    "realm-management": {
+      "roles": [
+        "view-realm",
+        "manage-realm",
+        "manage-config",
+        "manage-locations",
+        "manage-users",
+        "view-users",
+        "view-clients",
+        "view-locations",
+        "manage-location-members",
+        "query-clients",
+        "query-groups",
+        "query-users"
+      ]
+    }
+  },
+  "scope": "openid profile tms_roles_scope tms_working_place email",
+  "sid": "38f3e0bd-ac2c-419c-bef2-70987ff6c797",
+  "global_authorities": [
+    "sal-fcor-v",
+    "siu-logu-v",
+    "siu-loadv-v",
+    "usr-atr-v",
+    "tra-hist-view",
+    "org-reg-view",
+    "org-def-kepl-add",
+    "of-dest-v",
+    "audit-role",
+    "conf-par-rodo-v",
+    "org-def-prod-del",
+    "obj-cons-v",
+    "tra-cal-cou-view",
+    "org-def-kepl",
+    "kol-com-view",
+    "org-def-prod-add",
+    "org-reg-noti-del",
+    "tra-sea-cou-view",
+    "sal-offe-v",
+    "kol-oz-view",
+    "tra-pla-cou-view",
+    "usr-tmp-add",
+    "siu-colpac-v",
+    "kol-cons-view",
+    "org-def-kepl-del",
+    "pla-task-list-view",
+    "res-carr-v",
+    "siu-anom-v",
+    "org-def-kepl-own",
+    "pla-pack-task-view",
+    "of-deli-v",
+    "org-reg-ret-del",
+    "kol-dict-view",
+    "obj-logu-v",
+    "ufipub-edit",
+    "org-reg-noti-add",
+    "conf-par-user-v",
+    "org-unit-print",
+    "usr-ce-add",
+    "org-unit-zone-add",
+    "siu-loadc-v",
+    "usr-view",
+    "usr-hist",
+    "usr-tms",
+    "cons-view",
+    "siu-loadi-v",
+    "siu-conf",
+    "usr-inf-e",
+    "res-empl-v",
+    "siu-inv-v",
+    "kol-dest-view",
+    "siu-tm-v",
+    "org-unit-zone-act",
+    "usr-lok-e",
+    "usr-rol-v",
+    "org-def-view",
+    "set-emplim-v",
+    "kol-cret-view",
+    "org-reg-ret-add",
+    "audit-usr",
+    "of-rep-v",
+    "ufipub-del",
+    "sal-inq-v",
+    "tra-poi-view",
+    "usr-rol-e",
+    "org-unit-view",
+    "org-def-kepl-own-add",
+    "role-hist",
+    "of-conf-v",
+    "role-view",
+    "pla-task-view",
+    "usr-lok-v",
+    "kol-task-view",
+    "org-map-view",
+    "res-veh-v",
+    "sal-pril-v",
+    "tra-reg-cou-view",
+    "noti-templ-v",
+    "usr-auth-view",
+    "usr-ce-srch",
+    "of-pack-v",
+    "sal-gp-v",
+    "kol-mag-view",
+    "org-def-kepl-own-del",
+    "tra-rel-cou-view",
+    "org-reg-print"
+  ],
+  "email_verified": false,
+  "name": "TMS User",
+  "preferred_username": "tms_user",
+  "given_name": "TMS",
+  "family_name": "User",
+  "email": "tms_user@dev.envelo.pl",
+  "working_place": {
+    "zone": {
+      "id": "36224a18-9f32-4860-a8ae-0ba343f29d3b",
+      "name": "Strefa ekspedycji"
+    },
+    "location": {
+      "id": "8c45b453-8663-4424-b8da-c83f6f7ff955",
+      "name": "Poczta Polska Spółka Akcyjna Centrala"
+    }
+  }
+}
+VERIFY SIGNATURE
+
+RSASHA256(
+  base64UrlEncode(header) + "." +
+  base64UrlEncode(payload),
+  
+{
+  "e": "AQAB",
+  "kty": "RSA",
+  "n": "rIh8D9uOa1rFzbHj-r8XiICTYGpImYsf27-qpMDZJ-n-P6Qi21C5o2bhSgkA-FHP8241CShMzrBndkIYv0GSo2km52u5BKu6lWo38qFt-gb92xCcN-hNbGfrPB4mZaxbWwS_GibiK5XoVA5Gq1Iukqk_mLBTR404InIajCBSR2-ijHwPyCJzWZhlR-1bqZpkwtNlqeqicNP5I03UoO67Z8CoSdqSYYxUvilytVGWFGFeQf55d-vFS5uN2I7emEwtWAUFUIRWG-1PL1CjOkCXcMPmBldsumJnUoVozoBrH3C1JVhpbCnUzklIdAySTOSWQwkoPsMWqNZMuTdXTgpCvw"
+}
+,
+  
+Private Key in PKCS #8, PKCS #1, or JWK string format. The key never leaves your browser.
+
+)

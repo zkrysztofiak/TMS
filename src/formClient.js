@@ -7,7 +7,7 @@ export const FormClient = ({ id, NIP, name, handleOnFinish }) => {
             <Form
                 layout="vertical"
                 initialValues={{
-                    id: 13,
+                    id: 11,
                     NIP: 255,
                     name: "Janko z Bogdańca",
                 }}
